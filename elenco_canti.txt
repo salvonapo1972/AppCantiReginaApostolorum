@@ -1,6 +1,3 @@
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-## Elenco dei canti
 [](https://mixapps.netlify.app/il-tuo-calice-signore-e-dono-di-salvezza)
 ##### [ Il tuo calice Signore è dono di salvezza](https://mixapps.netlify.app/il-tuo-calice-signore-e-dono-di-salvezza)
 [](https://mixapps.netlify.app/padre-nelle-tue-mani-consegno-il-mio-spirito)
@@ -191,119 +188,29 @@
 ##### [Umilio se stesso](https://mixapps.netlify.app/umilio-se-stesso)
 [](https://mixapps.netlify.app/vieni-dal-libano)
 ##### [Vieni dal Libano](https://mixapps.netlify.app/vieni-dal-libano)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
 
+# Agnello di Dio
+Agnello di Dio, che togli i peccati del mondo  
+**Abbi pietà di noi**
+Agnello di Dio che togli i peccati del mondo  
+**Abbi pietà di noi**
+Agnello di Dio, che togli i peccati del mondo (dona a noi la pace)  
+Dona a noi la pace
+# ALLELUIA – CANTO PER CRISTO 
+**Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, (2 volte)**  
+Canto per Cristo che mi libererà quando verrà nella gloria, quando la vita con lui rinascerà, alleluia, alleluia! Rit.  
+Canto per Cristo: in lui rifiorirà ogni speranza perduta, ogni creatura con lui rinascerà, alleluia, alleluia! Rit.   
+Canto per Cristo: un giorno tornerà! Festa per tutti gli amici, festa di un mondo che più non morirà, alleluia, alleluia! Rit.
+# **Alleluia irlandese**
+****
+**Rit. Alleluia, alleluia. Alleluia, alleluia.**  
 
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-# Bars Website
-## Gatbyjs experimentations
-Questo sito è stato creato utilizzando GatsbyJS (<https://www.gatsbyjs.com/>), un framework basato su React che permette di creare siti statici veloci e performanti. GatsbyJS offre un'ottima esperienza di sviluppo grazie alla sua architettura a plugin e alla possibilità di integrare facilmente dati provenienti da diverse fonti.  
-Il tutto condito dall'utilizzo di TailwindCSS, un framework CSS che permette di creare interfacce utente moderne e responsive in modo rapido e semplice. Per maggiori informazioni, visita il sito ufficiale di TailwindCSS (<https://tailwindcss.com/>).  
-
-  * Al link "Blogs" ci sono alcuni articoli di esempio alimentati dal CMS Contentful CMS (<https://www.contentful.com/>).
-  * Al link "Meteo", GatbyJS viene utilizzato solo come componente React che si integra con OpenMeteo (<https://open-meteo.com/>)  
-Con questo servizio potete visualizzare l'andamento della temperartura e delle precipitazioni con un forecast di due settimane
-  * Al link "Campionato", GatbyJS si integra con Mongo DB per la visualizzazione dei dati di campionato di alcune squadre italiane
-
-
-[Contatti](https://mixapps.netlify.app/contact)
-![](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-# 404: Not Found
-You just hit a route that doesn't exist...
-[Return Home](https://mixapps.netlify.app/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-# Mi presento
-## Salvatore Napolitano
-![photo](https://mixapps.netlify.app/img/photo.jpg)
-#### Conoscenze
-  * C, C++, **Java** , Groovy,Python,GatsbyJs,
-  * Liferay DXP 6.2 - 7.4, Wordpress
-  * Javascript, NodeJS, ReactJs,sviluppo applicazioni su Red Hat OpenShift
-  * Maven, Gradle,Git,MS Dev Azure
-  * Asciidoc,UML
-
-
-#### Progetti
-  * Sperimentazione integrazione GatsbyJS e Liferay
-  * Progetti di migrazione piattaforma Liferay
-  * Realizzazione siti Wordpress in modalità DevOps
-  * Team Leader per diversi progetti ReactJs based
-
-
-#### Certificazioni
-  * Function Point 4.2.1
-  * PMI-ACP
-  * Master II livello Ingegneria dell’innovazione (Università la Sapienza Roma)
-  * Laurea in ingegneria elettronica (Federico II° Napoli)
-
-
-## Presentazione
-Con 25 anni di esperienza nell’IT, ho lavorato per lo più nell’ambito della realizzazione di siti web tramite sistemi di Content Management System, concentrandomi sempre nel portare idee di qualità e innovazione in ogni progetto a cui ho partecipato. Lavoro da diversi anni, offrendo servizi come responsabile tecnico e mettendo a disposizione la mia esperienza per migliorare le competenze del team, insegnando buone pratiche e applicando strumenti e linguaggi produttivi.   
-
-### Esperienze professionali principali
-  * **2011 - 2025** (Team Leader & Project Manager)
-    * Gestione progetti per il cliente Agenzia delle Entrate
-    * Gestione progetti di aggiornamento piattaforma di siti web basati su piattaforma Liferay DXP.
-    * Sviluppo siti Intranet/Internet su piattaforma Liferay DXP.
-    * Sperimentazione creazione siti statici mediante utilizzo della libreria GatsbyJs.
-    * Sperimentazione Liferay PaaS LXC-SM, soluzione Liferay in cloud in modalità PaaS.
-    * Progettazione e implementazione soluzioni basate su tecnologie Java,React,IBM Liberty (API Rest,Web application)
-
-
-  * **2001 - 2011** (Sviluppatore e Team Leader)
-    * Progetto "Elettorale" per Ministero dell’Interno (Sviluppatore e Team Leader) perla raccolta dei dati elettorali.
-    * Progetti "Energy data management" e "Borsa/Energia" per il cliente Enel
-    * System integrator SAP Enterprise Portal
-    * Sviluppo in CMS phpNuke
-    * Sviluppo Albo pretorio comune di Albano su CMS Liferay 6.1
-
-
-  * **1999 - 2001** (Sviluppatore)
-    * Sirti S.p.A.:Progetto "Sigra" per i clienti Wind e Telecom su piattaforma Bentley Microstation
-    * Pride S.p.A: Progetti per il cliente Telecom.
-
-
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Alleluia cantico dell'agnello
+1. Cantate al Signore con gioia: grandi prodigi ha compiuto.  
+Cantatelo in tutta la terra!
+2. Agli occhi di tutte le genti mostra la sua grandezza,  
+rivela la sua giustizia!
+3. Fedele è il Signore per sempre, buono e misericordioso:  
+lodate il suo nome in eterno!
 # Alleluia cantico dell'agnello
 ALLELUJA, ALLELUJA
 ALLELUJA, ALLELUJA  
@@ -334,66 +241,6 @@ Sono giunte le nozze dell'Agnello
 La sua sposa è pronta
 ALLELUJA, ALLELUJA  
 ALLELUJA, ALLELUJA
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/alleluia-cantico-agnello/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Agnello di Dio
-# Agnello di Dio
-Agnello di Dio, che togli i peccati del mondo  
-**Abbi pietà di noi**
-Agnello di Dio che togli i peccati del mondo  
-**Abbi pietà di noi**
-Agnello di Dio, che togli i peccati del mondo (dona a noi la pace)  
-Dona a noi la pace
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/agnello-di-dio/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# ALLELUIA – CANTO PER CRISTO
-# ALLELUIA – CANTO PER CRISTO 
-**Alleluia, Alleluia, Alleluia, Alleluia, Alleluia, (2 volte)**  
-Canto per Cristo che mi libererà quando verrà nella gloria, quando la vita con lui rinascerà, alleluia, alleluia! Rit.  
-Canto per Cristo: in lui rifiorirà ogni speranza perduta, ogni creatura con lui rinascerà, alleluia, alleluia! Rit.   
-Canto per Cristo: un giorno tornerà! Festa per tutti gli amici, festa di un mondo che più non morirà, alleluia, alleluia! Rit.
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/o_gXOFzLZO8/hqdefault.jpg)](https://www.youtube.com/embed/o_gXOFzLZO8?si=fvxHvOtAKVVxHD7e)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# ALLELUIA LODE COSMICA 
 # ALLELUIA LODE COSMICA 
 **Rit** : **Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! (2v.)**
 Lodino il Signor i cieli, lodino il Signor i mari, gli angeli, i cieli dei cieli: il Suo nome è grande e sublime. 
@@ -404,49 +251,6 @@ Sia lode al Signor! **Rit**.
 Lodino il Signor le terre, lodino il Signor i monti, il vento della tempesta 
 che obbedisce alla Sua voce, Giudici, sovrani tutti, giovani, fanciulle, 
 vecchi lodino il Suo nome in eterno! **Rit**. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/6OKmGvByZp0/hqdefault.jpg)](https://www.youtube.com/embed/6OKmGvByZp0?si=WDkb3J2yeRPHa96q)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Alleluia irlandese
-# **Alleluia irlandese**
-**Rit. Alleluia, alleluia. Alleluia, alleluia.**  
-
-1. Cantate al Signore con gioia: grandi prodigi ha compiuto.  
-Cantatelo in tutta la terra!
-2. Agli occhi di tutte le genti mostra la sua grandezza,  
-rivela la sua giustizia!
-3. Fedele è il Signore per sempre, buono e misericordioso:  
-lodate il suo nome in eterno!
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/q6kykiQJRno/hqdefault.jpg)](https://youtu.be/q6kykiQJRno?si=53A_lgzcXDV44CiJ)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Alleluia passeranno i cieli
 # Alleluia passeranno i cieli
 Alleluia, alleluia, alleluia, alleluia,  
 alleluia, alleluia, alleluia!
@@ -455,23 +259,6 @@ la sua Parola non passerà! Alleluia,
 alleluia!
 Alleluia, alleluia, alleluia, alleluia,  
 alleluia, alleluia, alleluia!
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/3-_UHaQ2N08/hqdefault.jpg)](https://youtu.be/3-_UHaQ2N08?si=Tn6dEbDWLzeJ-vYV)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Andate per le strade
 # ANDATE PER LE STRADE
   
 Andate per le strade, in tutto il mondo,  
@@ -497,23 +284,25 @@ Nessuno è più grande del proprio maestro,
 né il servo è più importante del suo padrone.  
 Se hanno odiato me, odieranno anche voi.  
 Ma voi non temete: io non vi lascio soli!
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/PAMled5AWo4/hqdefault.jpg)](https://youtu.be/PAMled5AWo4?si=9RRWTzcJxiAcFyCI)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Anima Christi
+# Beati quelli
+  
+  
+Beati quelli che poveri sono  
+beati quanti son puri di cuore  
+beati quelli che vivono in pena  
+nell’attesa di un nuovo mattino.  
+  
+Saran beati, vi dico beati  
+perché di essi è il regno dei cieli. (2 v.)  
+  
+Beati quelli che fanno la pace  
+beati quelli che insegnano amore.  
+Beati quelli che hanno la fame  
+e la sete di vera giustizia.  
+  
+Beati quelli che un giorno saranno perseguitati per causa di Cristo.  
+Perché nel cuore non hanno violenza  
+ma la forza di questo Vangelo.
 # Anima Christi
 **RIT. ANIMA CHRISTI, SANTIFICA ME  
 CORPUS CHRISTI, SALVA ME.  
@@ -534,136 +323,6 @@ Et iube me venire ad te,
 ut cum sanctis tuis laudem te  
 per infinita sæcula sæculorum. Amen.  
 RIT.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/EtC5y7GgM9g/hqdefault.jpg)](https://youtu.be/EtC5y7GgM9g?si=wRQw3DPYBjOJMXlL)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Beati quelli
-# Beati quelli
-  
-  
-Beati quelli che poveri sono  
-beati quanti son puri di cuore  
-beati quelli che vivono in pena  
-nell’attesa di un nuovo mattino.  
-  
-Saran beati, vi dico beati  
-perché di essi è il regno dei cieli. (2 v.)  
-  
-Beati quelli che fanno la pace  
-beati quelli che insegnano amore.  
-Beati quelli che hanno la fame  
-e la sete di vera giustizia.  
-  
-Beati quelli che un giorno saranno perseguitati per causa di Cristo.  
-Perché nel cuore non hanno violenza  
-ma la forza di questo Vangelo.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/6NH39oj-JVc/hqdefault.jpg)](https://youtu.be/6NH39oj-JVc?si=KCUBWT3AI16iu_kL)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Benedici il signore anima mia
-# Benedici il signore anima mia
-Benedici il Signore, anima mia,  
-quanto è in me benedica il suo nome;  
-non dimenticherò tutti i suoi benefici,  
-benedici il Signore, anima mia.  
-  
-Lui perdona tutte le tue colpe  
-e ti salva dalla morte.  
-Ti corona di grazia e ti sazia di beni  
-nella tua giovinezza.  
-  
-Il Signore agisce con giustizia,  
-con amore verso i poveri.  
-Rivelò a Mosè le sue vie, ad Israele  
-le sue grandi opere.  
-  
-Il Signore è buono e pietoso,  
-lento all'ira e grande nell'amor.  
-Non conserva in eterno il suo sdegno e la sua  
-ira / verso i vostri peccati.  
-  
-Come dista oriente da occidente  
-allontana le tue colpe.  
-Perché sa che di polvere siam tutti noi plasmati  
-come l'erba i nostri giorni.   
-  
-Benedite il Signore voi angeli,  
-voi tutti suoi ministri.  
-Beneditelo voi tutte sue opere e domìni  
-benedicilo tu, anima mia.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/j0I3UQ4gnm4/hqdefault.jpg)](https://www.youtube.com/embed/j0I3UQ4gnm4?si=ZE2u5JOq-gyqvJJN)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[ ![](data:image/svg+xml;charset=utf-8,%3Csvg%20height='1080'%20width='1440'%20xmlns='http://www.w3.org/2000/svg'%20version='1.1'%3E%3C/svg%3E) ![Stiamo diventando sempre più bravi a intercettare i piccoli asteroidi diretti verso la Terra](https://mixapps.netlify.app/static/001eb6e1d26e41a0f9914e48824bd2c5/bd9a0/asteroidi.webp) ](https://mixapps.netlify.app/stiamo-diventando-sempre-piu-bravi-a-intercettare-i-piccoli-asteroidi)
-##### [Stiamo diventando sempre più bravi a intercettare i piccoli asteroidi diretti verso la Terra](https://mixapps.netlify.app/stiamo-diventando-sempre-piu-bravi-a-intercettare-i-piccoli-asteroidi)
-Livia Dokidis
-01/01/2025 12:01
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[![](https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format\(jpeg\)/origin-imgresizer.eurosport.com/2021/03/30/3020342-61962568-2560-1440.jpg)](https://mixapps.netlify.app/inter)
-##### [Inter](https://mixapps.netlify.app/inter)
-[![](https://content-s3.tuttocampo.it/Teams/200/1009566.png?v=1)](https://mixapps.netlify.app/milan)
-##### [Milan](https://mixapps.netlify.app/milan)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Benedici o Signore
 # Benedici o Signore
 Nebbia e freddo,  
 giorni lunghi e amari  
@@ -698,23 +357,36 @@ QUESTA OFFERTA CHE PORTIAMO A TE.
 FACCI UNO COME IL vino  
 CHE ANCHE OGGI HAI DATO A NOI.**  
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/dM2Wyjj4k3Y/hqdefault.jpg)](https://youtu.be/dM2Wyjj4k3Y?si=ZenATwvYvz8gKTSF)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Cantiamo te
+# Benedici il signore anima mia
+Benedici il Signore, anima mia,  
+quanto è in me benedica il suo nome;  
+non dimenticherò tutti i suoi benefici,  
+benedici il Signore, anima mia.  
+  
+Lui perdona tutte le tue colpe  
+e ti salva dalla morte.  
+Ti corona di grazia e ti sazia di beni  
+nella tua giovinezza.  
+  
+Il Signore agisce con giustizia,  
+con amore verso i poveri.  
+Rivelò a Mosè le sue vie, ad Israele  
+le sue grandi opere.  
+  
+Il Signore è buono e pietoso,  
+lento all'ira e grande nell'amor.  
+Non conserva in eterno il suo sdegno e la sua  
+ira / verso i vostri peccati.  
+  
+Come dista oriente da occidente  
+allontana le tue colpe.  
+Perché sa che di polvere siam tutti noi plasmati  
+come l'erba i nostri giorni.   
+  
+Benedite il Signore voi angeli,  
+voi tutti suoi ministri.  
+Beneditelo voi tutte sue opere e domìni  
+benedicilo tu, anima mia.
 # Cantiamo Te
 Cantiamo Te, Signore della vita:  
 il nome tuo è grande sulla terra  
@@ -731,23 +403,6 @@ vivi dentro di noi
 e guida i nostri passi.  
 Accendi in noi il fuoco  
 dell’eterna carità.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/VAiTSr-nrwA/hqdefault.jpg)](https://youtu.be/VAiTSr-nrwA?si=9vM4hTw2w4E6zMRO)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# CANTO DELLA RISURREZIONE
 # CANTO DELLA RISURREZIONE
 _**ALLELUIA, ALLELUIA,**_  
 _**ALLELUIA, ALLELUIA.**_  
@@ -768,23 +423,6 @@ e dimora tra noi,
 la sua gloria risplende nel cielo  
 e fa gioire la terra.
 _**ALLELUIA, ALLELUIA...**_
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/QDHJU9XzZq0/hqdefault.jpg)](https://youtu.be/QDHJU9XzZq0?si=LeJ8TCnORMryQwFf)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il canto del mare
 # Il canto del mare
 Cantiamo al Signore  
 Stupenda è la sua vittoria  
@@ -836,23 +474,6 @@ Cantiamo al Signore
 Stupenda è la sua vittoria  
 Signore è il suo nome  
 Alleluia
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/GpDDlkTzST0/hqdefault.jpg)](https://youtu.be/GpDDlkTzST0?si=3XJmNcZNBQ9uDdZS)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Chi ci separerà 
 # Chi ci separerà 
 Chi ci separerà  
 Dal suo amore?  
@@ -878,23 +499,6 @@ Nessuno al mondo
 Ci allontanerà  
 Dalla vita in Cristo  
 Signore
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/ogmahlvNA9Y/hqdefault.jpg)](https://youtu.be/ogmahlvNA9Y?si=5pZtR7k6VVKJaMO6)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Chiamati per nome
 # Chiamati per nome
 Veniamo da te  
 Chiamati per nome  
@@ -927,23 +531,6 @@ E noi tuo popolo
 Siamo quiE noi tuo popolo  
 Siamo qui  
 Siamo qui
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/EUG6KnGxpcc/hqdefault.jpg)](https://www.youtube.com/embed/EUG6KnGxpcc?si=V9JawL2XV0wcNx_K)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Come Maria
 # Come Maria
 Vogliamo vivere, Signore,  
 offrendo a Te la nostra vita,  
@@ -970,72 +557,6 @@ la madre amata
 che vince il mondo con l'Amore  
 e offrire sempre la tua vita  
 che viene dal Cielo
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/QwL_kR7jmtE/hqdefault.jpg)](https://youtu.be/QwL_kR7jmtE?si=iQzgcrYlxZUa57T3)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-# Contatti
-Email
-naposalvo1972@gmail.com
-Location
-Rome
-![HeroImage](https://mixapps.netlify.app/static/holographic-background-da2aab476360dd90bfca4860baf759c4.webp)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Cristo è risorto - Paoline
-# Cristo è risorto - Paoline
-**RIT**. Cristo è risorto, alleluia!  
-Vinta è ormai la morte, alleluia!  
-Canti l’universo, alleluia,  
-un inno di gioia al nostro Redentor. 
-Con la sua morte, alleluia!  
-Ha ridato all’uomo la vera libertà.  
-Segno di speranza, alleluia!  
-Luce di salvezza per questa umanità. 
-Gloria al Signore e tutto il mondo grida: “Alleluia”.  
-Cristo è risorto nei nostri cuori, chi dal Suo amore ci separerà?  
-Il suo Spirito ci donerà il coraggio, la parola,  
-il suo nome uniti ci farà, noi vivremo la fraternità. 
-Una nuova alleanza Lui farà, noi saremo il suo popolo,  
-la sua legge nei cuori scriverà, sarà per sempre il nostro Dio. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/qmBmkWAtQq8/hqdefault.jpg)](https://youtu.be/qmBmkWAtQq8?si=9qVHRg1H6a6KCqAu)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Cristo è risorto veramente
 # Cristo è risorto veramente
 **Rit. Cristo è risorto veramente, alleluia!  
 Gesù, il vivente, qui con noi resterà.  
@@ -1053,23 +574,21 @@ e quel giorno io risorgerò.
 **Rit. Cristo è risorto veramente, alleluia!  
 Gesù, il vivente, qui con noi resterà.  
 Cristo Gesù, Cristo Gesù è il Signore della vita ****_(due volte)_**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/hQ8Y11c3LCs/hqdefault.jpg)](https://youtu.be/hQ8Y11c3LCs?si=2mO69gpobHypwJvc)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Cristo è risorto 
+# Cristo è risorto - Paoline
+**RIT**. Cristo è risorto, alleluia!  
+Vinta è ormai la morte, alleluia!  
+Canti l’universo, alleluia,  
+un inno di gioia al nostro Redentor. 
+Con la sua morte, alleluia!  
+Ha ridato all’uomo la vera libertà.  
+Segno di speranza, alleluia!  
+Luce di salvezza per questa umanità. 
+Gloria al Signore e tutto il mondo grida: “Alleluia”.  
+Cristo è risorto nei nostri cuori, chi dal Suo amore ci separerà?  
+Il suo Spirito ci donerà il coraggio, la parola,  
+il suo nome uniti ci farà, noi vivremo la fraternità. 
+Una nuova alleanza Lui farà, noi saremo il suo popolo,  
+la sua legge nei cuori scriverà, sarà per sempre il nostro Dio. 
 # Cristo è risorto
 **[Rit.] Cristo è risorto, alleluia!  
 Vinta è ormai la morte, alleluia!  
@@ -1083,24 +602,8 @@ ha ridato all'uomo la vera libertà.
   
 Segno di speranza, alleluia,  
 luce di salvezza per questa umanità.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/hQ8Y11c3LCs/hqdefault.jpg)](https://youtu.be/hQ8Y11c3LCs?si=Hw5_DRoJH563oUFb)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Dal profondo a te grido
 ## **Dal profondo a te grido**
+****
 **RIT. DAL PROFONDO A TE GRIDO, SIGNORE,  
 DAMMI ASCOLTO MIO DIO,  
 PORGI ATTENTI GLI ORECCHI AL MIO SUPPLICE GRIDO,  
@@ -1120,23 +623,6 @@ da Lui la misericordia.
 Egli redimerà Israele  
 da tutte le sue colpe.  
 RIT.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/PN3rs58suu0/hqdefault.jpg)](https://youtu.be/PN3rs58suu0?si=OwsRUXM8aWMIMwpA)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il deserto fiorirà
 # Il deserto fiorirà
 _**RIT. IL DESERTO FIORIRÀ,  
 COME UN CAMPO FIORIRÀ:  
@@ -1162,59 +648,6 @@ e sorgente il deserto.
 Farò una strada nella steppa:  
 la via dei Redenti.  
 RIT.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/O3JckYB9awg/hqdefault.jpg)](https://www.youtube.com/embed/O3JckYB9awg?si=OhjWDn8zpG5qgWd8)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Dio regna
-# Dio regna
-Come è bello sentir sulle montagne  
-il passo di chi porta lieti annunci  
-proclama la pace, annuncia la salvezza:  
-il nostro Dio regna, Dio regna.
-## Dio regna, Dio regna, Dio regna, Dio regna.  
-Dio regna, Dio regna, Dio regna, Dio regna.
-Cantate inni, cantate con gioia,  
-rovine di Gerusalemme  
-perché il Signore  
-consola il suo popolo:  
-il nostro Dio salva, Dio salva.
-## Dio salva, Dio salva, Dio salva, Dio salva.  
-Dio salva, Dio salva, Dio salva, Dio salva.
-Il Signore stende il suo braccio santo  
-davanti ai popoli della terra.  
-Tutti i confini del mondo lo vedranno:  
-il nostro Dio ama, Dio ama.
-## Dio ama, Dio ama, Dio ama, Dio ama
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/2ads4Lmwhvg/hqdefault.jpg)](https://youtu.be/2ads4Lmwhvg?si=ey8j1KBe2wVHyyo_)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Dolce sentire
 # Dolce sentire
 Dolce è sentire come nel mio cuore  
 ora umilmente sta nascendo amore.  
@@ -1236,23 +669,25 @@ Dono di Lui, del Suo immenso amor.
 Beato chi lo serve in umiltà.
   
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/xJN21WUSAoQ/hqdefault.jpg)](https://youtu.be/xJN21WUSAoQ?si=BeZdd8q-952nmkE8)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Dove la carità è vera
+# Dio regna
+Come è bello sentir sulle montagne  
+il passo di chi porta lieti annunci  
+proclama la pace, annuncia la salvezza:  
+il nostro Dio regna, Dio regna.
+## Dio regna, Dio regna, Dio regna, Dio regna.  
+Dio regna, Dio regna, Dio regna, Dio regna.
+Cantate inni, cantate con gioia,  
+rovine di Gerusalemme  
+perché il Signore  
+consola il suo popolo:  
+il nostro Dio salva, Dio salva.
+## Dio salva, Dio salva, Dio salva, Dio salva.  
+Dio salva, Dio salva, Dio salva, Dio salva.
+Il Signore stende il suo braccio santo  
+davanti ai popoli della terra.  
+Tutti i confini del mondo lo vedranno:  
+il nostro Dio ama, Dio ama.
+## Dio ama, Dio ama, Dio ama, Dio ama
 #  Dov'è la carità
   
 **RIT. DOVE LA CARITÀ È VERA E SINCERA, LÀ C’È DIO.  
@@ -1274,23 +709,6 @@ nella gloria il tuo volto, Gesù Cristo Dio,
 gioia immensa, gioia vera noi vivremo  
 per l’eternità infinita dei secoli. Amen.  
 **RIT.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi//hqdefault.jpg)](https://test.it)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Ecco il legno
 # Ecco il legno
 Ecco il legno della Croce,  
 al quale fu appeso il Cristo,  
@@ -1307,23 +725,6 @@ e lodiamo e glorifichiamo
 la tua santa risurrezione.  
 Dal legno della Croce  
 è venuta la gioia del mondo. **Rit.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/d0Kld4SuUJc/hqdefault.jpg)](https://youtu.be/d0Kld4SuUJc?si=8fdyr62x11FlPyjI)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Eccomi
 # Eccomi
 ECCOMI, ECCOMI!  
 SIGNORE IO VENGO.  
@@ -1358,23 +759,6 @@ non tengo chiuse le labbra.
 Non rifiutarmi Signore,  
 la tua misericordia.  
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/uN7QfkD4uxQ/hqdefault.jpg)](https://youtu.be/uN7QfkD4uxQ?si=YrTpousaMgpX0SwO)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Fiamma viva
 **Fiamma viva della mia speranza**
 **questo canto giunga fino a Te!**
 **Grembo eterno d’infinita vita**
@@ -1403,23 +787,17 @@ mille e mille trovano la via.
 **questo canto giunga fino a Te!**
 **Grembo eterno d’infinita vita**
 **nel cammino io confido in Te**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/fiamma-viva/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Frutto della nostra terra
+# Giovane donna
+Giovane donna, attesa dell’umanità, un desiderio d’amore e pura libertà.   
+Il Dio lontano è qui vicino a Te, voce silenzio, annuncio di verità.  
+  
+Rit. **Ave Maria, Ave Maria!  
+**  
+Dio t’ha prescelta qual madre piena di bellezza, ed il suo amore t’avvolgerà con la suo ombra.   
+Grembo di Dio, venuto sulla terra, Tu sarai madre, di un uomo nuovo.  
+  
+Ecco l’ancella, che vive della sua Parola, libero il cuore perché l’amore trovi casa.   
+Ora l’attesa è densa di preghiera e l’uomo nuovo è qui in mezzo a noi. 
 # Frutto della nostra terra
 Frutto della nostra terra  
 Del lavoro di ogni uomo  
@@ -1448,51 +826,16 @@ Ti accoglierò dentro di me
 Farò di me un'offerta viva  
 Un sacrificio gradito a te  
 Un sacrificio gradito a te
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/hF9namOkLoE/hqdefault.jpg)](https://youtu.be/hF9namOkLoE?si=kyC5SW9opIKJEPoU)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Giovane donna
-# Giovane donna
-Giovane donna, attesa dell’umanità, un desiderio d’amore e pura libertà.   
-Il Dio lontano è qui vicino a Te, voce silenzio, annuncio di verità.  
-  
-Rit. **Ave Maria, Ave Maria!  
-**  
-Dio t’ha prescelta qual madre piena di bellezza, ed il suo amore t’avvolgerà con la suo ombra.   
-Grembo di Dio, venuto sulla terra, Tu sarai madre, di un uomo nuovo.  
-  
-Ecco l’ancella, che vive della sua Parola, libero il cuore perché l’amore trovi casa.   
-Ora l’attesa è densa di preghiera e l’uomo nuovo è qui in mezzo a noi. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/v325wim3Ibo/hqdefault.jpg)](https://youtu.be/v325wim3Ibo?si=0Rncv-o0KahYFBy8)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Giovanni
+# GLORIA (133) 
+Gloria a Dio, gloria! Nell’alto dei Cieli, E pace in terra agli uomini, amati dal Signor Noi Ti lodiamo, Ti benediciamo; Ti adoriamo, ti glorifichiamo; 
+Ti rendiamo grazie per la Tua gloria immensa, Signore Dio, Re del Cielo, Dio Padre onnipotente. 
+Signore, Figlo unigenito Gesù Cristo; Signore Dio, agnello di Dio, Figlo del Padre. 
+Tu che togli i peccati del mondo, abbi pietà di noi; 
+Ti che togli i peccati del mondo, accogli la nostra supplica; 
+Tu che siedi alla destra del Padre, abbi pietà di noi. 
+Perché Tu solo il Santo, Tu solo il Signore,
+Tu solo l’Altissimo Gesù Cristo con lo Spirito Santo Nella gloria di Dio Padre. 
+Amen. 
 # Giovanni
 Voce di uno che grida nel deserto :  
 "Convertitevi, il regno è qui.  
@@ -1512,50 +855,6 @@ dinanzi a me, per prepararmi la via,
 per ricondurre i padri verso i figli,  
 con lo spirito di Elia.  
 **RIT**.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/VoyCw1nQUZs/hqdefault.jpg)](https://www.youtube.com/embed/VoyCw1nQUZs?si=PP2MrwUmF6LauIZh)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Gloria 133
-# GLORIA (133) 
-Gloria a Dio, gloria! Nell’alto dei Cieli, E pace in terra agli uomini, amati dal Signor Noi Ti lodiamo, Ti benediciamo; Ti adoriamo, ti glorifichiamo; 
-Ti rendiamo grazie per la Tua gloria immensa, Signore Dio, Re del Cielo, Dio Padre onnipotente. 
-Signore, Figlo unigenito Gesù Cristo; Signore Dio, agnello di Dio, Figlo del Padre. 
-Tu che togli i peccati del mondo, abbi pietà di noi; 
-Ti che togli i peccati del mondo, accogli la nostra supplica; 
-Tu che siedi alla destra del Padre, abbi pietà di noi. 
-Perché Tu solo il Santo, Tu solo il Signore,
-Tu solo l’Altissimo Gesù Cristo con lo Spirito Santo Nella gloria di Dio Padre. 
-Amen. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/gloria-133/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Gloria Gen verde
 # Gloria Gen verde 
 **Rit. Gloria, gloria a Dio gloria,  
 gloria nell’alto dei cieli.  
@@ -1573,23 +872,6 @@ Tu che siedi alla destra del Padre, Abbi pietà di noi. **Rit.**
 Perché tu solo il Santo, il Signore  
 Tu solo l’Altissimo, Cristo Gesù  
 con lo spirito Santo nella gloria del Padre. **Rit**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/uN7QfkD4uxQ/hqdefault.jpg)](https://youtu.be/uN7QfkD4uxQ?si=YrTpousaMgpX0SwO)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Grandi cose
 # Grandi cose
 Grandi cose ha fatto il Signore per noi,  
 ha fatto germogliare fiori fra le rocce;  
@@ -1603,66 +885,6 @@ hai sollevato il nostro viso dalla polvere.
 Tu che hai sentito il nostro pianto,  
 nel nostro cuore hai messo  
 un seme di felicità.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/6hSJasYbbCA/hqdefault.jpg)](https://youtu.be/6hSJasYbbCA?si=wfi-9rmNBECFnU99)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Gustate e vedete
-# Gustate e vedete
-Gustate e vedete come è buono il Signore  
-Beato l'uomo che trova il suo rifugio in Lui  
-Temete il Signore, Suoi santi  
-Nulla manca a coloro che Lo temonoGustate e vedete come è buono il Signore  
-Beato l'uomo che trova il suo rifugio in Lui  
-Temete il Signore, Suoi santi  
-Nulla manca a coloro che Lo temonoBenedirò il Signore in ogni tempo  
-Sulla mia bocca la Sua lode  
-Io mi glorio nel Signore  
-Ascoltino gli umili e si rallegrinoGustate e vedete come è buono il Signore  
-Beato l'uomo che trova il suo rifugio in Lui  
-Temete il Signore, Suoi santi  
-Nulla manca a coloro che Lo temonoCelebrate con me il Signore  
-Esaltiamo insieme il Suo Nome  
-Ho cercato il Signore  
-E m'ha risposto, m'ha liberatoGustate e vedete come è buono il Signore  
-Beato l'uomo che trova il suo rifugio in Lui  
-Temete il Signore, Suoi santi  
-Nulla manca a coloro che Lo temonoGuardate a Lui e sarete raggianti  
-Non saranno confusi i vostri volti  
-Il Signore ascolta il povero  
-Egli lo libera da ogni angosciaGustate e vedete come è buono il Signore  
-Beato l'uomo che trova il suo rifugio in Lui  
-Temete il Signore, Suoi santi  
-Nulla manca a coloro che Lo temono
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/DfbiCjeAgHI/hqdefault.jpg)](https://www.youtube.com/embed/DfbiCjeAgHI?si=NNKoM_V4qAMVpxSm)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# I cieli narrano
 # I cieli narrano 
 I cieli narrano la gloria di Dio  
 E il firmamento annunzia l'opera sua  
@@ -1687,23 +909,6 @@ Precettiche danno la luce agli occhi
 I cieli narrano la gloria di Dio  
 E il firmamento annunzia l'opera sua  
 Alleluja, alleluja, alleluja, alleluja
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/fcRovuqNsfA/hqdefault.jpg)](https://youtu.be/fcRovuqNsfA?si=Q_Y8kSHKCCUFZfvi)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-#  Il tuo calice Signore è dono di salvezza
 #  **Il tuo calice Signore è dono di salvezza**
 **Rit. Il tuo calice Signore è dono di salvezza**
 Che cosa renderò al Signore  
@@ -1718,23 +923,6 @@ A te offrirò sacrifici di lode
 e invocherò il nome del Signore.  
 Adempirò i miei voti al Signore  
 davanti a tutto il suo popolo. **Rit.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/st5Q_YPquy8/hqdefault.jpg)](https://youtu.be/st5Q_YPquy8?si=SDscUZgTzz1PIlJh)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il grande Hallel
 # Il grande Hallel
 Lodate il Signore perché è buono,  
 PERCHÈ ETERNA È LA SUA MISERICORDIA.  
@@ -1789,23 +977,32 @@ Lui dona il cibo alle creature,
 PERCHÈ ETERNA È LA SUA MISERICORDIA.  
 Lodate il Dio del cielo,  
 PERCHÈ ETERNA È LA SUA MISERICORDIA.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/PiBD9XsNMkM/hqdefault.jpg)](https://youtu.be/PiBD9XsNMkM?si=su6CSTZbFsrA0ovM)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il tuo popolo in cammino
+# Gustate e vedete
+Gustate e vedete come è buono il Signore  
+Beato l'uomo che trova il suo rifugio in Lui  
+Temete il Signore, Suoi santi  
+Nulla manca a coloro che Lo temonoGustate e vedete come è buono il Signore  
+Beato l'uomo che trova il suo rifugio in Lui  
+Temete il Signore, Suoi santi  
+Nulla manca a coloro che Lo temonoBenedirò il Signore in ogni tempo  
+Sulla mia bocca la Sua lode  
+Io mi glorio nel Signore  
+Ascoltino gli umili e si rallegrinoGustate e vedete come è buono il Signore  
+Beato l'uomo che trova il suo rifugio in Lui  
+Temete il Signore, Suoi santi  
+Nulla manca a coloro che Lo temonoCelebrate con me il Signore  
+Esaltiamo insieme il Suo Nome  
+Ho cercato il Signore  
+E m'ha risposto, m'ha liberatoGustate e vedete come è buono il Signore  
+Beato l'uomo che trova il suo rifugio in Lui  
+Temete il Signore, Suoi santi  
+Nulla manca a coloro che Lo temonoGuardate a Lui e sarete raggianti  
+Non saranno confusi i vostri volti  
+Il Signore ascolta il povero  
+Egli lo libera da ogni angosciaGustate e vedete come è buono il Signore  
+Beato l'uomo che trova il suo rifugio in Lui  
+Temete il Signore, Suoi santi  
+Nulla manca a coloro che Lo temono
 # Il tuo popolo in cammino
 Il Tuo popolo in cammino
 Cerca in Te la guida
@@ -1857,23 +1054,6 @@ Cerca in Te la guida
 Sulla strada verso il Regno
 Sei sostegno col Tuo corpo
 Resta sempre con noi, o Signore
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/rU0RekuXEKc/hqdefault.jpg)](https://youtu.be/rU0RekuXEKc?si=6pwvktuGZcjg0vzl)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Inno alla carità 
 ## Inno alla carità   
 
 Qualora io sapessi molte lingue  
@@ -1901,57 +1081,6 @@ ma non avessi in me la carità
 sarei certamente nullità.  
   
 **La carità è benevola... (2v)**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/_9sM4GlHVdE/hqdefault.jpg)](https://www.youtube.com/embed/_9sM4GlHVdE)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Inno al Giubileo 2025
-# Inno al giubileo 2025
-**Fiamma viva della mia speranza  
-questo canto giunga fino a Te!  
-Grembo eterno d’infinita vita  
-nel cammino io confido in Te.**  
-Ogni lingua, popolo e nazione  
-trova luce nella tua Parola.  
-Figli e figlie fragili e dispersi  
-sono accolti nel tuo Figlio amato.  
-Dio ci guarda, tenero e paziente:  
-nasce l’alba di un futuro nuovo.  
-Nuovi Cieli Terra fatta nuova:  
-passa i muri Spirito di vita.  
-Alza gli occhi, muoviti col vento,  
-serra il passo: viene Dio, nel tempo.  
-Guarda il Figlio che s’è fatto Uomo:  
-mille e mille trovano la via.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/HXsrDE7nqUk/hqdefault.jpg)](https://youtu.be/HXsrDE7nqUk?si=RJ1rJulZjuId_lB6)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# La preghiera di Gesù è la nostra
 # La preghiera di Gesù è la nostra 
 Dove due o tre sono riuniti nel mio nome  
 io sarò con loro,  
@@ -1980,59 +1109,23 @@ come Cristo che muore e risorge perch� il regno
 del Padre si compia in mezzo a noi che abbiamo vita in Lui.
   
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/qAvBF2zIMn4/hqdefault.jpg)](https://youtu.be/qAvBF2zIMn4?si=iGqK-mSQ15ANjsUQ)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# La vera gioia
-# La vera gioia
-La vera gioia nasce dalla pace,  
-la vera gioia non consuma il cuore,  
-è come fuoco con il suo calore  
-e dona vita quando il cuore muore;  
-la vera gioia costruisce il mondo  
-e porta luce nell’oscurità.
-La vera gioia nasce dalla luce,  
-che splende viva in un cuore puro,  
-la verità sostiene la sua fiamma  
-perciò non teme ombra né menzogna;  
-la vera gioia libera il tuo cuore,  
-ti rende canto nella libertà.
-La vera gioia vola sopra il mondo  
-ed il peccato non potrà fermarla,  
-le sue ali splendono di grazia,  
-dono di Cristo e della sua salvezza;  
-e tutti unisce come in un abbraccio  
-e tutti ama nella carità.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/034LnZ8eMuk/hqdefault.jpg)](https://youtu.be/034LnZ8eMuk?si=kGbOP-PaEs2j8xHL)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# L'acqua viva
+# Inno al giubileo 2025
+**Fiamma viva della mia speranza  
+questo canto giunga fino a Te!  
+Grembo eterno d’infinita vita  
+nel cammino io confido in Te.**  
+Ogni lingua, popolo e nazione  
+trova luce nella tua Parola.  
+Figli e figlie fragili e dispersi  
+sono accolti nel tuo Figlio amato.  
+Dio ci guarda, tenero e paziente:  
+nasce l’alba di un futuro nuovo.  
+Nuovi Cieli Terra fatta nuova:  
+passa i muri Spirito di vita.  
+Alza gli occhi, muoviti col vento,  
+serra il passo: viene Dio, nel tempo.  
+Guarda il Figlio che s’è fatto Uomo:  
+mille e mille trovano la via.
 ## L'acqua viva
 Chi berrà la mia acqua  
 Non avrà più sete in eterno  
@@ -2055,23 +1148,25 @@ Pace eterna, carità perfetta
 Noi a mensa con te sediam  
 Dolce, immensa, santa Trinità  
 Amen
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/W41QOKI20qE/hqdefault.jpg)](https://youtu.be/W41QOKI20qE?si=MP_7IioI_c0dSHqR)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Laudato sii mi signore
+# La vera gioia
+La vera gioia nasce dalla pace,  
+la vera gioia non consuma il cuore,  
+è come fuoco con il suo calore  
+e dona vita quando il cuore muore;  
+la vera gioia costruisce il mondo  
+e porta luce nell’oscurità.
+La vera gioia nasce dalla luce,  
+che splende viva in un cuore puro,  
+la verità sostiene la sua fiamma  
+perciò non teme ombra né menzogna;  
+la vera gioia libera il tuo cuore,  
+ti rende canto nella libertà.
+La vera gioia vola sopra il mondo  
+ed il peccato non potrà fermarla,  
+le sue ali splendono di grazia,  
+dono di Cristo e della sua salvezza;  
+e tutti unisce come in un abbraccio  
+e tutti ama nella carità.
 # **Laudato sii, o mi Signore,**
 **Rit. Laudato sii, o mi Signore,**  
 **laudato sii, o mi Signore,**  
@@ -2097,83 +1192,12 @@ E per quelli che camminano,
 e per quelli che ti lodano,  
 e per quelli che ti aspettano,  
 e per quelli che ora cantano. **Rit.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/Rla81AGiir0/hqdefault.jpg)](https://youtu.be/Rla81AGiir0?si=SpFjueFAT4VTT7V4)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Lode a te o Cristo
 # Lode a te o Cristo
 Lode a Te, o Cristo   
 re di eterna gloria.   
   
 Lode a Te, o Cristo   
 re di eterna gloria.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/lode-a-te-cristo/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Magnificat, l’anima mia esulta
-# Magnificat, l’anima mia esulta
-  
-Dio ha fatto in me cose grandi,  
-Lui che guarda l’umile servo  
-e disperde i superbi nell’orgoglio del cuore.  
-  
-L’ANIMA MIA ESULTA IN DIO MIO SALVATORE.  
-L’ANIMA MIA ESULTA IN DIO MIO SALVATORE.LA SUA SALVEZZA CANTERÒ.  
-  
-Lui Onnipotente e Santo.  
-Lui abbatte i grandi dai troni e solleva  
-dal fango il suo umile servo.  
-  
-Lui, misericordia infinita.  
-Lui che rende povero il ricco  
-e ricolma di beni chi si affida al suo amore.  
-  
-Lui, Amore sempre fedele.  
-Lui guida il suo servo Israele  
-e ricorda il suo patto stabilito per sempre.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/magnificat-anima-mia-esulta/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Maranathà
 # Maranathà
 Maranathà vieni Signor  
 Verso te Gesù le mani noi leviam  
@@ -2215,23 +1239,27 @@ Maranathà vieni Signor
 Verso te, Gesù, le mani noi leviam  
 Maranathà vieni Signor  
 Prendici con te e salvaci Signor
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/hfCUK1ERFEI/hqdefault.jpg)](https://www.youtube.com/embed/hfCUK1ERFEI?si=jLAqTQ7_z5kWQKhQ)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Maria prega per noi
+###### ****
+# Magnificat, l’anima mia esulta
+  
+Dio ha fatto in me cose grandi,  
+Lui che guarda l’umile servo  
+e disperde i superbi nell’orgoglio del cuore.  
+  
+L’ANIMA MIA ESULTA IN DIO MIO SALVATORE.  
+L’ANIMA MIA ESULTA IN DIO MIO SALVATORE.LA SUA SALVEZZA CANTERÒ.  
+  
+Lui Onnipotente e Santo.  
+Lui abbatte i grandi dai troni e solleva  
+dal fango il suo umile servo.  
+  
+Lui, misericordia infinita.  
+Lui che rende povero il ricco  
+e ricolma di beni chi si affida al suo amore.  
+  
+Lui, Amore sempre fedele.  
+Lui guida il suo servo Israele  
+e ricorda il suo patto stabilito per sempre.
 ## **PREGA PER NOI**
   
 RIT. **O Maria, Maestra di umiltà, o Maria, sei Madre di bontà. Sei la Madre di Dio e dell’umanità, Tu sei colei che ha detto “Si”.**
@@ -2254,56 +1282,6 @@ Tempio dello Spirito, prega per noi
 Madre della grazia, prega per noi  
 Maestra dei santi, prega per noi  
 Regina del cielo, prega per noi.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/z-vzzVVty90/hqdefault.jpg)](https://youtu.be/z-vzzVVty90?si=TP9NF1d_Odh2G31N)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Noi canteremo gloria a te
-## NOI CANTEREMO GLORIA A TE
-Noi canteremo gloria a te,Padre, che dai la vita,Dio d’immensa carità,Trinità infinita.
-Tutto il creato vive in te,segno della tua gloria,tutta la storia ti daràonore e vittoria.
-La tua Parola venne a noi,annuncio del tuo dono,la tua promessa porteràsalvezza e perdono.
-Dio si è fatto come noi,è nato da Maria;egli, nel mondo, ormai saràverità, vita e via.
-Manda, Signore, in mezzoa noi,manda il Consolatore,lo Spirito di santità,Spirito dell’amore.
-Vieni, Signore, in mezzoa noi, vieni nella tua casa,dona la pace e l’unità,raduna la tua Chiesa.
-Cristo il Padre rivelòper noi aprì il suo cielo;egli, un giorno, torneràglorioso nel suo Regno.
-Siam qui raccolti innanzi ate,Signor, bontà infinitae tu, benigno, ci daraila gioia della vita.
-In spirito e in veritànoi gloria ti cantiamola tua divina maestàcon fede adoriamo.
-Un lieto annuncio risuonò:è nato il Salvatore!E su di noi risplenderàla luce del suo amore.
-Gesù risorto, sei con noi,sei tu la nuova Pasqua.A te la nostra fedeltàoffriamo nella gioia.
-Signore, manda in donoa noi lo Spirito d’amore;ancora tu rinnoveraiil volto della terra.
-Tu sei la Madre di Gesùo Vergine Maria,resta per sempre accanto a noicon Cristo nostra vita.
-Tutta la terra canti a te,Dio dell’universo,tutto il creato viene a te,annuncia la tua gloria.
-Unico Dio sei per noi,fatti dalla tua mano;Padre, noi siamo figli tuoi,popolo che tu guidi.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/qRog0rGfLZ4/hqdefault.jpg)](https://youtu.be/qRog0rGfLZ4?si=KaDc7na1M4p3OyH9)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Nel tuo silenzio
 # Nel tuo silenzio
 Nel tuo silenzio accolgo il mistero  
 Venuto a vivere dentro di me  
@@ -2317,23 +1295,6 @@ Ora il tuo Spirito in me dice: "Padre"
 Non sono io a parlare, sei Tu  
 Nell'infinito oceano di pace  
 Tu vivi in me, io in te, Gesù
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/R55knruD7xc/hqdefault.jpg)](https://www.youtube.com/embed/R55knruD7xc?si=pzJh92fpBJFhohQF)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Non temere
 # Non Temere
 Non temere, Maria,  
 perché hai trovato grazia  
@@ -2366,23 +1327,22 @@ se il Signore ha scelto
 la tua fede povera,  
 per convincere il mondo.  
 RIT.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/ADH9yoC6ejM/hqdefault.jpg)](https://youtu.be/ADH9yoC6ejM?si=xAe8_0L2ygHf4045)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Nostra gloria è la croce
+## NOI CANTEREMO GLORIA A TE
+Noi canteremo gloria a te,Padre, che dai la vita,Dio d’immensa carità,Trinità infinita.
+Tutto il creato vive in te,segno della tua gloria,tutta la storia ti daràonore e vittoria.
+La tua Parola venne a noi,annuncio del tuo dono,la tua promessa porteràsalvezza e perdono.
+Dio si è fatto come noi,è nato da Maria;egli, nel mondo, ormai saràverità, vita e via.
+Manda, Signore, in mezzoa noi,manda il Consolatore,lo Spirito di santità,Spirito dell’amore.
+Vieni, Signore, in mezzoa noi, vieni nella tua casa,dona la pace e l’unità,raduna la tua Chiesa.
+Cristo il Padre rivelòper noi aprì il suo cielo;egli, un giorno, torneràglorioso nel suo Regno.
+Siam qui raccolti innanzi ate,Signor, bontà infinitae tu, benigno, ci daraila gioia della vita.
+In spirito e in veritànoi gloria ti cantiamola tua divina maestàcon fede adoriamo.
+Un lieto annuncio risuonò:è nato il Salvatore!E su di noi risplenderàla luce del suo amore.
+Gesù risorto, sei con noi,sei tu la nuova Pasqua.A te la nostra fedeltàoffriamo nella gioia.
+Signore, manda in donoa noi lo Spirito d’amore;ancora tu rinnoveraiil volto della terra.
+Tu sei la Madre di Gesùo Vergine Maria,resta per sempre accanto a noicon Cristo nostra vita.
+Tutta la terra canti a te,Dio dell’universo,tutto il creato viene a te,annuncia la tua gloria.
+Unico Dio sei per noi,fatti dalla tua mano;Padre, noi siamo figli tuoi,popolo che tu guidi.
 # Nostra gloria è la croce
 Nostra gloria è la Croce di Cristo,  
 in Lei la vittoria.  
@@ -2412,23 +1372,6 @@ Nostra gloria è la Croce di Cristo,
 in Lei la vittoria.  
 Il Signore è la nostra salvezza,  
 la vita, la Risurrezione. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/ctIpJ8O3h7U/hqdefault.jpg)](https://youtu.be/ctIpJ8O3h7U?si=ljYUx5iVJl85GCCU)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# O Sion loda il Salvatore 
 # O Sion loda il Salvatore
 O Sion, loda il salvatore  
 E canta con gioia il tuo pastore  
@@ -2468,23 +1411,6 @@ Sedendo a mensa nel tuo cielo
 Godremo della gioia dei tuoi santi  
 Amen  
 Amen
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/S4JJ2w2HjRo/hqdefault.jpg)](https://youtu.be/S4JJ2w2HjRo?si=y4FNM49b5-gHb0AU)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Osanna al figlio di David
 # Osanna al figlio di David
 Osanna al Figlio di David,  
 osanna al Redentor!
@@ -2538,23 +1464,6 @@ Osanna al Figlio di David,
 osanna al Redentor!
   
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/NPafLS9QHH8/hqdefault.jpg)](https://youtu.be/NPafLS9QHH8?si=UocVtzDBOFh9wXFV)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Pacem in terris
 # Pacem in terris
   
 Pace, sublime dono del Signore,  
@@ -2562,23 +1471,6 @@ carezza dello Spirito,
 vieni sul mondo a consolare ogni uomo,  
 a risanare ogni cuore ferito dal peccato.  
 Pacem, Pacem, dona nobis pacem in terris.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/pacem-in-terris/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-#  Padre nelle tue mani consegno il mio spirito
 # Padre, nelle tue mani consegno il mio spirito. 
 In te, Signore, mi sono rifugiato, mai sarò deluso;   
 difendimi per la tua giustizia. Alle tue mani affido il mio spirito;   
@@ -2597,23 +1489,6 @@ e dai miei persecutori.
 Sul tuo servo fa’ splendere il tuo volto, salvami per la tua misericordia.   
 Siate forti e rendete saldo il vostro cuore, voi tutti che sperate nel Signore.   
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/b5YlkYfsB08/hqdefault.jpg)](https://youtu.be/b5YlkYfsB08?si=UcuTwA418zlT1OvI)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Pane del cielo
 # Pane del cielo
 PANE DEL CIELO  
 SEI TU, GESÙ,  
@@ -2637,23 +1512,6 @@ E chi vive in Te
 vive per sempre.  
 Sei Dio con noi, sei Dio per noi,  
 Dio in mezzo a noi.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/7I3fdiq60Nk/hqdefault.jpg)](https://www.youtube.com/embed/7I3fdiq60Nk?si=QSmyVb6pNh2MyCsW)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Pietà di me
 # Pietà di me o Dio
 **Pietà di me**  
 **o Dio nel tuo amore**  
@@ -2714,23 +1572,6 @@ Bars Website built with Gatsby.
 **è la mia vita**  
 **mi sentirò**  
 **travolto dal tuo amore.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi//hqdefault.jpg)](https://aaa.it)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Popoli tutti acclamate al Signore 
 # Popoli tutti acclamate al Signore 
 Mio Dio, Signore, nulla è pari a Te.  
 Ora e per sempre, voglio lodare  
@@ -2752,23 +1593,6 @@ al tuo nome, o Signore.
 Canto di gioia per quello che fai,  
 per sempre Signore con Te resterò,  
 non c’è promessa non c’è fedeltà che in Te.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/LGP3L88t9NU/hqdefault.jpg)](https://youtu.be/LGP3L88t9NU?si=1c3AsDZOx66hsgJY)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Popolo mio
 # Popolo mio
 Popolo mio, che male ti ho fatto?  
 In che t'ho contristato? Rispondimi
@@ -2794,23 +1618,6 @@ Hágios o Theós (Sanctus Deus)
 Hágios Ischyrós (Sanctus Fortis)  
 Hágios Athánatos (Sanctus Immortális)  
 Miserére nobis (eléison himás)
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/DvC9Mhm_cxY/hqdefault.jpg)](https://youtu.be/DvC9Mhm_cxY?si=ss1j-pamAKu8SeZd)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# La preghiera di Gesù è la nostra 
 # La preghiera di Gesù è la nostra
 Dove due o tre sono riuniti nel mio nome,  
 io sarò con loro, pregherò con loro,   
@@ -2842,61 +1649,32 @@ come Cristo che muore e risorge
 perché il regno del Padre,   
 si compia in mezzo a noi e abbiamo vita,in Lui   
 si compia in mezzo a noi e abbiamo vita,in Lui.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/c6uJoG9BbJ8/hqdefault.jpg)](https://youtu.be/c6uJoG9BbJ8?si=oPI9Pp_tVgLP8-NT)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Quale Gioia
-# [Quale gioia mi dissero](https://www.acannone.it/index.php/canti/268-quale-gioia-mi-dissero)
+# Prendimi per mano mio Dio
+Avevo tanta voglia di viaggare...  
+Tu mi dicesti: vai ed io partii...  
+"Son vivo", dissi allora ad una donna,  
+a te, amico mio, pensaci tu.  
+Io sono ancora giovane Signore,  
+ma son tanto vecchio dentro il cuore.  
+Le cose in cui credevo m'han deluso,  
+io cerco solo amore e libertà.  
   
-**Quale gioia mi dissero:  
-“Andremo alla casa del Signore!”.  
-Ora i piedi, o Gerusalemme,  
-si fermano davanti a te.**
+**Prendimi per mano Dio mio,  
+guidami nel mondo a modo tuo...  
+La strada è tanto lunga e tanto dura,  
+però con te nel cuor non ho paura.**  
   
-Ora Gerusalemme è ricostruita  
-come città salda, forte e unita.
+Un giorno mi han proposto un altro "viaggio"...  
+il cuore mi diceva: "non partire".  
+Quel giorno ero triste e me ne andai,  
+la strada per tornar non trovo più...
+**Prendimi per mano ...**  
   
-Là sono posti i seggi della sua giustizia,  
-i seggi della casa di Davide.
-  
-Domandate pace per Gerusalemme;  
-sia pace a chi ti ama, pace alle tue mura.
-  
-Su di te sia pace, chiederò il tuo bene;  
-per la casa di Dio chiederò la gioia.
-  
-Noi siamo il suo popolo, Egli è il nostro Dio;  
-possa rinnovarci la felicità.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/ofZhUXJ6EE8/hqdefault.jpg)](https://www.youtube.com/embed/ofZhUXJ6EE8?si=ARffB4kSr7xMt3XO)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Quando Israele
+Per me è vicina ormai la grande sera.  
+Il sole muore verso l'orizzonte...  
+io sento che il tuo regno è più vicino:  
+son pronto per il viaggio mio con te.  
+**Prendimi per mano ...**
 # Quando Israele uscì dall'Egitto
 Quando Israele uscì dall'Egitto  
 La casa di Giacobbe da un popolo barbaro,  
@@ -2923,23 +1701,27 @@ Cantiamo gloria al Padre e al Figlio
 e allo Spirito Santo,  
 com'era nel principio, ora e sempre,  
 nei secoli dei secoli. Amen.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/35mQepAmLgo/hqdefault.jpg)](https://youtu.be/35mQepAmLgo?si=zvhpvW8W6cV8nL9v)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Questo è il mio comandamento
+# [Quale gioia mi dissero](https://www.acannone.it/index.php/canti/268-quale-gioia-mi-dissero)
+  
+**Quale gioia mi dissero:  
+“Andremo alla casa del Signore!”.  
+Ora i piedi, o Gerusalemme,  
+si fermano davanti a te.**
+  
+Ora Gerusalemme è ricostruita  
+come città salda, forte e unita.
+  
+Là sono posti i seggi della sua giustizia,  
+i seggi della casa di Davide.
+  
+Domandate pace per Gerusalemme;  
+sia pace a chi ti ama, pace alle tue mura.
+  
+Su di te sia pace, chiederò il tuo bene;  
+per la casa di Dio chiederò la gioia.
+  
+Noi siamo il suo popolo, Egli è il nostro Dio;  
+possa rinnovarci la felicità.
 # Questo è il mio comandamento
 Questo è il mio comandamento  
 Che vi amiate  
@@ -2975,66 +1757,6 @@ Questo è il mio comandamento
 Che vi amiate  
 Come io ho amato voi  
 Come io ho amato voi
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/4hvAR40wjfs/hqdefault.jpg)](https://youtu.be/4hvAR40wjfs?si=NbTC18Vu9a4jm8Ka)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Prendimi per mano mio Dio
-# Prendimi per mano mio Dio
-Avevo tanta voglia di viaggare...  
-Tu mi dicesti: vai ed io partii...  
-"Son vivo", dissi allora ad una donna,  
-a te, amico mio, pensaci tu.  
-Io sono ancora giovane Signore,  
-ma son tanto vecchio dentro il cuore.  
-Le cose in cui credevo m'han deluso,  
-io cerco solo amore e libertà.  
-  
-**Prendimi per mano Dio mio,  
-guidami nel mondo a modo tuo...  
-La strada è tanto lunga e tanto dura,  
-però con te nel cuor non ho paura.**  
-  
-Un giorno mi han proposto un altro "viaggio"...  
-il cuore mi diceva: "non partire".  
-Quel giorno ero triste e me ne andai,  
-la strada per tornar non trovo più...
-**Prendimi per mano ...**  
-  
-Per me è vicina ormai la grande sera.  
-Il sole muore verso l'orizzonte...  
-io sento che il tuo regno è più vicino:  
-son pronto per il viaggio mio con te.  
-**Prendimi per mano ...**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/0z46Qsstadk/hqdefault.jpg)](https://youtu.be/0z46Qsstadk?si=5uthgXEKnpAtxPD6)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Re dei re
 # Re dei re
 Hai sollevato il nostri volti dalla polvere  
 Le nostre colpe hai portato su di te  
@@ -3061,46 +1783,12 @@ Dio dell'impossibile, re di tuttii secoli
 Vieni nella tua maestàRe dei re, i popoli ti acclamano  
 I cieli ti proclamano re dei re  
 Luce degli uomini, regna col tuo amore tra noi, noi, noi, noi
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/iPGQ17OM1fg/hqdefault.jpg)](https://www.youtube.com/embed/iPGQ17OM1fg?si=Z2pHMaEH171g1R8E)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Regina coeli
 # Regina coeli 
 Regina coeli, laetare, alleluia.  
 Quia quem meruisti portare, alleluia.  
 Resurrexit, sicut dixit, alleluia.  
 Ora pro nobis Deum, alleluia.Gaude et laetáre, Virgo María, Allelúia.  
 Quia surréxit Dominus vere, Allelúia.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/regina-coeli/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Resurrezione
 # Resurrezione
 Che gioia ci hai dato, Signore del cielo  
 Signore del grande universo!  
@@ -3126,23 +1814,6 @@ e hai salvato tutti noi,
 uomini con Te,  
 tutti noi,  
 uomini con Te.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/NuF179qOAaQ/hqdefault.jpg)](https://youtu.be/NuF179qOAaQ?si=UACkB1NliPOKxItF)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Salve regina
 # Salve Regina
 **Salve Regina, Madre di misericordia.**  
 **Vita, dolcezza, speranza nostra, salve!**  
@@ -3157,23 +1828,15 @@ il frutto del tuo seno, Gesù.
 **O clemente, o pia, o dolce Vergine Maria.**  
 **Salve Regina!**  
 **Salve Regina, salve, salve!**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/salve-regina/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Santa Maria del cammino 
+# Santo Bonfitto
+Santo, Santo, Santo il Signore Dio dell’universo.  
+I cieli e la terra sono pieni della tua gloria.  
+  
+Osanna, osanna, osanna nell’alto dei cieli.  
+  
+Benedetto colui che viene nel nome del Signore.  
+  
+Osanna, osanna, osanna nell’alto dei cieli.
 # Santa Maria del cammino
 Mentre trascorre la vita,  
 solo tu non sei mai:  
@@ -3199,72 +1862,6 @@ Tu sei la luce a chi crede
 nel Figlio tuo Gesù,  
 Tu sei speranza e certezza  
 che Lui ci cambierà.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/SWz3YmYgn2o/hqdefault.jpg)](https://youtu.be/SWz3YmYgn2o?si=tbYl1CWXXmrt-_Bm)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Santo Bonfitto
-# Santo Bonfitto
-Santo, Santo, Santo il Signore Dio dell’universo.  
-I cieli e la terra sono pieni della tua gloria.  
-  
-Osanna, osanna, osanna nell’alto dei cieli.  
-  
-Benedetto colui che viene nel nome del Signore.  
-  
-Osanna, osanna, osanna nell’alto dei cieli.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/BKOqXnftbAU/hqdefault.jpg)](https://youtu.be/BKOqXnftbAU?si=rj8fEpat06jJWat2)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Santo Frisina
-# Santo
-Santo, Santo, Santo è il Signore  
-Dio dell’universo.Santo, Santo, Santo è il Signore  
-Dio dell’universo.I cieli e la terra sono pieni della tua gloria.  
-Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.Benedetto Colui che viene nel nome del Signore.  
-Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/6ECYy1Nt4ps/hqdefault.jpg)](https://www.youtube.com/embed/6ECYy1Nt4ps?si=MfqNx0XUSt9Z7t6j)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Santo nelle altezze
 # Santo nelle altezze
 Sa——————-nto,  
 **D:** Sa——————-nto  
@@ -3281,23 +1878,12 @@ Sa——————-nto,
 **U:** Osanna, Osanna, Osanna,  
 **D:** Osanna, Osanna, Osanna,  
 **Tutti:** Osanna, Osanna, Osanna nelle altezza
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/santo-nelle-altezze/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Se m'accogli
+# Santo
+Santo, Santo, Santo è il Signore  
+Dio dell’universo.Santo, Santo, Santo è il Signore  
+Dio dell’universo.I cieli e la terra sono pieni della tua gloria.  
+Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.Benedetto Colui che viene nel nome del Signore.  
+Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.
 # Se m'accogli
 Tra le mani non ho niente: spero che mi accoglierai.  
 Chiedo solo di restare accanto a te.  
@@ -3315,61 +1901,6 @@ Se m'accogli, mio Signore, altro non ti chiederò
 e per sempre la tua strada la mia strada resterà.  
 Nella gioia, nel dolore, fino a quando tu vorrai,  
 con la mano nella tua camminerò.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/gRNMMclEC0s/hqdefault.jpg)](https://youtu.be/gRNMMclEC0s?si=pY07Agoq2TgJO0oO)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-# Meteo
-  
-
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Servo per amore
-# Servo per amore 
-Una notte di sudore sulla barca in mezzo al mare  
-e mentre il cielo s'imbianca già tu guardi le tue reti vuote. Ma la voce che ti chiama un altro mare ti mostrerà e sulle rive di ogni cuore le tue reti getterai.  
-  
-**Offri la vita tua come Maria ai piedi della croce e sarai servo di ogni uomo, servo per amore, sacerdote per l'umanità.  
-**  
-Avanzavi nel silenzio fra le lacrime e speravi che il seme sparso davanti a te cadesse sulla buona terra. Ora il cuore tuo è in festa perchè il grano biondeggia ormai è maturato sotto il sole puoi deporlo nei granai.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/GOnLKL34q0E/hqdefault.jpg)](https://youtu.be/GOnLKL34q0E?si=Jjw40i_hw9xFgXoR)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il Signore è il mio pastore
 # IL SIGNORE È IL MIO PASTORE
   
   
@@ -3384,23 +1915,34 @@ E di olio mi ungi il capo: il mio calice è colmo di ebbrezza.
 5 Bontà e grazia mi sono compagne, quanto dura il mio cammino;  
 io starò nella casa di Dio lungo tutto il migrare dei giorni  
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/-EnhEZIOYUg/hqdefault.jpg)](https://youtu.be/-EnhEZIOYUg?si=8z3AAOoNh_UWzGe5)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Sono qui a lodarti
+# Il Signore è la mia salvezza
+  
+E con lui non temo più  
+Perché ho nel cuore la certezza  
+La salvezza è qui con me.  
+Ti lodo Signore perché un giorno eri  
+lontano da me. Ora invece sei tornato  
+e mi hai preso con Te.  
+Berrete con gioia alle fonti,  
+alle fonti della salvezza,  
+e quel giorno voi direte:  
+Lodate il Signore, invocate il Suo  
+nome.  
+Fate conoscere ai popoli  
+Tutto quello che Lui ha compiuto,  
+e ricordino per sempre,  
+ricordino sempre che  
+il Suo nome è grande.  
+Cantate a chi ha fatto grandezze e sia fatto  
+sapere nel mondo: grida forte la tua gioia,  
+perché grande con te è il Signore. 
+# Servo per amore 
+Una notte di sudore sulla barca in mezzo al mare  
+e mentre il cielo s'imbianca già tu guardi le tue reti vuote. Ma la voce che ti chiama un altro mare ti mostrerà e sulle rive di ogni cuore le tue reti getterai.  
+  
+**Offri la vita tua come Maria ai piedi della croce e sarai servo di ogni uomo, servo per amore, sacerdote per l'umanità.  
+**  
+Avanzavi nel silenzio fra le lacrime e speravi che il seme sparso davanti a te cadesse sulla buona terra. Ora il cuore tuo è in festa perchè il grano biondeggia ormai è maturato sotto il sole puoi deporlo nei granai.
 # Sono qui a lodarti
 Luce del mondo nel buio del cuore  
 Vieni ed illuminami  
@@ -3439,82 +1981,35 @@ Qui per dirti che tu sei il mio Dio
 E solo tu sei Santo, sei meraviglioso  
 Degno e glorioso sei per me
 Santo, Santo
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/s6F0EgxUCok/hqdefault.jpg)](https://youtu.be/s6F0EgxUCok?si=1-NIj_VkkDdIn0qH)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Il Signore è la mia salvezza
-# Il Signore è la mia salvezza
-  
-E con lui non temo più  
-Perché ho nel cuore la certezza  
-La salvezza è qui con me.  
-Ti lodo Signore perché un giorno eri  
-lontano da me. Ora invece sei tornato  
-e mi hai preso con Te.  
-Berrete con gioia alle fonti,  
-alle fonti della salvezza,  
-e quel giorno voi direte:  
-Lodate il Signore, invocate il Suo  
-nome.  
-Fate conoscere ai popoli  
-Tutto quello che Lui ha compiuto,  
-e ricordino per sempre,  
-ricordino sempre che  
-il Suo nome è grande.  
-Cantate a chi ha fatto grandezze e sia fatto  
-sapere nel mondo: grida forte la tua gioia,  
-perché grande con te è il Signore. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/R8bz5oc9hCs/hqdefault.jpg)](https://youtu.be/R8bz5oc9hCs?si=dYpsRdv3D5SXkFst)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Sono risorto
 # Sono risorto
 Sono risorto e sono sempre con te. Alleluia.  
 Hai posto la tua mano su di me, Alleluia.  
 grande e mirabile è la tua sapienza. ALLELUIA, ALLELUIA, ALLELUIA, ALLELUIA.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/hI5s7pc-Tnk/hqdefault.jpg)](https://youtu.be/hI5s7pc-Tnk?si=smbUPgCSQS2rU0vk)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Lo spirito del signore è su di Me
+## Stillate cieli dall'alto
+**RIT. STILLATE CIELI DALL’ALTO,  
+DALLE NUBI DISCENDA IL GIUSTO,  
+LA TERRA APRA IL SUO GREMBO  
+E GERMOGLI PER NOI IL SALVATORE. **(2 volte)
+Non adirarti, Signore,  
+non ricordare il peccato.  
+Gerusalemme è deserta,  
+il tuo santuario desolato.  
+**RIT.**
+Abbiamo peccato, Signore,  
+dispersi come foglie al vento;  
+il tuo volto ci hai nascosto  
+e ci hai consegnato ai nemici.  
+**RIT.**
+Invia l‘Agnello promesso,  
+dominatore della terra,  
+e salga il monte di Sion,  
+riscatti il giogo della colpa.  
+**RIT.**
+Consolati, popolo mio,  
+perché nel pianto ti consumi?  
+Verrà presto la tua salvezza,  
+perché sono il tuo Redentore.  
+**RIT.**
 # Lo spirito del Signore
 **RIT. LO SPIRITO DEL SIGNORE È SU DI ME,  
 LO SPIRITO CON L'UNZIONE MI HA CONSACRATO,  
@@ -3550,23 +2045,6 @@ mi dona la Sua forza
 per consolare i poveri,  
 per farmi strumento di salvezza.  
 RIT.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/LEuL-oavYgA/hqdefault.jpg)](https://www.youtube.com/embed/LEuL-oavYgA?si=r7YH-e6IyCByKgST)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Stella polare
 # Te Al Centro Del Mio Cuore
 Ho bisogno di incontrarti nel mio cuore  
 Di trovare te, di stare insieme a te:  
@@ -3589,65 +2067,6 @@ Unico sostegno tu, la stella polare tu
 Al centro del mio cuore ci sei solo tu.
 **Tutto ruota intorno a te, in funzione di te,  
 E poi non importa il come, il dove e il se.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/OJWUcZWPBSw/hqdefault.jpg)](https://youtu.be/OJWUcZWPBSw?si=fiK7NoYvPUlXec5l)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Stillate cieli dall'alto
-## Stillate cieli dall'alto
-**RIT. STILLATE CIELI DALL’ALTO,  
-DALLE NUBI DISCENDA IL GIUSTO,  
-LA TERRA APRA IL SUO GREMBO  
-E GERMOGLI PER NOI IL SALVATORE. **(2 volte)
-Non adirarti, Signore,  
-non ricordare il peccato.  
-Gerusalemme è deserta,  
-il tuo santuario desolato.  
-**RIT.**
-Abbiamo peccato, Signore,  
-dispersi come foglie al vento;  
-il tuo volto ci hai nascosto  
-e ci hai consegnato ai nemici.  
-**RIT.**
-Invia l‘Agnello promesso,  
-dominatore della terra,  
-e salga il monte di Sion,  
-riscatti il giogo della colpa.  
-**RIT.**
-Consolati, popolo mio,  
-perché nel pianto ti consumi?  
-Verrà presto la tua salvezza,  
-perché sono il tuo Redentore.  
-**RIT.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/0bKR36vAkng/hqdefault.jpg)](https://youtu.be/0bKR36vAkng?si=AZA3mPYai69AUgD8)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Symbolum 77
 # Symbolum 77
 Tu sei la mia vita, altro io non ho  
 Tu sei la mia strada, la mia verità  
@@ -3673,84 +2092,6 @@ Spirito d'amore, vieni in mezzo a noi
 Tu da mille strade ci raduni in unità  
 E per mille strade, poi, dove tu vorrai  
 Noi saremo il seme di Dio
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/r-hf2dOBfDE/hqdefault.jpg)](https://youtu.be/r-hf2dOBfDE?si=Tq_OTQzAkjCazEZu)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Su ali d'aquila
-# Su ali d'aquila
-Tu che abiti al riparo del Signore  
-e che dimori alla sua ombra  
-dì al Signore mio rifugio,  
-mia roccia in cui confido.  
-  
-E ti rialzerà, ti solleverà su ali d'aquila,  
-ti reggerà sulla brezza dell'alba,  
-ti farà brillar come il sole,  
-così nelle sue mani vivrai.  
-  
-Dal laccio del cacciatore ti libererà  
-e dalla carestia che distrugge  
-poi ti coprirà con le sue ali  
-e rifugio troverai.  
-  
-E ti rialzerà, ti solleverà su ali d'aquila,  
-ti reggerà sulla brezza dell'alba,  
-ti farà brillar come il sole,  
-così nelle sue mani vivrai.  
-  
-Non devi temere i terrori della notte  
-né freccia che vola di giorno,  
-mille cadranno al tuo fianco,  
-ma nulla ti colpirà.  
-  
-E ti rialzerà, ti solleverà su ali d'aquila,  
-ti reggerà sulla brezza dell'alba,  
-ti farà brillar come il sole,  
-così nelle sue mani vivrai.  
-  
-Perché ai suoi angeli ha dato un comando  
-di preservarti in tutte le tue vie,  
-ti porteranno sulle loro mani,  
-contro la pietra non inciamperai.
-E ti rialzerà, ti solleverà su ali d'aquila,  
-ti reggerà sulla brezza dell'alba,  
-ti farà brillar come il sole,  
-così nelle sue mani vivrai.  
-  
-E ti rialzerò, ti solleverò su ali d'aquila,  
-ti reggerò sulla brezza dell'alba,  
-ti farò brillar come il sole,  
-così nelle mie mani vivrai.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/MSHM1Jbf6Lw/hqdefault.jpg)](https://youtu.be/MSHM1Jbf6Lw?si=YUss0kuCM85_tfOl)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Symbolum 80
 # Symbolum 80
 Oltre la memoria  
 del tempo che ho vissuto,  
@@ -3805,23 +2146,19 @@ luce in ogni cosa io non vedo ancora,
 ma la tua parola mi rischiarerà.
   
 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/Lb_hMPS-8P4/hqdefault.jpg)](https://youtu.be/Lb_hMPS-8P4?si=UeqWEWuvLXFMBD_b)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Te al centro del mio cuore
+# Ti benedirò
+  
+  
+Benedirò il Signore in ogni tempo, sulla mia bocca la sua lode sempre avrò.  
+Nel mio canto do gloria al Signore, si rallegra il mio cuore in umiltà.  
+  
+Ti benedirò, Signore, in ogni tempo, canterò per Te senza fine se sarai con me, più nulla temerò, e avrò nel cuore la gioia.  
+  
+Benedirò il Signore in ogni tempo, il nome suo in eterno canterò.  
+Io l'ho cercato e Lui mi ha risposto: dall'angoscia Lui mi libererà.  
+  
+Benedirò il Signore in ogni tempo, guardando a Lui il mio volto splenderà.  
+Io lo so com'è buono il Signore, nella vita vicino mi sarà.
 # Te al centro del mio cuore
 Ho bisogno di incontrarti nel mio cuore,  
 Re Do  
@@ -3872,53 +2209,50 @@ Mi - Do Re Mi -
 Tutto ruota intorno a Te, in funzione di Te  
 Sol Do Re  
 e poi non importa il “come”, il “dove”, il “se”…
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/6Tpcf4JdTxU/hqdefault.jpg)](https://youtu.be/6Tpcf4JdTxU?si=Zjo9YE2lXN11S-PM)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Ti benediró
-# Ti benedirò
+# Su ali d'aquila
+Tu che abiti al riparo del Signore  
+e che dimori alla sua ombra  
+dì al Signore mio rifugio,  
+mia roccia in cui confido.  
   
+E ti rialzerà, ti solleverà su ali d'aquila,  
+ti reggerà sulla brezza dell'alba,  
+ti farà brillar come il sole,  
+così nelle sue mani vivrai.  
   
-Benedirò il Signore in ogni tempo, sulla mia bocca la sua lode sempre avrò.  
-Nel mio canto do gloria al Signore, si rallegra il mio cuore in umiltà.  
+Dal laccio del cacciatore ti libererà  
+e dalla carestia che distrugge  
+poi ti coprirà con le sue ali  
+e rifugio troverai.  
   
-Ti benedirò, Signore, in ogni tempo, canterò per Te senza fine se sarai con me, più nulla temerò, e avrò nel cuore la gioia.  
+E ti rialzerà, ti solleverà su ali d'aquila,  
+ti reggerà sulla brezza dell'alba,  
+ti farà brillar come il sole,  
+così nelle sue mani vivrai.  
   
-Benedirò il Signore in ogni tempo, il nome suo in eterno canterò.  
-Io l'ho cercato e Lui mi ha risposto: dall'angoscia Lui mi libererà.  
+Non devi temere i terrori della notte  
+né freccia che vola di giorno,  
+mille cadranno al tuo fianco,  
+ma nulla ti colpirà.  
   
-Benedirò il Signore in ogni tempo, guardando a Lui il mio volto splenderà.  
-Io lo so com'è buono il Signore, nella vita vicino mi sarà.
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/C5JVYd2HeDs/hqdefault.jpg)](https://youtu.be/C5JVYd2HeDs?si=X2Naycu69mN4LpmE)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Ti seguirò
+E ti rialzerà, ti solleverà su ali d'aquila,  
+ti reggerà sulla brezza dell'alba,  
+ti farà brillar come il sole,  
+così nelle sue mani vivrai.  
+  
+Perché ai suoi angeli ha dato un comando  
+di preservarti in tutte le tue vie,  
+ti porteranno sulle loro mani,  
+contro la pietra non inciamperai.
+E ti rialzerà, ti solleverà su ali d'aquila,  
+ti reggerà sulla brezza dell'alba,  
+ti farà brillar come il sole,  
+così nelle sue mani vivrai.  
+  
+E ti rialzerò, ti solleverò su ali d'aquila,  
+ti reggerò sulla brezza dell'alba,  
+ti farò brillar come il sole,  
+così nelle mie mani vivrai.
 # Ti seguirò
 **RIT. TI SEGUIRO', TI SEGUIRO' O SIGNORE  
 E NELLA TUA STRADA CAMMINERO'.**
@@ -3931,23 +2265,6 @@ RIT.
 Ti seguirò nella via della gioia  
 e la tua luce ci guiderà.  
 RIT. 
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/embed/TjCmFREe_EE/hqdefault.jpg)](https://www.youtube.com/embed/TjCmFREe_EE?si=-LRNFk20H68zUeKZ)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Trasformi in Gesù
 # **TRASFORMI IN GESÙ**
   
   
@@ -3959,23 +2276,6 @@ Bars Website built with Gatsby.
   
 **Con la vita di tutta la gente noi offriamo a Te Padre e Signore**  
 **il dolore e la gioia del mondo, tu raccogli e trasformi in Gesù.**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/trasformi-gesu/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Tu es sacerdos in æternum
 # Tu es sacerdos in æternum
 ### Ritornello
 **RE – LA – SOL – RE**  
@@ -4007,6 +2307,7 @@ Juravit Dominus
 (**SI – SOL – LA**)  
 et non poenitebit eum
 * * *
+### 
 **RE – LA – SOL – RE**  
 Tu es Sacerdos in aeternum
 **MI – SI**  
@@ -4029,23 +2330,6 @@ ora pro nobis
 ora pro nobis
 **LA (→) RE**  
 Deum
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/cvef-93xhG0/hqdefault.jpg)](https://youtu.be/cvef-93xhG0?si=xqR24E-GIaPzSkAj)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Umilio se stesso
 # Umiliò se Stesso
 _Umiliò se stesso, come servo apparve,_  
 _obbediente fino alla morte per noi,_  
@@ -4053,89 +2337,6 @@ _fino alla morte di croce._ Per questo Dio l'ha esaltato,
 e gli ha dato un nome più grande di ogni nome._Umiliò se stesso, come servo apparve,_  
 _obbediente fino alla morte per noi,_  
 _fino alla morte di croce._
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/pt1l8cB32qY/hqdefault.jpg)](https://youtu.be/pt1l8cB32qY?si=EN1Jg72g7sVpRzeY)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Vieni dal Libano
-# Vieni dal Libano
-Vieni dal Libano, mia sposa,  
-vieni dal Libano, vieni!  
-Avrai per corona le vette dei monti,  
-le alte cime dell'Ermon.  
-Tu m'hai ferito, ferito il cuore,  
-o sorella, mia sposa.  
-Vieni dal Libano, mia sposa,  
-vieni dal Libano, vieni!
-**Cercai l'amore dell'anima mia,  
-lo cercai senza trovarlo.  
-Trovai l'amore dell'anima mia,  
-l'ho abbracciato, non lo lascerò mai!**
-"Io appartengo al mio diletto  
-ed egli è tutto per me."  
-Vieni usciamo alla campagna,  
-dimoriamo nei villaggi.  
-Andremo all'alba nelle vigne,  
-vi raccoglieremo i frutti.  
-"Io appartengo al mio diletto  
-ed egli è tutto per me."
-**Cercai l'amore dell'anima mia,  
-lo cercai senza trovarlo.  
-Trovai l'amore dell'anima mia,  
-l'ho abbracciato, non lo lascerò mai!**
-Alzati in fretta, mia diletta,  
-vieni colomba, vieni!  
-L'estate ormai è già passata,  
-il tempo dell'uva è venuto.  
-I fiori se ne vanno dalla terra,  
-il grande sole è cessato.  
-Alzati in fretta, mia diletta,  
-vieni colomba, vieni!
-**Cercai l'amore dell'anima mia,  
-lo cercai senza trovarlo.  
-Trovai l'amore dell'anima mia,  
-l'ho abbracciato, non lo lascerò mai!**
-Come sigillo sul tuo cuore,  
-come sigillo sul tuo braccio  
-ché l'amore è forte come la morte  
-e le acque non lo spegneràanno  
-Dare per esso tutti i beni della casa  
-sarebbe disprezzarlo.
-Come sigillo sul tuo cuore,  
-come sigillo sul tuo braccio.
-**Cercai l'amore dell'anima mia,  
-lo cercai senza trovarlo.  
-Trovai l'amore dell'anima mia,  
-l'ho abbracciato, non lo lascerò mai!**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-[![YouTube thumbnail](https://img.youtube.com/vi/mEZpzktHeTo/hqdefault.jpg)](https://youtu.be/mEZpzktHeTo?si=U7yN8k2x6MLk4tXu)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
-[![Logo](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)](https://mixapps.netlify.app/)
-[Home](https://mixapps.netlify.app/)[Mi presento](https://mixapps.netlify.app/about/)[Blogs](https://mixapps.netlify.app/blogs/)[Meteo](https://mixapps.netlify.app/searchcitiesnew/)[Contatti](https://mixapps.netlify.app/contact/)[Campionato](https://mixapps.netlify.app/campionato/)
-[Torna Indietro](https://mixapps.netlify.app/elencocanti/)
-# Ave Maria (Verbum Panis)
 # Ave Maria (Verbum Panis)
 **Ave Maria, ave.  
 Ave Maria, ave.**  
@@ -4163,16 +2364,54 @@ Donna della terra e Madre dell’amore,
 ora pro nobis.  
   
 **Rit**
-Continua senza accettare
-Questo sito visualizza video YouTube. Se si desidera visualizzarli all'interno del sito accettare tali cookie.
-RifiutaAccetta
-![YouTube thumbnail](https://mixapps.netlify.app/verbum-panis/)
-![Bars Website](https://mixapps.netlify.app/static/logotrasp-d183dc3166602ba3a2a94a4fed611f38.png)
-Bars Website built with Gatsby.
-  * [Home](https://mixapps.netlify.app/)
-  * [Mi presento](https://mixapps.netlify.app/about/)
-  * [Blogs](https://mixapps.netlify.app/blogs/)
-  * [Meteo](https://mixapps.netlify.app/searchcitiesnew/)
-  * [Campionato](https://mixapps.netlify.app/campionato/)
-
-
+# Vieni dal Libano
+Vieni dal Libano, mia sposa,  
+vieni dal Libano, vieni!  
+Avrai per corona le vette dei monti,  
+le alte cime dell'Ermon.  
+Tu m'hai ferito, ferito il cuore,  
+o sorella, mia sposa.  
+Vieni dal Libano, mia sposa,  
+vieni dal Libano, vieni!
+## 
+**Cercai l'amore dell'anima mia,  
+lo cercai senza trovarlo.  
+Trovai l'amore dell'anima mia,  
+l'ho abbracciato, non lo lascerò mai!**
+"Io appartengo al mio diletto  
+ed egli è tutto per me."  
+Vieni usciamo alla campagna,  
+dimoriamo nei villaggi.  
+Andremo all'alba nelle vigne,  
+vi raccoglieremo i frutti.  
+"Io appartengo al mio diletto  
+ed egli è tutto per me."
+**Cercai l'amore dell'anima mia,  
+lo cercai senza trovarlo.  
+Trovai l'amore dell'anima mia,  
+l'ho abbracciato, non lo lascerò mai!**
+## 
+Alzati in fretta, mia diletta,  
+vieni colomba, vieni!  
+L'estate ormai è già passata,  
+il tempo dell'uva è venuto.  
+I fiori se ne vanno dalla terra,  
+il grande sole è cessato.  
+Alzati in fretta, mia diletta,  
+vieni colomba, vieni!
+**Cercai l'amore dell'anima mia,  
+lo cercai senza trovarlo.  
+Trovai l'amore dell'anima mia,  
+l'ho abbracciato, non lo lascerò mai!**
+Come sigillo sul tuo cuore,  
+come sigillo sul tuo braccio  
+ché l'amore è forte come la morte  
+e le acque non lo spegneràanno  
+Dare per esso tutti i beni della casa  
+sarebbe disprezzarlo.
+Come sigillo sul tuo cuore,  
+come sigillo sul tuo braccio.
+**Cercai l'amore dell'anima mia,  
+lo cercai senza trovarlo.  
+Trovai l'amore dell'anima mia,  
+l'ho abbracciato, non lo lascerò mai!**
