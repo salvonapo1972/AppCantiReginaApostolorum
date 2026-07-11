@@ -13,7 +13,7 @@ export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> 
 
   console.log("items", items)
   const [searchValue, setSearchValue] = useState("");
-  const filterNames = ( title ) => {
+  const filterNames = (title: string) => {
     return title.toLowerCase().indexOf(searchValue.toLowerCase()) !== -1;
   };
   return (
