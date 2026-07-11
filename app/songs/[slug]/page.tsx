@@ -51,21 +51,22 @@ export default async function SongPage({ params }: SongPageProps) {
   const { title, date, testoCanzone, urlVideo } = song.fields;
 
   return (
-    <main className="bckelenco text-white min-h-screen p-24 flex justify-center">
+    <main className="bckelenco text-white min-h-screen p-24  justify-center">
       <div className="">
-        <div className="[&>p]:mb-8 [&>h1]:font-extrabold [&>h1]:text-2xl">
+        <div className="[&>p]:mb-8 [&>h1]:font-extrabold [&>h1]:text-2xl text-center">
           {documentToReactComponents(testoCanzone, options)}
         </div>
-        <div>
+        
+      </div>
+      <div>
           <iframe
-            className="w-full aspect-video mt-3"
+            className="w-full aspect-video mt-4"
             src={(urlVideo!==null && typeof urlVideo !== 'undefined' )?urlVideo.replace("https://youtu.be/","https://www.youtube.com/embed/"):""}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
         </div>
-      </div>
     </main>
   );
 }
