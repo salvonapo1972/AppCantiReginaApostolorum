@@ -1,7 +1,6 @@
 /* page.tsx */
 import { createClient } from "contentful";
 import { SongQueryResult } from "./types";
-import Link from "next/link";
 import Hero from "./components/Hero";
 
 const space = process.env.SPACE_ID;
