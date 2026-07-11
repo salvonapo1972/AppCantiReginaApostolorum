@@ -52,7 +52,7 @@ export default async function SongPage({ params }: SongPageProps) {
 
   return (
     <main className="bckelenco text-white min-h-screen p-24 flex justify-center">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid grid-cols-2 gap-2">
         <div className="[&>p]:mb-8 [&>h1]:font-extrabold [&>h1]:text-2xl">
           {documentToReactComponents(testoCanzone, options)}
         </div>
