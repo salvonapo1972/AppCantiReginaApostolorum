@@ -1,5 +1,5 @@
 /* page.tsx */
-
+export const dynamic = 'force-dynamic';
 
 import { createClient } from "contentful";
 import { SongQueryResult } from "../types";
