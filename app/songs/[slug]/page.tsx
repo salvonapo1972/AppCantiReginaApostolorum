@@ -59,10 +59,9 @@ export default async function SongPage({ params }: SongPageProps) {
         <div>
           <iframe
             className="w-full aspect-video mt-3"
-            src={urlVideo}
+            src={urlVideo!==null?urlVideo.replace("https://youtu.be/","https://www.youtube.com/embed/"):""}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
         </div>
