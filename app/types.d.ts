@@ -7,6 +7,7 @@ export type SongItem = {
         slug: string;
         date: Date;
         testoCanzone: Document;
+        urlVideo: string;
     }
 }
 
