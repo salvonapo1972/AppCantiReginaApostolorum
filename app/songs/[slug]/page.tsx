@@ -50,13 +50,19 @@ export default async function SongPage({ params }: SongPageProps) {
 
  const song = await fetchSong(slug);
  console.log("songs.fields",song.fields)
- const { title, date, testoCanzone } = song.fields;
+ const { title, date, testoCanzone,urlVideo } = song.fields;
 
  return (
-   <main className="min-h-screen p-24 flex justify-center">
+   <main className="bckelenco text-white min-h-screen p-24 flex justify-center">
      <div className="[&>p]:mb-8 [&>h1]:font-extrabold [&>h1]:text-2xl">
        { documentToReactComponents(testoCanzone,options) }
      </div>
+     <div>
+      
+
+      <iframe width="560" height="315" src={urlVideo} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </div>
+     
    </main>
  );
 }
