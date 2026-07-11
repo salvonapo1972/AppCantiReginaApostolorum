@@ -1,8 +1,11 @@
 "use client";
 
+interface SearchBarProps {
+  onSearch: (value: string) => void;
+  value: string;
+}
 
-
-export default function SearchBar(props) {
+export default function SearchBar(props: SearchBarProps) {
   return (
     <div className="grid-cols-1 grid  max-w-7xl mx-auto p-3 my-4 flex">
       <h2 className="font-semibold py-4 text-xl text-white">Elenco dei canti</h2>
