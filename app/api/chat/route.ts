@@ -1,3 +1,5 @@
+
+
 import {
   streamText,
   UIMessage,
@@ -8,12 +10,15 @@ import {
   toUIMessageStream,
 } from 'ai';
 import { z } from 'zod';
+import { openai } from '@ai-sdk/openai';
+import { getWeather } from "../../lib/weather";
+import { getCoordinates } from "../../lib/cities";
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
-
+  
   const result = streamText({
-    model: "xai/grok-4.3",
+    model: openai('gpt-5.6'),
     messages: await convertToModelMessages(messages),
     stopWhen: isStepCount(5),
     tools: {
@@ -23,7 +28,13 @@ export async function POST(req: Request) {
           location: z.string().describe('The location to get the weather for'),
         }),
         execute: async ({ location }) => {
-          const temperature = Math.round(Math.random() * (90 - 32) + 32);
+        //  console.log('resp1');
+          const locationCity = await getCoordinates(location);
+          const weather = await getWeather(locationCity.latitude, locationCity.longitude);
+          //const data = Response.json(weather);
+       //   console.log("weather",weather)
+       // const temperature = Math.round(Math.random() * (90 - 32) + 32);
+         const temperature = weather.current.temperature_2m;
           return {
             location,
             temperature,
