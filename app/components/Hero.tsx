@@ -77,24 +77,7 @@ export default function Hero() {
 
       {/* Scroll */}
 
-      <motion.div
-
-        animate={{
-          y:[0,12,0]
-        }}
-
-        transition={{
-          repeat:Infinity,
-          duration:2
-        }}
-
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white"
-
-      >
-
-        <ArrowDown size={32}/>
-
-      </motion.div>
+      
 
     </section>
   );
