@@ -33,7 +33,7 @@ export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> 
 
                   <Link className="no-underline hover:underline" href={`/songs/${slug}`}>
              
-                      <h2 className="font-extrabold text-xl group-hover:text-blue-500 transition-colors">{title}</h2>
+                      <h2 className="font-extrabold text-sm group-hover:text-blue-500 transition-colors">{title}</h2>
               
                   </Link>
                 </div>

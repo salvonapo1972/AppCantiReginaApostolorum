@@ -1,7 +1,9 @@
 import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-
+import Link from "next/link";
 import { SongItem } from "@/app/types";
+
+
 
 const client = createClient({
   space: process.env.SPACE_ID!,
@@ -51,7 +53,10 @@ export default async function SongPage({ params }: SongPageProps) {
   const { title, date, testoCanzone, urlVideo } = song.fields;
 
   return (
-    <main className="bckelenco text-white min-h-screen p-24  justify-center">
+    <main className="bckelenco text-white min-h-screen p-5  text-center">
+       <div className="mb-10 text-right">
+                <Link className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" href={`/elenco`}>Torna Indietro</Link>
+              </div>
       <div className="">
         <div className="[&>p]:mb-8 [&>h1]:font-extrabold [&>h1]:text-2xl text-center">
           {documentToReactComponents(testoCanzone, options)}

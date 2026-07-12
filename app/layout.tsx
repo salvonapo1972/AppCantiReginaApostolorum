@@ -14,8 +14,8 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Logos",
-  description: "La Parola di Dio ogni giorno",
+  title: "Canti Reginae Apostolorum alla Montagnola",
+  description: "Canti Reginae Apostolorum alla Montagnola",
 };
 
 export default function RootLayout({
