@@ -190,6 +190,16 @@
 ## [Gloria 133](https://cantireapam.netlify.app/songs/gloria-133)
 ![Sunset in the mountains](https://cantireapam.netlify.app/canti.png)
 ## [Inno alla carità ](https://cantireapam.netlify.app/songs/inno-carita)
+# ALLELUIA LODE COSMICA 
+**Rit** : **Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! (2v.)**
+Lodino il Signor i cieli, lodino il Signor i mari, gli angeli, i cieli dei cieli: il Suo nome è grande e sublime. 
+(Lode, lode al suo nome) 
+Sole, luna e stelle ardenti, Neve, pioggia, nebbia, e fuoco lodino il Suo nome in eterno! 
+(Lode, lode, sia lode al suo nome) Sia lode al Signor! (Sia lode al Suo nome)
+Sia lode al Signor! **Rit**. 
+Lodino il Signor le terre, lodino il Signor i monti, il vento della tempesta 
+che obbedisce alla Sua voce, Giudici, sovrani tutti, giovani, fanciulle, 
+vecchi lodino il Suo nome in eterno! **Rit**. 
 # Agnello di Dio
 Agnello di Dio, che togli i peccati del mondo  
 **Abbi pietà di noi**
@@ -202,6 +212,16 @@ Dona a noi la pace
 Canto per Cristo che mi libererà quando verrà nella gloria, quando la vita con lui rinascerà, alleluia, alleluia! Rit.  
 Canto per Cristo: in lui rifiorirà ogni speranza perduta, ogni creatura con lui rinascerà, alleluia, alleluia! Rit.   
 Canto per Cristo: un giorno tornerà! Festa per tutti gli amici, festa di un mondo che più non morirà, alleluia, alleluia! Rit.
+# **Alleluia irlandese**
+****
+**Rit. Alleluia, alleluia. Alleluia, alleluia.**  
+
+1. Cantate al Signore con gioia: grandi prodigi ha compiuto.  
+Cantatelo in tutta la terra!
+2. Agli occhi di tutte le genti mostra la sua grandezza,  
+rivela la sua giustizia!
+3. Fedele è il Signore per sempre, buono e misericordioso:  
+lodate il suo nome in eterno!
 # Alleluia cantico dell'agnello
 ALLELUJA, ALLELUJA
 ALLELUJA, ALLELUJA  
@@ -240,26 +260,6 @@ la sua Parola non passerà! Alleluia,
 alleluia!
 Alleluia, alleluia, alleluia, alleluia,  
 alleluia, alleluia, alleluia!
-# ALLELUIA LODE COSMICA 
-**Rit** : **Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! Alleluia, alleluia! (2v.)**
-Lodino il Signor i cieli, lodino il Signor i mari, gli angeli, i cieli dei cieli: il Suo nome è grande e sublime. 
-(Lode, lode al suo nome) 
-Sole, luna e stelle ardenti, Neve, pioggia, nebbia, e fuoco lodino il Suo nome in eterno! 
-(Lode, lode, sia lode al suo nome) Sia lode al Signor! (Sia lode al Suo nome)
-Sia lode al Signor! **Rit**. 
-Lodino il Signor le terre, lodino il Signor i monti, il vento della tempesta 
-che obbedisce alla Sua voce, Giudici, sovrani tutti, giovani, fanciulle, 
-vecchi lodino il Suo nome in eterno! **Rit**. 
-# **Alleluia irlandese**
-****
-**Rit. Alleluia, alleluia. Alleluia, alleluia.**  
-
-1. Cantate al Signore con gioia: grandi prodigi ha compiuto.  
-Cantatelo in tutta la terra!
-2. Agli occhi di tutte le genti mostra la sua grandezza,  
-rivela la sua giustizia!
-3. Fedele è il Signore per sempre, buono e misericordioso:  
-lodate il suo nome in eterno!
 # ANDATE PER LE STRADE
   
 Andate per le strade, in tutto il mondo,  
@@ -305,36 +305,6 @@ Et iube me venire ad te,
 ut cum sanctis tuis laudem te  
 per infinita sæcula sæculorum. Amen.  
 RIT.
-# Benedici il signore anima mia
-Benedici il Signore, anima mia,  
-quanto è in me benedica il suo nome;  
-non dimenticherò tutti i suoi benefici,  
-benedici il Signore, anima mia.  
-  
-Lui perdona tutte le tue colpe  
-e ti salva dalla morte.  
-Ti corona di grazia e ti sazia di beni  
-nella tua giovinezza.  
-  
-Il Signore agisce con giustizia,  
-con amore verso i poveri.  
-Rivelò a Mosè le sue vie, ad Israele  
-le sue grandi opere.  
-  
-Il Signore è buono e pietoso,  
-lento all'ira e grande nell'amor.  
-Non conserva in eterno il suo sdegno e la sua  
-ira / verso i vostri peccati.  
-  
-Come dista oriente da occidente  
-allontana le tue colpe.  
-Perché sa che di polvere siam tutti noi plasmati  
-come l'erba i nostri giorni.   
-  
-Benedite il Signore voi angeli,  
-voi tutti suoi ministri.  
-Beneditelo voi tutte sue opere e domìni  
-benedicilo tu, anima mia.
 # Benedici o Signore
 Nebbia e freddo,  
 giorni lunghi e amari  
@@ -369,22 +339,6 @@ QUESTA OFFERTA CHE PORTIAMO A TE.
 FACCI UNO COME IL vino  
 CHE ANCHE OGGI HAI DATO A NOI.**  
 
-# Cantiamo Te
-Cantiamo Te, Signore della vita:  
-il nome tuo è grande sulla terra  
-tutto parla di te e canta la tua gloria.  
-grande tu sei e compi meraviglie:  
-tu sei Dio.Cantiamo Te, Signore Gesù Cristo:  
-Figlio di Dio venuto sulla terra,  
-fatto uomo per noi  
-nel grembo di Maria.  
-Dolce Gesù risorto dalla morte  
-sei con noi.Cantiamo Te, amore senza fine:  
-Tu che sei Dio lo Spirito del Padre  
-vivi dentro di noi  
-e guida i nostri passi.  
-Accendi in noi il fuoco  
-dell’eterna carità.
 # Beati quelli
   
   
@@ -404,6 +358,52 @@ e la sete di vera giustizia.
 Beati quelli che un giorno saranno perseguitati per causa di Cristo.  
 Perché nel cuore non hanno violenza  
 ma la forza di questo Vangelo.
+# Benedici il signore anima mia
+Benedici il Signore, anima mia,  
+quanto è in me benedica il suo nome;  
+non dimenticherò tutti i suoi benefici,  
+benedici il Signore, anima mia.  
+  
+Lui perdona tutte le tue colpe  
+e ti salva dalla morte.  
+Ti corona di grazia e ti sazia di beni  
+nella tua giovinezza.  
+  
+Il Signore agisce con giustizia,  
+con amore verso i poveri.  
+Rivelò a Mosè le sue vie, ad Israele  
+le sue grandi opere.  
+  
+Il Signore è buono e pietoso,  
+lento all'ira e grande nell'amor.  
+Non conserva in eterno il suo sdegno e la sua  
+ira / verso i vostri peccati.  
+  
+Come dista oriente da occidente  
+allontana le tue colpe.  
+Perché sa che di polvere siam tutti noi plasmati  
+come l'erba i nostri giorni.   
+  
+Benedite il Signore voi angeli,  
+voi tutti suoi ministri.  
+Beneditelo voi tutte sue opere e domìni  
+benedicilo tu, anima mia.
+# Cantiamo Te
+Cantiamo Te, Signore della vita:  
+il nome tuo è grande sulla terra  
+tutto parla di te e canta la tua gloria.  
+grande tu sei e compi meraviglie:  
+tu sei Dio.Cantiamo Te, Signore Gesù Cristo:  
+Figlio di Dio venuto sulla terra,  
+fatto uomo per noi  
+nel grembo di Maria.  
+Dolce Gesù risorto dalla morte  
+sei con noi.Cantiamo Te, amore senza fine:  
+Tu che sei Dio lo Spirito del Padre  
+vivi dentro di noi  
+e guida i nostri passi.  
+Accendi in noi il fuoco  
+dell’eterna carità.
 # CANTO DELLA RISURREZIONE
 _**ALLELUIA, ALLELUIA,**_  
 _**ALLELUIA, ALLELUIA.**_  
@@ -424,31 +424,6 @@ e dimora tra noi,
 la sua gloria risplende nel cielo  
 e fa gioire la terra.
 _**ALLELUIA, ALLELUIA...**_
-# Chi ci separerà 
-Chi ci separerà  
-Dal suo amore?  
-La tribolazione  
-Forse la spada?
-Né morte o vita  
-Ci separerà  
-Dall'amore in Cristo  
-Signore
-Chi ci separerà  
-Dalla sua pace?  
-La persecuzione  
-Forse il dolore
-Nessun potere  
-Ci separerà  
-Da colui che è morto  
-Per noi
-Chi ci separerà  
-Dalla sua gioia?  
-Chi potrà strapparci  
-Il suo perdono?
-Nessuno al mondo  
-Ci allontanerà  
-Dalla vita in Cristo  
-Signore
 # Il canto del mare
 Cantiamo al Signore  
 Stupenda è la sua vittoria  
@@ -500,32 +475,6 @@ Cantiamo al Signore
 Stupenda è la sua vittoria  
 Signore è il suo nome  
 Alleluia
-# Come Maria
-Vogliamo vivere, Signore,  
-offrendo a Te la nostra vita,  
-con questo pane e questo vino  
-accetta quello che noi siamo.  
-Vogliamo vivere, Signore,  
-abbandonati alla Tua voce,  
-staccati dalle cose vane,  
-fissati nella vita vera.Vogliamo vivere come Maria,  
-l'irraggiungibile,  
-la madre amata  
-che vince il mondo con l'Amore  
-e offrire sempre la tua vita  
-che viene dal Cielo.Accetta dalle nostre mani  
-come un'offerta a Te gradita  
-i desideri di ogni cuore,  
-le ansie della nostra vita.  
-Vogliamo vivere, Signore,  
-accesi dalle Tue parole  
-per riportare in ogni uomo  
-la fiamma viva del Tuo amore.Vogliamo vivere come Maria,  
-l'irraggiungibile,  
-la madre amata  
-che vince il mondo con l'Amore  
-e offrire sempre la tua vita  
-che viene dal Cielo
 # Chiamati per nome
 Veniamo da te  
 Chiamati per nome  
@@ -558,6 +507,57 @@ E noi tuo popolo
 Siamo quiE noi tuo popolo  
 Siamo qui  
 Siamo qui
+# Chi ci separerà 
+Chi ci separerà  
+Dal suo amore?  
+La tribolazione  
+Forse la spada?
+Né morte o vita  
+Ci separerà  
+Dall'amore in Cristo  
+Signore
+Chi ci separerà  
+Dalla sua pace?  
+La persecuzione  
+Forse il dolore
+Nessun potere  
+Ci separerà  
+Da colui che è morto  
+Per noi
+Chi ci separerà  
+Dalla sua gioia?  
+Chi potrà strapparci  
+Il suo perdono?
+Nessuno al mondo  
+Ci allontanerà  
+Dalla vita in Cristo  
+Signore
+# Come Maria
+Vogliamo vivere, Signore,  
+offrendo a Te la nostra vita,  
+con questo pane e questo vino  
+accetta quello che noi siamo.  
+Vogliamo vivere, Signore,  
+abbandonati alla Tua voce,  
+staccati dalle cose vane,  
+fissati nella vita vera.Vogliamo vivere come Maria,  
+l'irraggiungibile,  
+la madre amata  
+che vince il mondo con l'Amore  
+e offrire sempre la tua vita  
+che viene dal Cielo.Accetta dalle nostre mani  
+come un'offerta a Te gradita  
+i desideri di ogni cuore,  
+le ansie della nostra vita.  
+Vogliamo vivere, Signore,  
+accesi dalle Tue parole  
+per riportare in ogni uomo  
+la fiamma viva del Tuo amore.Vogliamo vivere come Maria,  
+l'irraggiungibile,  
+la madre amata  
+che vince il mondo con l'Amore  
+e offrire sempre la tua vita  
+che viene dal Cielo
 # Cristo è risorto - Paoline
 **RIT**. Cristo è risorto, alleluia!  
 Vinta è ormai la morte, alleluia!  
@@ -603,31 +603,6 @@ ha ridato all'uomo la vera libertà.
   
 Segno di speranza, alleluia,  
 luce di salvezza per questa umanità.
-# Il deserto fiorirà
-_**RIT. IL DESERTO FIORIRÀ,  
-COME UN CAMPO FIORIRÀ:  
-CORAGGIO, NON TEMETE,  
-EGLI VIENE A SALVARVI.**_
-Esulti e fiorisca la steppa,  
-come fiore fiorisca;  
-ecanti con gioia e giubilo:  
-l'è data la gloria del Libano.  
-RIT.
-Vedranno la gloria del Signore,  
-lo splendore di Dio.  
-Rendete salde le ginocchia  
-e forti le vostre mani.  
-RIT.
-E gli occhi dei ciechi s'apriranno   
-e gli orecchi dei sordi;  
-allora lo zoppo salterà  
-e si udranno i canti di gioia.  
-RIT.
-Palude sarà la terra arsa  
-e sorgente il deserto.  
-Farò una strada nella steppa:  
-la via dei Redenti.  
-RIT.
 ## **Dal profondo a te grido**
 ****
 **RIT. DAL PROFONDO A TE GRIDO, SIGNORE,  
@@ -668,6 +643,31 @@ davanti ai popoli della terra.
 Tutti i confini del mondo lo vedranno:  
 il nostro Dio ama, Dio ama.
 ## Dio ama, Dio ama, Dio ama, Dio ama
+# Il deserto fiorirà
+_**RIT. IL DESERTO FIORIRÀ,  
+COME UN CAMPO FIORIRÀ:  
+CORAGGIO, NON TEMETE,  
+EGLI VIENE A SALVARVI.**_
+Esulti e fiorisca la steppa,  
+come fiore fiorisca;  
+ecanti con gioia e giubilo:  
+l'è data la gloria del Libano.  
+RIT.
+Vedranno la gloria del Signore,  
+lo splendore di Dio.  
+Rendete salde le ginocchia  
+e forti le vostre mani.  
+RIT.
+E gli occhi dei ciechi s'apriranno   
+e gli orecchi dei sordi;  
+allora lo zoppo salterà  
+e si udranno i canti di gioia.  
+RIT.
+Palude sarà la terra arsa  
+e sorgente il deserto.  
+Farò una strada nella steppa:  
+la via dei Redenti.  
+RIT.
 # Dolce sentire
 Dolce è sentire come nel mio cuore  
 ora umilmente sta nascendo amore.  
@@ -689,6 +689,27 @@ Dono di Lui, del Suo immenso amor.
 Beato chi lo serve in umiltà.
   
 
+#  Dov'è la carità
+  
+**RIT. DOVE LA CARITÀ È VERA E SINCERA, LÀ C’È DIO.  
+DOVE LA CARITÀ PERDONA E TUTTO SOPPORTA.  
+DOVE LA CARITÀ BENIGNA COMPRENDE E NON SI VANTA,  
+TUTTO CREDE ED AMA E TUTTO SPERA LA VERA CARITÀ.**
+Ci ha riuniti in uno l’amore di Cristo:  
+esultiamo e rallegriamoci in lui,  
+temiamo ed amiamo il Dio vivente  
+ed amiamoci tra noi con cuore sincero.  
+**RIT.**
+Quando tutti insieme noi ci raduniamo  
+vigiliamo che non sian divisi i nostri cuori,  
+non più liti, non più dissidi e contese maligne,  
+ma sia sempre in mezzo a noi Cristo Signore.  
+**RIT.**
+Noi vedremo insieme con tutti i beati  
+nella gloria il tuo volto, Gesù Cristo Dio,  
+gioia immensa, gioia vera noi vivremo  
+per l’eternità infinita dei secoli. Amen.  
+**RIT.**
 **Fiamma viva della mia speranza**
 **questo canto giunga fino a Te!**
 **Grembo eterno d’infinita vita**
@@ -717,27 +738,6 @@ mille e mille trovano la via.
 **questo canto giunga fino a Te!**
 **Grembo eterno d’infinita vita**
 **nel cammino io confido in Te**
-#  Dov'è la carità
-  
-**RIT. DOVE LA CARITÀ È VERA E SINCERA, LÀ C’È DIO.  
-DOVE LA CARITÀ PERDONA E TUTTO SOPPORTA.  
-DOVE LA CARITÀ BENIGNA COMPRENDE E NON SI VANTA,  
-TUTTO CREDE ED AMA E TUTTO SPERA LA VERA CARITÀ.**
-Ci ha riuniti in uno l’amore di Cristo:  
-esultiamo e rallegriamoci in lui,  
-temiamo ed amiamo il Dio vivente  
-ed amiamoci tra noi con cuore sincero.  
-**RIT.**
-Quando tutti insieme noi ci raduniamo  
-vigiliamo che non sian divisi i nostri cuori,  
-non più liti, non più dissidi e contese maligne,  
-ma sia sempre in mezzo a noi Cristo Signore.  
-**RIT.**
-Noi vedremo insieme con tutti i beati  
-nella gloria il tuo volto, Gesù Cristo Dio,  
-gioia immensa, gioia vera noi vivremo  
-per l’eternità infinita dei secoli. Amen.  
-**RIT.**
 # Ecco il legno
 Ecco il legno della Croce,  
 al quale fu appeso il Cristo,  
@@ -782,6 +782,17 @@ Ti accoglierò dentro di me
 Farò di me un'offerta viva  
 Un sacrificio gradito a te  
 Un sacrificio gradito a te
+# Giovane donna
+Giovane donna, attesa dell’umanità, un desiderio d’amore e pura libertà.   
+Il Dio lontano è qui vicino a Te, voce silenzio, annuncio di verità.  
+  
+Rit. **Ave Maria, Ave Maria!  
+**  
+Dio t’ha prescelta qual madre piena di bellezza, ed il suo amore t’avvolgerà con la suo ombra.   
+Grembo di Dio, venuto sulla terra, Tu sarai madre, di un uomo nuovo.  
+  
+Ecco l’ancella, che vive della sua Parola, libero il cuore perché l’amore trovi casa.   
+Ora l’attesa è densa di preghiera e l’uomo nuovo è qui in mezzo a noi. 
 # Eccomi
 ECCOMI, ECCOMI!  
 SIGNORE IO VENGO.  
@@ -816,27 +827,6 @@ non tengo chiuse le labbra.
 Non rifiutarmi Signore,  
 la tua misericordia.  
 
-# Giovane donna
-Giovane donna, attesa dell’umanità, un desiderio d’amore e pura libertà.   
-Il Dio lontano è qui vicino a Te, voce silenzio, annuncio di verità.  
-  
-Rit. **Ave Maria, Ave Maria!  
-**  
-Dio t’ha prescelta qual madre piena di bellezza, ed il suo amore t’avvolgerà con la suo ombra.   
-Grembo di Dio, venuto sulla terra, Tu sarai madre, di un uomo nuovo.  
-  
-Ecco l’ancella, che vive della sua Parola, libero il cuore perché l’amore trovi casa.   
-Ora l’attesa è densa di preghiera e l’uomo nuovo è qui in mezzo a noi. 
-# GLORIA (133) 
-Gloria a Dio, gloria! Nell’alto dei Cieli, E pace in terra agli uomini, amati dal Signor Noi Ti lodiamo, Ti benediciamo; Ti adoriamo, ti glorifichiamo; 
-Ti rendiamo grazie per la Tua gloria immensa, Signore Dio, Re del Cielo, Dio Padre onnipotente. 
-Signore, Figlo unigenito Gesù Cristo; Signore Dio, agnello di Dio, Figlo del Padre. 
-Tu che togli i peccati del mondo, abbi pietà di noi; 
-Ti che togli i peccati del mondo, accogli la nostra supplica; 
-Tu che siedi alla destra del Padre, abbi pietà di noi. 
-Perché Tu solo il Santo, Tu solo il Signore,
-Tu solo l’Altissimo Gesù Cristo con lo Spirito Santo Nella gloria di Dio Padre. 
-Amen. 
 # Giovanni
 Voce di uno che grida nel deserto :  
 "Convertitevi, il regno è qui.  
@@ -856,6 +846,16 @@ dinanzi a me, per prepararmi la via,
 per ricondurre i padri verso i figli,  
 con lo spirito di Elia.  
 **RIT**.
+# GLORIA (133) 
+Gloria a Dio, gloria! Nell’alto dei Cieli, E pace in terra agli uomini, amati dal Signor Noi Ti lodiamo, Ti benediciamo; Ti adoriamo, ti glorifichiamo; 
+Ti rendiamo grazie per la Tua gloria immensa, Signore Dio, Re del Cielo, Dio Padre onnipotente. 
+Signore, Figlo unigenito Gesù Cristo; Signore Dio, agnello di Dio, Figlo del Padre. 
+Tu che togli i peccati del mondo, abbi pietà di noi; 
+Ti che togli i peccati del mondo, accogli la nostra supplica; 
+Tu che siedi alla destra del Padre, abbi pietà di noi. 
+Perché Tu solo il Santo, Tu solo il Signore,
+Tu solo l’Altissimo Gesù Cristo con lo Spirito Santo Nella gloria di Dio Padre. 
+Amen. 
 # Gloria Gen verde 
 **Rit. Gloria, gloria a Dio gloria,  
 gloria nell’alto dei cieli.  
@@ -873,19 +873,6 @@ Tu che siedi alla destra del Padre, Abbi pietà di noi. **Rit.**
 Perché tu solo il Santo, il Signore  
 Tu solo l’Altissimo, Cristo Gesù  
 con lo spirito Santo nella gloria del Padre. **Rit**
-# Grandi cose
-Grandi cose ha fatto il Signore per noi,  
-ha fatto germogliare fiori fra le rocce;  
-grandi cose ha fatto il Signore per noi,  
-ci ha riportati liberi alla nostra terra.  
-Ed ora possiamo cantare,  
-possiamo gridare  
-l'amore che Dio ha versato su noi.  
-Tu che sai strappare dalla morte,  
-hai sollevato il nostro viso dalla polvere.  
-Tu che hai sentito il nostro pianto,  
-nel nostro cuore hai messo  
-un seme di felicità.
 # Gustate e vedete
 Gustate e vedete come è buono il Signore  
 Beato l'uomo che trova il suo rifugio in Lui  
@@ -912,6 +899,19 @@ Egli lo libera da ogni angosciaGustate e vedete come è buono il Signore
 Beato l'uomo che trova il suo rifugio in Lui  
 Temete il Signore, Suoi santi  
 Nulla manca a coloro che Lo temono
+# Grandi cose
+Grandi cose ha fatto il Signore per noi,  
+ha fatto germogliare fiori fra le rocce;  
+grandi cose ha fatto il Signore per noi,  
+ci ha riportati liberi alla nostra terra.  
+Ed ora possiamo cantare,  
+possiamo gridare  
+l'amore che Dio ha versato su noi.  
+Tu che sai strappare dalla morte,  
+hai sollevato il nostro viso dalla polvere.  
+Tu che hai sentito il nostro pianto,  
+nel nostro cuore hai messo  
+un seme di felicità.
 # I cieli narrano 
 I cieli narrano la gloria di Dio  
 E il firmamento annunzia l'opera sua  
@@ -990,6 +990,47 @@ Lui dona il cibo alle creature,
 PERCHÈ ETERNA È LA SUA MISERICORDIA.  
 Lodate il Dio del cielo,  
 PERCHÈ ETERNA È LA SUA MISERICORDIA.
+#  **Il tuo calice Signore è dono di salvezza**
+**Rit. Il tuo calice Signore è dono di salvezza**
+Che cosa renderò al Signore  
+per quanto mi ha dato?  
+Alzerò il calice della salvezza  
+e invocherò il nome del Signore. **Rit.**
+Preziosa agli occhi del Signore  
+la morte dei suoi fedeli.  
+Io son tuo servo, figlio della tua ancella;  
+hai spezzato le mie catene. **Rit.**
+A te offrirò sacrifici di lode  
+e invocherò il nome del Signore.  
+Adempirò i miei voti al Signore  
+davanti a tutto il suo popolo. **Rit.**
+## Inno alla carità   
+
+Qualora io sapessi molte lingue  
+e conoscessi i misteri tutti,  
+ma non avessi in me la carità  
+sarei come un cembalo squillante.  
+  
+  
+**La carità è benevola e paziente, la carità**  
+**non ha invidia e non si gonfia mai, la carità**  
+**non cerca mai il proprio vanto**  
+**e non ama l’ingiustizia,**  
+**cerca solo verità.**  
+  
+Qualora io avessi fede immensa  
+sì grande da spostare le montagne,  
+ma non avessi in me la carità  
+sarei certamente nullità.  
+  
+**La carità è benevola...**  
+  
+Se dessi via le mie sostanze tutte  
+e il corpo mio ad essere bruciato,  
+ma non avessi in me la carità  
+sarei certamente nullità.  
+  
+**La carità è benevola... (2v)**
 # Il tuo popolo in cammino
 Il Tuo popolo in cammino
 Cerca in Te la guida
@@ -1041,20 +1082,6 @@ Cerca in Te la guida
 Sulla strada verso il Regno
 Sei sostegno col Tuo corpo
 Resta sempre con noi, o Signore
-#  **Il tuo calice Signore è dono di salvezza**
-**Rit. Il tuo calice Signore è dono di salvezza**
-Che cosa renderò al Signore  
-per quanto mi ha dato?  
-Alzerò il calice della salvezza  
-e invocherò il nome del Signore. **Rit.**
-Preziosa agli occhi del Signore  
-la morte dei suoi fedeli.  
-Io son tuo servo, figlio della tua ancella;  
-hai spezzato le mie catene. **Rit.**
-A te offrirò sacrifici di lode  
-e invocherò il nome del Signore.  
-Adempirò i miei voti al Signore  
-davanti a tutto il suo popolo. **Rit.**
 # Inno al giubileo 2025
 **Fiamma viva della mia speranza  
 questo canto giunga fino a Te!  
@@ -1072,33 +1099,25 @@ Alza gli occhi, muoviti col vento,
 serra il passo: viene Dio, nel tempo.  
 Guarda il Figlio che s’è fatto Uomo:  
 mille e mille trovano la via.
-## Inno alla carità   
-
-Qualora io sapessi molte lingue  
-e conoscessi i misteri tutti,  
-ma non avessi in me la carità  
-sarei come un cembalo squillante.  
-  
-  
-**La carità è benevola e paziente, la carità**  
-**non ha invidia e non si gonfia mai, la carità**  
-**non cerca mai il proprio vanto**  
-**e non ama l’ingiustizia,**  
-**cerca solo verità.**  
-  
-Qualora io avessi fede immensa  
-sì grande da spostare le montagne,  
-ma non avessi in me la carità  
-sarei certamente nullità.  
-  
-**La carità è benevola...**  
-  
-Se dessi via le mie sostanze tutte  
-e il corpo mio ad essere bruciato,  
-ma non avessi in me la carità  
-sarei certamente nullità.  
-  
-**La carità è benevola... (2v)**
+# La vera gioia
+La vera gioia nasce dalla pace,  
+la vera gioia non consuma il cuore,  
+è come fuoco con il suo calore  
+e dona vita quando il cuore muore;  
+la vera gioia costruisce il mondo  
+e porta luce nell’oscurità.
+La vera gioia nasce dalla luce,  
+che splende viva in un cuore puro,  
+la verità sostiene la sua fiamma  
+perciò non teme ombra né menzogna;  
+la vera gioia libera il tuo cuore,  
+ti rende canto nella libertà.
+La vera gioia vola sopra il mondo  
+ed il peccato non potrà fermarla,  
+le sue ali splendono di grazia,  
+dono di Cristo e della sua salvezza;  
+e tutti unisce come in un abbraccio  
+e tutti ama nella carità.
 # La preghiera di Gesù è la nostra 
 Dove due o tre sono riuniti nel mio nome  
 io sarò con loro,  
@@ -1127,25 +1146,6 @@ come Cristo che muore e risorge perch� il regno
 del Padre si compia in mezzo a noi che abbiamo vita in Lui.
   
 
-# La vera gioia
-La vera gioia nasce dalla pace,  
-la vera gioia non consuma il cuore,  
-è come fuoco con il suo calore  
-e dona vita quando il cuore muore;  
-la vera gioia costruisce il mondo  
-e porta luce nell’oscurità.
-La vera gioia nasce dalla luce,  
-che splende viva in un cuore puro,  
-la verità sostiene la sua fiamma  
-perciò non teme ombra né menzogna;  
-la vera gioia libera il tuo cuore,  
-ti rende canto nella libertà.
-La vera gioia vola sopra il mondo  
-ed il peccato non potrà fermarla,  
-le sue ali splendono di grazia,  
-dono di Cristo e della sua salvezza;  
-e tutti unisce come in un abbraccio  
-e tutti ama nella carità.
 ## L'acqua viva
 Chi berrà la mia acqua  
 Non avrà più sete in eterno  
@@ -1219,6 +1219,35 @@ e ricolma di beni chi si affida al suo amore.
 Lui, Amore sempre fedele.  
 Lui guida il suo servo Israele  
 e ricorda il suo patto stabilito per sempre.
+## NOI CANTEREMO GLORIA A TE
+Noi canteremo gloria a te,Padre, che dai la vita,Dio d’immensa carità,Trinità infinita.
+Tutto il creato vive in te,segno della tua gloria,tutta la storia ti daràonore e vittoria.
+La tua Parola venne a noi,annuncio del tuo dono,la tua promessa porteràsalvezza e perdono.
+Dio si è fatto come noi,è nato da Maria;egli, nel mondo, ormai saràverità, vita e via.
+Manda, Signore, in mezzoa noi,manda il Consolatore,lo Spirito di santità,Spirito dell’amore.
+Vieni, Signore, in mezzoa noi, vieni nella tua casa,dona la pace e l’unità,raduna la tua Chiesa.
+Cristo il Padre rivelòper noi aprì il suo cielo;egli, un giorno, torneràglorioso nel suo Regno.
+Siam qui raccolti innanzi ate,Signor, bontà infinitae tu, benigno, ci daraila gioia della vita.
+In spirito e in veritànoi gloria ti cantiamola tua divina maestàcon fede adoriamo.
+Un lieto annuncio risuonò:è nato il Salvatore!E su di noi risplenderàla luce del suo amore.
+Gesù risorto, sei con noi,sei tu la nuova Pasqua.A te la nostra fedeltàoffriamo nella gioia.
+Signore, manda in donoa noi lo Spirito d’amore;ancora tu rinnoveraiil volto della terra.
+Tu sei la Madre di Gesùo Vergine Maria,resta per sempre accanto a noicon Cristo nostra vita.
+Tutta la terra canti a te,Dio dell’universo,tutto il creato viene a te,annuncia la tua gloria.
+Unico Dio sei per noi,fatti dalla tua mano;Padre, noi siamo figli tuoi,popolo che tu guidi.
+# Nel tuo silenzio
+Nel tuo silenzio accolgo il mistero  
+Venuto a vivere dentro di me  
+Sei tu che vieni, o forse è più vero  
+Che tu mi accogli in te, Gesù
+Sorgente viva che nasce nel cuore  
+È questo dono che abita in me  
+La tua presenza è un fuoco d'amore  
+Che avvolge l'anima mia, Gesù
+Ora il tuo Spirito in me dice: "Padre"  
+Non sono io a parlare, sei Tu  
+Nell'infinito oceano di pace  
+Tu vivi in me, io in te, Gesù
 # Maranathà
 Maranathà vieni Signor  
 Verso te Gesù le mani noi leviam  
@@ -1261,6 +1290,19 @@ Verso te, Gesù, le mani noi leviam
 Maranathà vieni Signor  
 Prendici con te e salvaci Signor
 ###### ****
+# Maria, tu che hai atteso
+Maria, tu che hai atteso nel silenzio  
+la sua Parola per noi.
+**Aiutaci ad accogliere il Figlio tuo,  
+che ora vive in noi.**
+Maria, tu che sei stata così docile,  
+davanti al tuo Signor.
+Maria, tu che hai portato dolcemente  
+l’immenso dono d’amor.
+Maria, Madre, umilmente tu hai sofferto  
+del suo ingiusto dolor.
+Maria, tu che ora vivi nella gloria  
+assieme al tuo Signor.
 ## **PREGA PER NOI**
   
 RIT. **O Maria, Maestra di umiltà, o Maria, sei Madre di bontà. Sei la Madre di Dio e dell’umanità, Tu sei colei che ha detto “Si”.**
@@ -1283,48 +1325,6 @@ Tempio dello Spirito, prega per noi
 Madre della grazia, prega per noi  
 Maestra dei santi, prega per noi  
 Regina del cielo, prega per noi.
-# Maria, tu che hai atteso
-Maria, tu che hai atteso nel silenzio  
-la sua Parola per noi.
-**Aiutaci ad accogliere il Figlio tuo,  
-che ora vive in noi.**
-Maria, tu che sei stata così docile,  
-davanti al tuo Signor.
-Maria, tu che hai portato dolcemente  
-l’immenso dono d’amor.
-Maria, Madre, umilmente tu hai sofferto  
-del suo ingiusto dolor.
-Maria, tu che ora vivi nella gloria  
-assieme al tuo Signor.
-# Nel tuo silenzio
-Nel tuo silenzio accolgo il mistero  
-Venuto a vivere dentro di me  
-Sei tu che vieni, o forse è più vero  
-Che tu mi accogli in te, Gesù
-Sorgente viva che nasce nel cuore  
-È questo dono che abita in me  
-La tua presenza è un fuoco d'amore  
-Che avvolge l'anima mia, Gesù
-Ora il tuo Spirito in me dice: "Padre"  
-Non sono io a parlare, sei Tu  
-Nell'infinito oceano di pace  
-Tu vivi in me, io in te, Gesù
-## NOI CANTEREMO GLORIA A TE
-Noi canteremo gloria a te,Padre, che dai la vita,Dio d’immensa carità,Trinità infinita.
-Tutto il creato vive in te,segno della tua gloria,tutta la storia ti daràonore e vittoria.
-La tua Parola venne a noi,annuncio del tuo dono,la tua promessa porteràsalvezza e perdono.
-Dio si è fatto come noi,è nato da Maria;egli, nel mondo, ormai saràverità, vita e via.
-Manda, Signore, in mezzoa noi,manda il Consolatore,lo Spirito di santità,Spirito dell’amore.
-Vieni, Signore, in mezzoa noi, vieni nella tua casa,dona la pace e l’unità,raduna la tua Chiesa.
-Cristo il Padre rivelòper noi aprì il suo cielo;egli, un giorno, torneràglorioso nel suo Regno.
-Siam qui raccolti innanzi ate,Signor, bontà infinitae tu, benigno, ci daraila gioia della vita.
-In spirito e in veritànoi gloria ti cantiamola tua divina maestàcon fede adoriamo.
-Un lieto annuncio risuonò:è nato il Salvatore!E su di noi risplenderàla luce del suo amore.
-Gesù risorto, sei con noi,sei tu la nuova Pasqua.A te la nostra fedeltàoffriamo nella gioia.
-Signore, manda in donoa noi lo Spirito d’amore;ancora tu rinnoveraiil volto della terra.
-Tu sei la Madre di Gesùo Vergine Maria,resta per sempre accanto a noicon Cristo nostra vita.
-Tutta la terra canti a te,Dio dell’universo,tutto il creato viene a te,annuncia la tua gloria.
-Unico Dio sei per noi,fatti dalla tua mano;Padre, noi siamo figli tuoi,popolo che tu guidi.
 # Non Temere
 Non temere, Maria,  
 perché hai trovato grazia  
@@ -1437,6 +1437,13 @@ senza operare quanto desidero,
 senza aver compiuto  
 ciò per cui l'avevo mandata.  
 Ogni mia parola, ogni mia parola. 
+# Pacem in terris
+  
+Pace, sublime dono del Signore,  
+carezza dello Spirito,  
+vieni sul mondo a consolare ogni uomo,  
+a risanare ogni cuore ferito dal peccato.  
+Pacem, Pacem, dona nobis pacem in terris.
 # Osanna al figlio di David
 Osanna al Figlio di David,  
 osanna al Redentor!
@@ -1490,13 +1497,6 @@ Osanna al Figlio di David,
 osanna al Redentor!
   
 
-# Pacem in terris
-  
-Pace, sublime dono del Signore,  
-carezza dello Spirito,  
-vieni sul mondo a consolare ogni uomo,  
-a risanare ogni cuore ferito dal peccato.  
-Pacem, Pacem, dona nobis pacem in terris.
 # Padre, nelle tue mani consegno il mio spirito. 
 In te, Signore, mi sono rifugiato, mai sarò deluso;   
 difendimi per la tua giustizia. Alle tue mani affido il mio spirito;   
@@ -1598,52 +1598,6 @@ Dio in mezzo a noi.
 **è la mia vita**  
 **mi sentirò**  
 **travolto dal tuo amore.**
-# Popoli tutti acclamate al Signore 
-Mio Dio, Signore, nulla è pari a Te.  
-Ora e per sempre, voglio lodare  
-il tuo grande amor per noi.  
-Mia roccia Tu sei, pace e conforto mi dai,  
-con tutto il cuore e le mie forze,  
-sempre io ti adorerò.
-**Popoli tutti acclamate al Signore,  
-gloria e potenza cantiamo al Re,  
-mari e monti si prostrino a Te,  
-al tuo nome, o Signore.  
-Canto di gioia per quello che fai,  
-per sempre Signore con Te resterò,  
-non c’è promessa non c’è fedeltà che in Te. **
-**Popoli tutti acclamate al Signore,  
-gloria e potenza cantiamo al Re,  
-mari e monti si prostrino a Te,  
-al tuo nome, o Signore.  
-Canto di gioia per quello che fai,  
-per sempre Signore con Te resterò,  
-non c’è promessa non c’è fedeltà che in Te.**
-# Popolo mio
-Popolo mio, che male ti ho fatto?  
-In che t'ho contristato? Rispondimi
-Io t'ho guidato fuori dall'Egitto  
-E hai preparato la croce al tuo Salvatore
-Hágios o Theós (Sanctus Deus)  
-Hágios Ischyrós (Sanctus Fortis)  
-Hágios Athánatos (Sanctus Immortális)  
-Miserére, miserére nobis (eléison himás)
-Popolo mio, che male ti ho fatto?  
-In che t'ho contristato? Rispondimi
-Per quarant'anni nel deserto  
-Io t'ho condotto e sfamato, donandoti la manna  
-T'ho fatto entrare in terra feconda  
-E hai preparato la croce al tuo Redentore
-Hágios o Theós (Sanctus Deus)  
-Hágios Ischyrós (Sanctus Fortis)  
-Hágios Athánatos (Sanctus Immortális)  
-Miserére, miserére nobis (eléison himás)
-Popolo mio, che male ti ho fatto?  
-In che t'ho contristato? Rispondimi
-Hágios o Theós (Sanctus Deus)  
-Hágios Ischyrós (Sanctus Fortis)  
-Hágios Athánatos (Sanctus Immortális)  
-Miserére nobis (eléison himás)
 # La preghiera di Gesù è la nostra
 Dove due o tre sono riuniti nel mio nome,  
 io sarò con loro, pregherò con loro,   
@@ -1675,6 +1629,52 @@ come Cristo che muore e risorge
 perché il regno del Padre,   
 si compia in mezzo a noi e abbiamo vita,in Lui   
 si compia in mezzo a noi e abbiamo vita,in Lui.
+# Popolo mio
+Popolo mio, che male ti ho fatto?  
+In che t'ho contristato? Rispondimi
+Io t'ho guidato fuori dall'Egitto  
+E hai preparato la croce al tuo Salvatore
+Hágios o Theós (Sanctus Deus)  
+Hágios Ischyrós (Sanctus Fortis)  
+Hágios Athánatos (Sanctus Immortális)  
+Miserére, miserére nobis (eléison himás)
+Popolo mio, che male ti ho fatto?  
+In che t'ho contristato? Rispondimi
+Per quarant'anni nel deserto  
+Io t'ho condotto e sfamato, donandoti la manna  
+T'ho fatto entrare in terra feconda  
+E hai preparato la croce al tuo Redentore
+Hágios o Theós (Sanctus Deus)  
+Hágios Ischyrós (Sanctus Fortis)  
+Hágios Athánatos (Sanctus Immortális)  
+Miserére, miserére nobis (eléison himás)
+Popolo mio, che male ti ho fatto?  
+In che t'ho contristato? Rispondimi
+Hágios o Theós (Sanctus Deus)  
+Hágios Ischyrós (Sanctus Fortis)  
+Hágios Athánatos (Sanctus Immortális)  
+Miserére nobis (eléison himás)
+# Popoli tutti acclamate al Signore 
+Mio Dio, Signore, nulla è pari a Te.  
+Ora e per sempre, voglio lodare  
+il tuo grande amor per noi.  
+Mia roccia Tu sei, pace e conforto mi dai,  
+con tutto il cuore e le mie forze,  
+sempre io ti adorerò.
+**Popoli tutti acclamate al Signore,  
+gloria e potenza cantiamo al Re,  
+mari e monti si prostrino a Te,  
+al tuo nome, o Signore.  
+Canto di gioia per quello che fai,  
+per sempre Signore con Te resterò,  
+non c’è promessa non c’è fedeltà che in Te. **
+**Popoli tutti acclamate al Signore,  
+gloria e potenza cantiamo al Re,  
+mari e monti si prostrino a Te,  
+al tuo nome, o Signore.  
+Canto di gioia per quello che fai,  
+per sempre Signore con Te resterò,  
+non c’è promessa non c’è fedeltà che in Te.**
 # Prendimi per mano mio Dio
 Avevo tanta voglia di viaggare...  
 Tu mi dicesti: vai ed io partii...  
@@ -1701,6 +1701,27 @@ Il sole muore verso l'orizzonte...
 io sento che il tuo regno è più vicino:  
 son pronto per il viaggio mio con te.  
 **Prendimi per mano ...**
+# [Quale gioia mi dissero](https://www.acannone.it/index.php/canti/268-quale-gioia-mi-dissero)
+  
+**Quale gioia mi dissero:  
+“Andremo alla casa del Signore!”.  
+Ora i piedi, o Gerusalemme,  
+si fermano davanti a te.**
+  
+Ora Gerusalemme è ricostruita  
+come città salda, forte e unita.
+  
+Là sono posti i seggi della sua giustizia,  
+i seggi della casa di Davide.
+  
+Domandate pace per Gerusalemme;  
+sia pace a chi ti ama, pace alle tue mura.
+  
+Su di te sia pace, chiederò il tuo bene;  
+per la casa di Dio chiederò la gioia.
+  
+Noi siamo il suo popolo, Egli è il nostro Dio;  
+possa rinnovarci la felicità.
 # Quando Israele uscì dall'Egitto
 Quando Israele uscì dall'Egitto  
 La casa di Giacobbe da un popolo barbaro,  
@@ -1727,27 +1748,6 @@ Cantiamo gloria al Padre e al Figlio
 e allo Spirito Santo,  
 com'era nel principio, ora e sempre,  
 nei secoli dei secoli. Amen.
-# [Quale gioia mi dissero](https://www.acannone.it/index.php/canti/268-quale-gioia-mi-dissero)
-  
-**Quale gioia mi dissero:  
-“Andremo alla casa del Signore!”.  
-Ora i piedi, o Gerusalemme,  
-si fermano davanti a te.**
-  
-Ora Gerusalemme è ricostruita  
-come città salda, forte e unita.
-  
-Là sono posti i seggi della sua giustizia,  
-i seggi della casa di Davide.
-  
-Domandate pace per Gerusalemme;  
-sia pace a chi ti ama, pace alle tue mura.
-  
-Su di te sia pace, chiederò il tuo bene;  
-per la casa di Dio chiederò la gioia.
-  
-Noi siamo il suo popolo, Egli è il nostro Dio;  
-possa rinnovarci la felicità.
 # Re dei re
 Hai sollevato il nostri volti dalla polvere  
 Le nostre colpe hai portato su di te  
@@ -1840,20 +1840,6 @@ e hai salvato tutti noi,
 uomini con Te,  
 tutti noi,  
 uomini con Te.
-# Salve Regina
-**Salve Regina, Madre di misericordia.**  
-**Vita, dolcezza, speranza nostra, salve!**  
-**Salve Regina!****_(2v)_**
-A te ricorriamo, esuli figli di Eva.  
-A te sospiriamo, piangenti  
-in questa valle di lacrime.  
-Avvocata nostra, volgi a noi gli occhi tuoi.  
-Mostraci, dopo quest’esilio,  
-il frutto del tuo seno, Gesù.
-**Salve Regina, Madre di misericordia.**  
-**O clemente, o pia, o dolce Vergine Maria.**  
-**Salve Regina!**  
-**Salve Regina, salve, salve!**
 # Santo Bonfitto
 Santo, Santo, Santo il Signore Dio dell’universo.  
 I cieli e la terra sono pieni della tua gloria.  
@@ -1863,6 +1849,12 @@ Osanna, osanna, osanna nell’alto dei cieli.
 Benedetto colui che viene nel nome del Signore.  
   
 Osanna, osanna, osanna nell’alto dei cieli.
+# Santo
+Santo, Santo, Santo è il Signore  
+Dio dell’universo.Santo, Santo, Santo è il Signore  
+Dio dell’universo.I cieli e la terra sono pieni della tua gloria.  
+Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.Benedetto Colui che viene nel nome del Signore.  
+Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.
 # Santa Maria del cammino
 Mentre trascorre la vita,  
 solo tu non sei mai:  
@@ -1888,12 +1880,20 @@ Tu sei la luce a chi crede
 nel Figlio tuo Gesù,  
 Tu sei speranza e certezza  
 che Lui ci cambierà.
-# Santo
-Santo, Santo, Santo è il Signore  
-Dio dell’universo.Santo, Santo, Santo è il Signore  
-Dio dell’universo.I cieli e la terra sono pieni della tua gloria.  
-Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.Benedetto Colui che viene nel nome del Signore.  
-Osanna, osanna nell’alto dei cieli.Osanna, osanna nell’alto dei cieli.
+# Salve Regina
+**Salve Regina, Madre di misericordia.**  
+**Vita, dolcezza, speranza nostra, salve!**  
+**Salve Regina!****_(2v)_**
+A te ricorriamo, esuli figli di Eva.  
+A te sospiriamo, piangenti  
+in questa valle di lacrime.  
+Avvocata nostra, volgi a noi gli occhi tuoi.  
+Mostraci, dopo quest’esilio,  
+il frutto del tuo seno, Gesù.
+**Salve Regina, Madre di misericordia.**  
+**O clemente, o pia, o dolce Vergine Maria.**  
+**Salve Regina!**  
+**Salve Regina, salve, salve!**
 # Santo nelle altezze
 Sa——————-nto,  
 **D:** Sa——————-nto  
@@ -1927,6 +1927,13 @@ Se m'accogli, mio Signore, altro non ti chiederò
 e per sempre la tua strada la mia strada resterà.  
 Nella gioia, nel dolore, fino a quando tu vorrai,  
 con la mano nella tua camminerò.
+# Servo per amore 
+Una notte di sudore sulla barca in mezzo al mare  
+e mentre il cielo s'imbianca già tu guardi le tue reti vuote. Ma la voce che ti chiama un altro mare ti mostrerà e sulle rive di ogni cuore le tue reti getterai.  
+  
+**Offri la vita tua come Maria ai piedi della croce e sarai servo di ogni uomo, servo per amore, sacerdote per l'umanità.  
+**  
+Avanzavi nel silenzio fra le lacrime e speravi che il seme sparso davanti a te cadesse sulla buona terra. Ora il cuore tuo è in festa perchè il grano biondeggia ormai è maturato sotto il sole puoi deporlo nei granai.
 # Il Signore è la mia salvezza
   
 E con lui non temo più  
@@ -1962,13 +1969,6 @@ E di olio mi ungi il capo: il mio calice è colmo di ebbrezza.
 5 Bontà e grazia mi sono compagne, quanto dura il mio cammino;  
 io starò nella casa di Dio lungo tutto il migrare dei giorni  
 
-# Servo per amore 
-Una notte di sudore sulla barca in mezzo al mare  
-e mentre il cielo s'imbianca già tu guardi le tue reti vuote. Ma la voce che ti chiama un altro mare ti mostrerà e sulle rive di ogni cuore le tue reti getterai.  
-  
-**Offri la vita tua come Maria ai piedi della croce e sarai servo di ogni uomo, servo per amore, sacerdote per l'umanità.  
-**  
-Avanzavi nel silenzio fra le lacrime e speravi che il seme sparso davanti a te cadesse sulla buona terra. Ora il cuore tuo è in festa perchè il grano biondeggia ormai è maturato sotto il sole puoi deporlo nei granai.
 # Sono qui a lodarti
 Luce del mondo nel buio del cuore  
 Vieni ed illuminami  
@@ -2007,10 +2007,6 @@ Qui per dirti che tu sei il mio Dio
 E solo tu sei Santo, sei meraviglioso  
 Degno e glorioso sei per me
 Santo, Santo
-# Sono risorto
-Sono risorto e sono sempre con te. Alleluia.  
-Hai posto la tua mano su di me, Alleluia.  
-grande e mirabile è la tua sapienza. ALLELUIA, ALLELUIA, ALLELUIA, ALLELUIA.
 # Lo spirito del Signore
 **RIT. LO SPIRITO DEL SIGNORE È SU DI ME,  
 LO SPIRITO CON L'UNZIONE MI HA CONSACRATO,  
@@ -2046,6 +2042,10 @@ mi dona la Sua forza
 per consolare i poveri,  
 per farmi strumento di salvezza.  
 RIT.
+# Sono risorto
+Sono risorto e sono sempre con te. Alleluia.  
+Hai posto la tua mano su di me, Alleluia.  
+grande e mirabile è la tua sapienza. ALLELUIA, ALLELUIA, ALLELUIA, ALLELUIA.
 # Te Al Centro Del Mio Cuore
 Ho bisogno di incontrarti nel mio cuore  
 Di trovare te, di stare insieme a te:  
@@ -2068,31 +2068,6 @@ Unico sostegno tu, la stella polare tu
 Al centro del mio cuore ci sei solo tu.
 **Tutto ruota intorno a te, in funzione di te,  
 E poi non importa il come, il dove e il se.**
-## Stillate cieli dall'alto
-**RIT. STILLATE CIELI DALL’ALTO,  
-DALLE NUBI DISCENDA IL GIUSTO,  
-LA TERRA APRA IL SUO GREMBO  
-E GERMOGLI PER NOI IL SALVATORE. **(2 volte)
-Non adirarti, Signore,  
-non ricordare il peccato.  
-Gerusalemme è deserta,  
-il tuo santuario desolato.  
-**RIT.**
-Abbiamo peccato, Signore,  
-dispersi come foglie al vento;  
-il tuo volto ci hai nascosto  
-e ci hai consegnato ai nemici.  
-**RIT.**
-Invia l‘Agnello promesso,  
-dominatore della terra,  
-e salga il monte di Sion,  
-riscatti il giogo della colpa.  
-**RIT.**
-Consolati, popolo mio,  
-perché nel pianto ti consumi?  
-Verrà presto la tua salvezza,  
-perché sono il tuo Redentore.  
-**RIT.**
 # Su ali d'aquila
 Tu che abiti al riparo del Signore  
 e che dimori alla sua ombra  
@@ -2137,60 +2112,31 @@ E ti rialzerò, ti solleverò su ali d'aquila,
 ti reggerò sulla brezza dell'alba,  
 ti farò brillar come il sole,  
 così nelle mie mani vivrai.
-# Symbolum 80
-Oltre la memoria  
-del tempo che ho vissuto,  
-oltre la speranza  
-che serve al mio domani,  
-oltre il desiderio  
-di vivere il presente  
-anch'io confesso ho chiesto  
-che cosa è verità.  
-E tu come un desiderio  
-che non ha memorie, Padre buono,  
-come una speranza che non ha confini,  
-come un tempo eterno sei per me.
-Io so quanto amore chiede  
-questa lunga attesa  
-del tuo giorno o Dio;  
-luce in ogni cosa io non vedo ancora,  
-ma la tua parola mi rischiarerà.
-Quando le parole  
-non bastano all'amore,  
-quando il mio fratello  
-domanda più del pane,  
-quando l'illusione  
-promette un mondo nuovo,  
-anch'io rimango incerto  
-nel mezzo del cammino.  
-E tu figlio tanto amato,  
-verità dell'uomo, mio Signore,  
-come la promessa di un perdono eterno,  
-libertà infinita sei per me.
-Io so quanto amore chiede  
-questa lunga attesa  
-del tuo giorno o Dio;  
-luce in ogni cosa io non vedo ancora,  
-ma la tua parola mi rischiarerà.
-Chiedo alla mia mente  
-coraggio di cercare,  
-chiedo alle mie mani  
-la forza di donare,  
-chiedo al cuore incerto  
-passione per la vita  
-e chiedo a te fratello  
-di credere con me.  
-E tu forza della vita,  
-Spirito d'amore, dolce Iddio,  
-grembo d'ogni cosa, tenerezza immensa,  
-verità del mondo sei per me.
-Io so quanto amore chiede  
-questa lunga attesa  
-del tuo giorno o Dio;  
-luce in ogni cosa io non vedo ancora,  
-ma la tua parola mi rischiarerà.
-  
-
+## Stillate cieli dall'alto
+**RIT. STILLATE CIELI DALL’ALTO,  
+DALLE NUBI DISCENDA IL GIUSTO,  
+LA TERRA APRA IL SUO GREMBO  
+E GERMOGLI PER NOI IL SALVATORE. **(2 volte)
+Non adirarti, Signore,  
+non ricordare il peccato.  
+Gerusalemme è deserta,  
+il tuo santuario desolato.  
+**RIT.**
+Abbiamo peccato, Signore,  
+dispersi come foglie al vento;  
+il tuo volto ci hai nascosto  
+e ci hai consegnato ai nemici.  
+**RIT.**
+Invia l‘Agnello promesso,  
+dominatore della terra,  
+e salga il monte di Sion,  
+riscatti il giogo della colpa.  
+**RIT.**
+Consolati, popolo mio,  
+perché nel pianto ti consumi?  
+Verrà presto la tua salvezza,  
+perché sono il tuo Redentore.  
+**RIT.**
 # Symbolum 77
 Tu sei la mia vita, altro io non ho  
 Tu sei la mia strada, la mia verità  
@@ -2266,18 +2212,6 @@ Mi - Do Re Mi -
 Tutto ruota intorno a Te, in funzione di Te  
 Sol Do Re  
 e poi non importa il “come”, il “dove”, il “se”…
-# Ti seguirò
-**RIT. TI SEGUIRO', TI SEGUIRO' O SIGNORE  
-E NELLA TUA STRADA CAMMINERO'.**
-Ti seguirò nella via dell'amore  
-e donerò al mondo la vita.  
-RIT.
-Ti seguirò nella via del dolore  
-e la tua Croce ci salverà.  
-RIT.
-Ti seguirò nella via della gioia  
-e la tua luce ci guiderà.  
-RIT. 
 # Ti benedirò
   
   
@@ -2291,6 +2225,83 @@ Io l'ho cercato e Lui mi ha risposto: dall'angoscia Lui mi libererà.
   
 Benedirò il Signore in ogni tempo, guardando a Lui il mio volto splenderà.  
 Io lo so com'è buono il Signore, nella vita vicino mi sarà.
+# Ti seguirò
+**RIT. TI SEGUIRO', TI SEGUIRO' O SIGNORE  
+E NELLA TUA STRADA CAMMINERO'.**
+Ti seguirò nella via dell'amore  
+e donerò al mondo la vita.  
+RIT.
+Ti seguirò nella via del dolore  
+e la tua Croce ci salverà.  
+RIT.
+Ti seguirò nella via della gioia  
+e la tua luce ci guiderà.  
+RIT. 
+# Symbolum 80
+Oltre la memoria  
+del tempo che ho vissuto,  
+oltre la speranza  
+che serve al mio domani,  
+oltre il desiderio  
+di vivere il presente  
+anch'io confesso ho chiesto  
+che cosa è verità.  
+E tu come un desiderio  
+che non ha memorie, Padre buono,  
+come una speranza che non ha confini,  
+come un tempo eterno sei per me.
+Io so quanto amore chiede  
+questa lunga attesa  
+del tuo giorno o Dio;  
+luce in ogni cosa io non vedo ancora,  
+ma la tua parola mi rischiarerà.
+Quando le parole  
+non bastano all'amore,  
+quando il mio fratello  
+domanda più del pane,  
+quando l'illusione  
+promette un mondo nuovo,  
+anch'io rimango incerto  
+nel mezzo del cammino.  
+E tu figlio tanto amato,  
+verità dell'uomo, mio Signore,  
+come la promessa di un perdono eterno,  
+libertà infinita sei per me.
+Io so quanto amore chiede  
+questa lunga attesa  
+del tuo giorno o Dio;  
+luce in ogni cosa io non vedo ancora,  
+ma la tua parola mi rischiarerà.
+Chiedo alla mia mente  
+coraggio di cercare,  
+chiedo alle mie mani  
+la forza di donare,  
+chiedo al cuore incerto  
+passione per la vita  
+e chiedo a te fratello  
+di credere con me.  
+E tu forza della vita,  
+Spirito d'amore, dolce Iddio,  
+grembo d'ogni cosa, tenerezza immensa,  
+verità del mondo sei per me.
+Io so quanto amore chiede  
+questa lunga attesa  
+del tuo giorno o Dio;  
+luce in ogni cosa io non vedo ancora,  
+ma la tua parola mi rischiarerà.
+  
+
+# **TRASFORMI IN GESÙ**
+  
+  
+**Nella terra baciata dal sole, lavorata dall'umanità**  
+**nasce il grano e un pezzo di pane che Gesù sull'altare si fa.**  
+  
+**Nelle vigne bagnate di pioggia dal sudore dell'umanità**  
+**nasce l'uva ed un sorso di vino che Gesù sull'altare si fa.**  
+  
+**Con la vita di tutta la gente noi offriamo a Te Padre e Signore**  
+**il dolore e la gioia del mondo, tu raccogli e trasformi in Gesù.**
 # Tu es sacerdos in æternum
 ### Ritornello
 **RE – LA – SOL – RE**  
@@ -2345,51 +2356,6 @@ ora pro nobis
 ora pro nobis
 **LA (→) RE**  
 Deum
-# Umiliò se Stesso
-_Umiliò se stesso, come servo apparve,_  
-_obbediente fino alla morte per noi,_  
-_fino alla morte di croce._ Per questo Dio l'ha esaltato,  
-e gli ha dato un nome più grande di ogni nome._Umiliò se stesso, come servo apparve,_  
-_obbediente fino alla morte per noi,_  
-_fino alla morte di croce._
-# **TRASFORMI IN GESÙ**
-  
-  
-**Nella terra baciata dal sole, lavorata dall'umanità**  
-**nasce il grano e un pezzo di pane che Gesù sull'altare si fa.**  
-  
-**Nelle vigne bagnate di pioggia dal sudore dell'umanità**  
-**nasce l'uva ed un sorso di vino che Gesù sull'altare si fa.**  
-  
-**Con la vita di tutta la gente noi offriamo a Te Padre e Signore**  
-**il dolore e la gioia del mondo, tu raccogli e trasformi in Gesù.**
-# Ave Maria (Verbum Panis)
-**Ave Maria, ave.  
-Ave Maria, ave.**  
-  
-Donna dell’attesa e Madre di speranza,  
-ora pro nobis.  
-Donna del sorriso e Madre del silenzio,  
-ora pro nobis.  
-  
-Donna di frontiera e Madre dell’ardore,  
-ora pro nobis.  
-Donna del riposo e Madre del sentiero,  
-ora pro nobis.  
-  
-**Rit**  
-  
-Donna del deserto e Madre del respiro,  
-ora pro nobis.  
-Donna della sera e Madre del ricordo,  
-ora pro nobis.  
-  
-Donna del presente e Madre del ritorno,  
-ora pro nobis.  
-Donna della terra e Madre dell’amore,  
-ora pro nobis.  
-  
-**Rit**
 # Vieni dal Libano
 Vieni dal Libano, mia sposa,  
 vieni dal Libano, vieni!  
@@ -2441,3 +2407,37 @@ come sigillo sul tuo braccio.
 lo cercai senza trovarlo.  
 Trovai l'amore dell'anima mia,  
 l'ho abbracciato, non lo lascerò mai!**
+# Ave Maria (Verbum Panis)
+**Ave Maria, ave.  
+Ave Maria, ave.**  
+  
+Donna dell’attesa e Madre di speranza,  
+ora pro nobis.  
+Donna del sorriso e Madre del silenzio,  
+ora pro nobis.  
+  
+Donna di frontiera e Madre dell’ardore,  
+ora pro nobis.  
+Donna del riposo e Madre del sentiero,  
+ora pro nobis.  
+  
+**Rit**  
+  
+Donna del deserto e Madre del respiro,  
+ora pro nobis.  
+Donna della sera e Madre del ricordo,  
+ora pro nobis.  
+  
+Donna del presente e Madre del ritorno,  
+ora pro nobis.  
+Donna della terra e Madre dell’amore,  
+ora pro nobis.  
+  
+**Rit**
+# Umiliò se Stesso
+_Umiliò se stesso, come servo apparve,_  
+_obbediente fino alla morte per noi,_  
+_fino alla morte di croce._ Per questo Dio l'ha esaltato,  
+e gli ha dato un nome più grande di ogni nome._Umiliò se stesso, come servo apparve,_  
+_obbediente fino alla morte per noi,_  
+_fino alla morte di croce._
