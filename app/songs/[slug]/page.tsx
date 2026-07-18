@@ -30,6 +30,7 @@ const fetchSong = async (slug: string): Promise<SongItem> => {
   };
 
   const queryResult = await client.getEntries(queryOptions);
+  console.log("song",queryResult);
 
   return queryResult.items[0] as unknown as SongItem;
 };
