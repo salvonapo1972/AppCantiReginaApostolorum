@@ -9,6 +9,7 @@ import {
   createUIMessageStreamResponse,
   toUIMessageStream,
 } from 'ai';
+import fs from 'fs/promises';
 import { z } from 'zod';
 import { openai } from '@ai-sdk/openai';
 import { getWeather } from "../../lib/weather";
@@ -16,10 +17,11 @@ import { getCoordinates } from "../../lib/cities";
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
-  
+  const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.txt', 'utf8');
   const result = streamText({
     model: openai('gpt-5.6'),
     messages: await convertToModelMessages(messages),
+    system: `Usa questo contesto per rispondere: ${fileContent}`,
     stopWhen: isStepCount(5),
     tools: {
       weather: tool({
