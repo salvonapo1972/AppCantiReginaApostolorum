@@ -9,6 +9,56 @@
   --green:#6E8B74;
 }
 
+/* Contenitore principale della chat */
+.chat-container {
+      scroll-behavior: smooth;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    overflow: hidden auto;
+    max-width: 1460px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Messaggi */
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+.user { background-color: #e3f2fd; align-self: flex-end; }
+.ai { background-color: #f1f1f1; min-height: 50px; }
+
+/* --- Personalizzazione della Scrollbar (Opzionale ma consigliata) --- */
+
+/* width */
+.chat-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Binario della scrollbar (sfondo) */
+.chat-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Maniglia della scrollbar (la parte che si trascina) */
+.chat-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+/* Cambia colore quando l'utente passa sopra con il mouse */
+.chat-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+
 body{
   background:var(--background);
   color:var(--foreground);
@@ -87,3 +137,4 @@ nav a:hover::after{
 header{
     transition:all .4s ease;
 }
+
