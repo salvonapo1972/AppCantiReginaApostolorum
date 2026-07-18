@@ -19,7 +19,7 @@ export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> 
   return (
     <main className="flex bckelenco min-h-screen flex-col  gap-y-8 bg-gradient-to-b from-blue-100 to-pink-100">
        <SearchBar onSearch={setSearchValue} search={searchValue} />
-        <div className="grid-cols-1 sm:grid md:grid-cols-3 max-w-7xl mx-auto px-3">
+        <div id="searchid" className="grid-cols-1 sm:grid md:grid-cols-3 max-w-7xl mx-auto px-3">
       {items.filter((singlePost) => filterNames(singlePost.fields.title)).map((itemFiltered,index) => {
         console.log("singlePost.fields",itemFiltered.fields);
         const { slug, title, date } = itemFiltered.fields;
