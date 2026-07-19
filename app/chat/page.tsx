@@ -2,6 +2,7 @@
 
 import { useChat } from '@ai-sdk/react';
 import { useState, useRef, useEffect } from 'react';
+import { Streamdown } from 'streamdown';
 
 export default function Chat() {
   const [dots, setDots] = useState('');
@@ -41,17 +42,17 @@ export default function Chat() {
 
   // 3. LOGICA DI CONTROLLO: Controlliamo se l'IA sta pensando ma non ha ancora scritto nulla
   const lastMessage = messages.at(-1);
-  console.log("lastMessage",lastMessage);
+  //console.log("lastMessage",lastMessage);
   // Verifica se l'ultimo messaggio è dell'assistente e se contiene del testo reale
   const hasStartedTyping =  lastMessage?.role === 'assistant' && 
     lastMessage.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
 
-  console.log("hasStartedTyping",hasStartedTyping)
-  console.log("isLoading",isLoading)
+  //console.log("hasStartedTyping",hasStartedTyping)
+  //console.log("isLoading",isLoading)
 
   // Mostriamo i puntini se l'SDK sta caricando, ma l'IA non ha ancora iniziato a inviare testo
   const isAiThinking = isLoading && !hasStartedTyping && typeof lastMessage!=="undefined";
-  console.log("isAiThinking",isAiThinking)
+  //console.log("isAiThinking",isAiThinking)
 
   return (
     <>
@@ -75,7 +76,14 @@ export default function Chat() {
               {message.parts.map((part, i) => {
                 switch (part.type) {
                   case 'text':
-                    return <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>;
+                    return message.role === 'assistant' ? (
+                      <div key={`${message.id}-${i}`} className="prose dark:prose-invert max-w-none">
+                        <Streamdown>{part.text}</Streamdown>
+                      </div>
+                    ) : (
+                       <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
+                 
+                    );
                   case 'tool-weather':
                   case 'tool-convertFahrenheitToCelsius':
                     return (
