@@ -14,10 +14,13 @@ import { z } from 'zod';
 import { openai } from '@ai-sdk/openai';
 import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
+import RemoteFile from '@/app/components/RemoteFile';
 
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
-  const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.txt', 'utf8');
+  const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
+ //const fileContent = RemoteFile();
+ console.log("fileContent",fileContent)
   const result = streamText({
     model: openai('gpt-5.6'),
     messages: await convertToModelMessages(messages),

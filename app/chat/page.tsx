@@ -43,14 +43,14 @@ export default function Chat() {
   const lastMessage = messages.at(-1);
   console.log("lastMessage",lastMessage);
   // Verifica se l'ultimo messaggio è dell'assistente e se contiene del testo reale
-  const hasStartedTyping = lastMessage?.role === 'assistant' && 
+  const hasStartedTyping =  lastMessage?.role === 'assistant' && 
     lastMessage.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
 
-    console.log("hasStartedTyping",hasStartedTyping)
-    console.log("isLoading",isLoading)
+  console.log("hasStartedTyping",hasStartedTyping)
+  console.log("isLoading",isLoading)
 
   // Mostriamo i puntini se l'SDK sta caricando, ma l'IA non ha ancora iniziato a inviare testo
-  const isAiThinking = isLoading && !hasStartedTyping;
+  const isAiThinking = isLoading && !hasStartedTyping && typeof lastMessage!=="undefined";
   console.log("isAiThinking",isAiThinking)
 
   return (
