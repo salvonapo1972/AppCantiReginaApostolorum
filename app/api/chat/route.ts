@@ -62,6 +62,20 @@ export async function POST(req: Request) {
           
         },
       }),
+      time: tool({
+        description: 'Get the real time',
+        inputSchema: z.object({
+          location: z.string().describe('now time'),
+        }),
+        execute: async () => {
+        const options = { hour: '2-digit', minute: '2-digit' };
+        const time = new Date().toLocaleTimeString('it-IT', options);
+         console.log("time",time);
+          return {
+            time
+          };
+        },
+      }),
       weather: tool({
         description: 'Get the weather in a location (fahrenheit)',
         inputSchema: z.object({
