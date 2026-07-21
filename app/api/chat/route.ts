@@ -72,7 +72,7 @@ export async function POST(req: Request) {
           hour: '2-digit',
           minute: '2-digit',
         };
-        const time = new Date().toLocaleTimeString('it-IT', options);
+        const time = new Date().toLocaleTimeString('it-IT', { ...options, timeZone: 'Europe/Rome' });
          console.log("time",time);
           return {
             time
