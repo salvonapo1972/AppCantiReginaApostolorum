@@ -68,7 +68,10 @@ export async function POST(req: Request) {
           location: z.string().describe('now time'),
         }),
         execute: async () => {
-        const options = { hour: '2-digit', minute: '2-digit' };
+        const options: Intl.DateTimeFormatOptions = {
+          hour: '2-digit',
+          minute: '2-digit',
+        };
         const time = new Date().toLocaleTimeString('it-IT', options);
          console.log("time",time);
           return {
