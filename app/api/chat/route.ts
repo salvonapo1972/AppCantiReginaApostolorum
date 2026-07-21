@@ -30,7 +30,7 @@ export async function POST(req: Request) {
 // console.log("fileContent",fileContent)
   const today = new Date();
   const result = streamText({
-    model: openai('gpt-5.6'),
+    model: openai('o4-mini'),
     messages: await convertToModelMessages(messages),
     system: `Usa questo contesto per rispondere: ${fileContent + today.toLocaleDateString('it-IT')}`,
     stopWhen: isStepCount(5),
