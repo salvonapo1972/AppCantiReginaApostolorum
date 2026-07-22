@@ -12,11 +12,13 @@ import {
 import fs from 'fs/promises';
 import { z } from 'zod';
 import { openai } from '@ai-sdk/openai';
+import { openrouter } from '@openrouter/ai-sdk-provider';
 import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
 
 
 import { tavily } from '@tavily/core';
+import { getEarthQuakes } from '@/app/lib/earthquake';
 
 // Inizializza il client usando la tua chiave API di Tavily
 const client = tavily({ 
@@ -30,7 +32,8 @@ export async function POST(req: Request) {
 // console.log("fileContent",fileContent)
   const today = new Date();
   const result = streamText({
-    model: openai('o4-mini'),
+    //model: openai('gpt-oss-20b'),
+    model: openrouter('openrouter/free'),
     messages: await convertToModelMessages(messages),
     system: `Usa questo contesto per rispondere: ${fileContent + today.toLocaleDateString('it-IT')}`,
     stopWhen: isStepCount(5),
@@ -76,6 +79,24 @@ export async function POST(req: Request) {
          console.log("time",time);
           return {
             time
+          };
+        },
+      }),
+      earthquakes: tool({
+        description: 'Get earthquakes',
+        inputSchema: z.object({}),
+        execute: async () => {
+          console.log('passo earthquake');
+          const earthquakeData = await getEarthQuakes();
+          const simplifiedEarthquakes = earthquakeData.earthquakes.features.map((f: any) => ({
+            place: f.properties.place,
+            magnitude: f.properties.mag,
+            time: f.properties.time,
+            depth: f.properties.depth,
+          }));
+         // console.log("magg",simplifiedEarthquakes[0].magnitude)
+          return {
+            earthquakes: simplifiedEarthquakes,
           };
         },
       }),
