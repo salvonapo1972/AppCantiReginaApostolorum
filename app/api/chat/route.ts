@@ -12,7 +12,7 @@ import {
 import fs from 'fs/promises';
 import { z } from 'zod';
 import { openai } from '@ai-sdk/openai';
-import { openrouter } from '@openrouter/ai-sdk-provider';
+import { createOpenRouter  } from '@openrouter/ai-sdk-provider';
 import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
 
@@ -23,6 +23,10 @@ import { getEarthQuakes } from '@/app/lib/earthquake';
 // Inizializza il client usando la tua chiave API di Tavily
 const client = tavily({ 
   apiKey: process.env.TAVILY_API_KEY
+});
+
+const openrouter = createOpenRouter({
+  apiKey: process.env.OPENROUTER_API_KEY,
 });
 
 export async function POST(req: Request) {
