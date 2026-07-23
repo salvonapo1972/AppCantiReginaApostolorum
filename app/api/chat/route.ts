@@ -36,10 +36,10 @@ export async function POST(req: Request) {
 // console.log("fileContent",fileContent)
   const today = new Date();
   const result = streamText({
-    //model: openai('gpt-oss-20b'),
-    model: openrouter('openrouter/free'),
+    //model: 'openai/whisper-large-v3-turbo',
+    model: openai('gpt-4o-mini'),
     messages: await convertToModelMessages(messages),
-    system: `Usa questo contesto per rispondere: ${fileContent + today.toLocaleDateString('it-IT')}`,
+    system: `Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent + today.toLocaleDateString('it-IT')}`,
     stopWhen: isStepCount(5),
     tools: {
       searchWeb: tool({
@@ -76,6 +76,9 @@ export async function POST(req: Request) {
         }),
         execute: async () => {
         const options: Intl.DateTimeFormatOptions = {
+          weekday: 'short',
+          day: '2-digit',      // "23"
+          month: 'short',
           hour: '2-digit',
           minute: '2-digit',
         };
