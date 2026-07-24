@@ -15,6 +15,7 @@ import { openai } from '@ai-sdk/openai';
 import { createOpenRouter  } from '@openrouter/ai-sdk-provider';
 import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
+import { getTimezone } from '@/app/lib/timezones';
 
 
 import { tavily } from '@tavily/core';
@@ -29,17 +30,26 @@ const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY,
 });
 
+function convertTime(date: string | Date, timeZone: string): string {
+    return new Date(date).toLocaleString("it-IT", {
+        timeZone,
+        dateStyle: "full",
+        timeStyle: "medium"
+    });
+}
+
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
   const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
  //const fileContent = RemoteFile();
 // console.log("fileContent",fileContent)
   const today = new Date();
+ 
   const result = streamText({
     //model: 'openai/whisper-large-v3-turbo',
     model: openai('gpt-4o-mini'),
     messages: await convertToModelMessages(messages),
-    system: `Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent + today.toLocaleDateString('it-IT')}`,
+    system: `Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent}`,
     stopWhen: isStepCount(5),
     tools: {
       searchWeb: tool({
@@ -70,24 +80,28 @@ export async function POST(req: Request) {
         },
       }),
       time: tool({
-        description: 'Get the real time',
+        description: 'Get the real time and day and month and year',
         inputSchema: z.object({
-          location: z.string().describe('now time'),
+          city: z.string().describe("Nome della città (es. Tokyo)"),
+          country: z.string().optional().describe("Paese opzionale"),
         }),
-        execute: async () => {
-        const options: Intl.DateTimeFormatOptions = {
-          weekday: 'short',
-          day: '2-digit',      // "23"
-          month: 'short',
-          hour: '2-digit',
-          minute: '2-digit',
-        };
-        const time = new Date().toLocaleTimeString('it-IT', { ...options, timeZone: 'Europe/Rome' });
-         console.log("time",time);
-          return {
-            time
-          };
-        },
+        execute: async ({city}) => {
+          console.log("time:",city)
+          const locationCity = await getCoordinates(city);
+          console.log("location",locationCity.longitude)
+          const timeZone = await getTimezone(locationCity.latitude,locationCity.longitude)
+          
+          console.log("timezone",timeZone);
+          const now = new Intl.DateTimeFormat("it-IT", {
+            timeZone: timeZone.timezone,
+            dateStyle: "full",
+            timeStyle: "medium",
+          }).format(new Date());
+
+      return {
+        now,
+      };
+    }
       }),
       earthquakes: tool({
         description: 'Get earthquakes',
