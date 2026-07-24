@@ -4,7 +4,7 @@ export async function getTimezone(latitude: number,longitude: number) {
   );
 
   const data = await response.json();
-   console.log("data",data)
+ //  console.log("data",data)
  
 console.log("data.results[0].timezone",data.timezone)
   return {

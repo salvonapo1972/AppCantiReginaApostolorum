@@ -86,12 +86,12 @@ export async function POST(req: Request) {
           country: z.string().optional().describe("Paese opzionale"),
         }),
         execute: async ({city}) => {
-          console.log("time:",city)
+        //  console.log("time:",city)
           const locationCity = await getCoordinates(city);
-          console.log("location",locationCity.longitude)
+         // console.log("location",locationCity.longitude)
           const timeZone = await getTimezone(locationCity.latitude,locationCity.longitude)
           
-          console.log("timezone",timeZone);
+        //  console.log("timezone",timeZone);
           const now = new Intl.DateTimeFormat("it-IT", {
             timeZone: timeZone.timezone,
             dateStyle: "full",
