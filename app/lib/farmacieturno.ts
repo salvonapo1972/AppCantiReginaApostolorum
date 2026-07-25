@@ -7,6 +7,8 @@ export async function getFarmacieTurno(date: string) {
   const url =
     `https://www.ordinefarmacistiroma.it/cittadino/turni-delle-farmacie.html?d=${date}`;
 
+    console.log("url",url)
+
   const response = await fetch(url, {
     headers: {
       "User-Agent":
@@ -28,12 +30,12 @@ export async function getFarmacieTurno(date: string) {
   const farmacie: any[] = [];
 
   // Adatta il selettore alla struttura reale della pagina
-  $("table tbody tr").each((_, row) => {
+  $(".mobile_table_with_label table tbody tr ").each((_, row) => {
     const td = $(row).find("td");
 
     farmacie.push({
       nome: $(td[0]).text().trim(),
-      indirizzo: $(td[1]).text().trim(),
+      indirizzo: "<a href='https://www.google.com/maps/search/?api=1&query="+$(td[1]).text().trim()+"+235%2C+ROMA+%28RM%29'>"+ $(td[1]).text().trim()+"</a>",
       telefono: $(td[2]).text().trim(),
       orario: $(td[3]).text().trim(),
       municipio: $(td[4]).text().trim(),

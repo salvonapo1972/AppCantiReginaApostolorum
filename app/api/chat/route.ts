@@ -10,7 +10,7 @@ import {
   toUIMessageStream,
 } from 'ai';
 import fs from 'fs/promises';
-import { z } from 'zod';
+import { date, z } from 'zod';
 import { openai } from '@ai-sdk/openai';
 import { createOpenRouter  } from '@openrouter/ai-sdk-provider';
 import { getWeather } from "../../lib/weather";
@@ -85,22 +85,18 @@ export async function POST(req: Request) {
         },
       }),
       farmacie: tool({
-        description: 'Get farmacie di turno di ROma',
+        description: 'Get farmacie di turno di Roma ',
         inputSchema: z.object({
-          query: z.string().describe("Get farmacie di turno di Roma"),
+          query: z.string().describe("Get farmacie o farmacia  di turno di Roma"),
+          date:z.string().describe("data"),
         }),
-        execute: async ({ query }) => {
+        execute: async ({ query,date }) => {
           console.log("query", query);
-          const farmacie = await getFarmacieTurno(today.toISOString());
-          console.log("farmacie", farmacie);
-          const extractedFarmacie = Array.isArray(farmacie) ? farmacie.map((f: any) => ({
-            name: f.name || f.farmacia || '',
-            address: f.address || f.indirizzo || '',
-            phone: f.phone || f.telefono || '',
-            hours: f.hours || f.orari || '',
-            city: f.city || f.città || 'Roma',
-          })) : [];
-
+          console.log("date",date)
+          const data = new Date(date);
+          console.log("today.toISOString()",data.toISOString().slice(0, 10))
+          const farmacie = await getFarmacieTurno(data.toISOString().slice(0, 10));
+      console.log("farmacie",farmacie)
           return {
             farmacie,
           };
@@ -127,7 +123,7 @@ export async function POST(req: Request) {
         }
       }),
       earthquakes: tool({
-        description: 'Get earthquakes',
+        description: 'Get earthquakes in Italy and world',
         inputSchema: z.object({}),
         execute: async () => {
           console.log('passo earthquake');
