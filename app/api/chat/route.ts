@@ -30,6 +30,10 @@ const openrouter = createOpenRouter({
   apiKey: process.env.OPENROUTER_API_KEY,
 });
 
+function formatTime(time: number | string): string {
+  return new Date(time).toISOString();
+}
+
 function convertTime(date: string | Date, timeZone: string): string {
     return new Date(date).toLocaleString("it-IT", {
         timeZone,
@@ -108,14 +112,22 @@ export async function POST(req: Request) {
         inputSchema: z.object({}),
         execute: async () => {
           console.log('passo earthquake');
-          const earthquakeData = await getEarthQuakes();
-          const simplifiedEarthquakes = earthquakeData.earthquakes.features.map((f: any) => ({
+          const earthquakeResponses = await Promise.all([
+            getEarthQuakes('https://webservices.ingv.it/fdsnws/event/1/query?format=geojson&limit=1000&minlatitude=-90&maxlatitude=90&minlongitude=-180&maxlongitude=180'),
+            getEarthQuakes('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson'),
+          ]);
+
+          const mergedFeatures = earthquakeResponses.reduce((all: any[], response: any) => {
+            return all.concat(response.earthquakes?.features || []);
+          }, []);
+
+          const simplifiedEarthquakes = mergedFeatures.map((f: any) => ({
             place: f.properties.place,
             magnitude: f.properties.mag,
-            time: f.properties.time,
+            time: formatTime(f.properties.time),
             depth: f.properties.depth,
           }));
-         // console.log("magg",simplifiedEarthquakes[0].magnitude)
+//console.log("simplifiedEarthquakes",simplifiedEarthquakes)
           return {
             earthquakes: simplifiedEarthquakes,
           };

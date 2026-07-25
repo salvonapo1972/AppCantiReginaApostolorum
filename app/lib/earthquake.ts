@@ -28,12 +28,12 @@ interface INGVResponse {
 }
 
 // Funzione asincrona per recuperare i dati direttamente dal server di Next.js
-async function getEarthquakes(): Promise<INGVResponse> {
-  const url = 'https://webservices.ingv.it/fdsnws/event/1/query?format=geojson&limit=1000&minlatitude=-90&maxlatitude=90&minlongitude=-180&maxlongitude=180';
-
+async function getEarthquakes(urlEartquakes: string): Promise<INGVResponse> {
+ // const url = 'https://webservices.ingv.it/fdsnws/event/1/query?format=geojson&limit=1000&minlatitude=-90&maxlatitude=90&minlongitude=-180&maxlongitude=180';
+  const url = urlEartquakes;
   // Eseguiamo la fetch con un revalidate di 60 secondi per non sovraccaricare l'INGV
   // ma mantenere i dati freschi
-  const res = await fetch(url, { next: { revalidate: 60 } });
+  const res = await fetch(url, { next: { revalidate: 0 } });
 
   if (!res.ok) {
     throw new Error('Impossibile recuperare i dati dall\'INGV');
@@ -42,8 +42,8 @@ async function getEarthquakes(): Promise<INGVResponse> {
   return res.json() as Promise<INGVResponse>;
 }
 
-export async function getEarthQuakes(){
-  const data = await getEarthquakes();
+export async function getEarthQuakes(urlEarthquakes: string): Promise<{ earthquakes: INGVResponse }> {
+  const data = await getEarthquakes(urlEarthquakes);
   const earthquakes = data;
 
   return {
