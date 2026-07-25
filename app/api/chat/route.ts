@@ -20,6 +20,8 @@ import { getTimezone } from '@/app/lib/timezones';
 
 import { tavily } from '@tavily/core';
 import { getEarthQuakes } from '@/app/lib/earthquake';
+import { getFarmacieTurno } from '@/app/lib/farmacieturno';
+import { getData } from '../../../../../Gatsby/GatsbyPresentation/.cache/page-ssr/index';
 
 // Inizializza il client usando la tua chiave API di Tavily
 const client = tavily({ 
@@ -50,10 +52,9 @@ export async function POST(req: Request) {
   const today = new Date();
  
   const result = streamText({
-    //model: 'openai/whisper-large-v3-turbo',
     model: openai('gpt-4o-mini'),
     messages: await convertToModelMessages(messages),
-    system: `Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent}`,
+    system: `Oggi è ${today}. Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent}`,
     stopWhen: isStepCount(5),
     tools: {
       searchWeb: tool({
@@ -83,6 +84,28 @@ export async function POST(req: Request) {
           
         },
       }),
+      farmacie: tool({
+        description: 'Get farmacie di turno di ROma',
+        inputSchema: z.object({
+          query: z.string().describe("Get farmacie di turno di Roma"),
+        }),
+        execute: async ({ query }) => {
+          console.log("query", query);
+          const farmacie = await getFarmacieTurno(today.toISOString());
+          console.log("farmacie", farmacie);
+          const extractedFarmacie = Array.isArray(farmacie) ? farmacie.map((f: any) => ({
+            name: f.name || f.farmacia || '',
+            address: f.address || f.indirizzo || '',
+            phone: f.phone || f.telefono || '',
+            hours: f.hours || f.orari || '',
+            city: f.city || f.città || 'Roma',
+          })) : [];
+
+          return {
+            farmacie,
+          };
+        }
+      }),
       time: tool({
         description: 'Get the real time and day and month and year',
         inputSchema: z.object({
@@ -90,22 +113,18 @@ export async function POST(req: Request) {
           country: z.string().optional().describe("Paese opzionale"),
         }),
         execute: async ({city}) => {
-        //  console.log("time:",city)
           const locationCity = await getCoordinates(city);
-         // console.log("location",locationCity.longitude)
           const timeZone = await getTimezone(locationCity.latitude,locationCity.longitude)
-          
-        //  console.log("timezone",timeZone);
           const now = new Intl.DateTimeFormat("it-IT", {
             timeZone: timeZone.timezone,
             dateStyle: "full",
             timeStyle: "medium",
           }).format(new Date());
 
-      return {
-        now,
-      };
-    }
+          return {
+            now,
+          };
+        }
       }),
       earthquakes: tool({
         description: 'Get earthquakes',
@@ -139,8 +158,7 @@ export async function POST(req: Request) {
           location: z.string().describe('The location to get the weather for'),
         }),
         execute: async ({ location }) => {
-          console.log("passo temp");
-        //  console.log('resp1');
+      
           const locationCity = await getCoordinates(location);
           const weather = await getWeather(locationCity.latitude, locationCity.longitude);
          const temperature = weather.current.temperature_2m;

@@ -33,6 +33,10 @@
     margin-left: 20px;
 }
 
+.whitespace-pre-wrap {
+    white-space: normal;
+}
+
 /* Messaggi */
 .message {
   margin-bottom: 15px;
