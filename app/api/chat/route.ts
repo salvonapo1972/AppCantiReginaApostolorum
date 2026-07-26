@@ -123,12 +123,17 @@ export async function POST(req: Request) {
         }
       }),
       earthquakes: tool({
-        description: 'Get earthquakes in Italy and world',
+        description: 'Get earthquakes in Italy and world last seven days with magnitude greater then 3',
         inputSchema: z.object({}),
         execute: async () => {
           console.log('passo earthquake');
+          const startTime = new Date();
+          startTime.setDate(startTime.getDate() - 7);
+
+          const formattedTime = startTime.toISOString().split('.')[0].slice(0,10);
+          console.log("starttime",formattedTime)
           const earthquakeResponses = await Promise.all([
-            getEarthQuakes('https://webservices.ingv.it/fdsnws/event/1/query?format=geojson&limit=1000&minlatitude=-90&maxlatitude=90&minlongitude=-180&maxlongitude=180'),
+            getEarthQuakes(`https://webservices.ingv.it/fdsnws/event/1/query?format=geojson&starttime=${formattedTime}&orderby=time&minmagnitude=3`),
             getEarthQuakes('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson'),
           ]);
 
