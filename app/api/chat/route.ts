@@ -21,7 +21,6 @@ import { getTimezone } from '@/app/lib/timezones';
 import { tavily } from '@tavily/core';
 import { getEarthQuakes } from '@/app/lib/earthquake';
 import { getFarmacieTurno } from '@/app/lib/farmacieturno';
-import { getData } from '../../../../../Gatsby/GatsbyPresentation/.cache/page-ssr/index';
 
 // Inizializza il client usando la tua chiave API di Tavily
 const client = tavily({ 
