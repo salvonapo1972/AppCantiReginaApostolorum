@@ -123,8 +123,10 @@ export async function POST(req: Request) {
         }
       }),
       earthquakes: tool({
-        description: 'Get earthquakes in Italy and world last seven days with magnitude greater then 3',
-        inputSchema: z.object({}),
+        description: 'Elenco Terremoti in Italia e nel mondo degli ultimi giorni con magnitudo maggiore di 3',
+        inputSchema: z.object({
+          earthquakes: z.string().describe("Elenco Terremoti in Italia e nel mondo degli ultimi giorni con magnitudo maggiore di 3"),
+        }),
         execute: async () => {
           console.log('passo earthquake');
           const startTime = new Date();
@@ -141,7 +143,7 @@ export async function POST(req: Request) {
             return all.concat(response.earthquakes?.features || []);
           }, []);
 
-          const simplifiedEarthquakes = mergedFeatures.map((f: any) => ({
+          const simplifiedEarthquakes = mergedFeatures.sort((a: any, b: any) => (b.properties.mag ?? -Infinity) - (a.properties.mag ?? -Infinity)).map((f: any) => ({
             place: f.properties.place,
             magnitude: f.properties.mag,
             time: formatTime(f.properties.time),
