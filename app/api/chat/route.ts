@@ -96,7 +96,7 @@ export async function POST(req: Request) {
           const data = new Date(date);
           console.log("today.toISOString()",data.toISOString().slice(0, 10))
           const farmacie = await getFarmacieTurno(data.toISOString().slice(0, 10));
-      console.log("farmacie",farmacie)
+     // console.log("farmacie",farmacie)
           return {
             farmacie,
           };

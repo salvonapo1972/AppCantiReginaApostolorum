@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Cinzel, Lora } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import ChatWidget from "./components/ChatWidget";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -27,6 +27,7 @@ export default function RootLayout({
     <html lang="it">
       <body className={`${cinzel.variable} ${lora.variable}`}>
         {children}
+        <ChatWidget />
       </body>
     </html>
   );

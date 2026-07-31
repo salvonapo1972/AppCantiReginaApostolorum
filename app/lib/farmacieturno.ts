@@ -23,7 +23,8 @@ export async function getFarmacieTurno(date: string) {
       { status: 500 }
     );
   }
-
+  
+  const regexCap = /\b\d{5}\b/;
   const html = await response.text();
   const $ = load(html);
 
@@ -32,13 +33,16 @@ export async function getFarmacieTurno(date: string) {
   // Adatta il selettore alla struttura reale della pagina
   $(".mobile_table_with_label table tbody tr ").each((_, row) => {
     const td = $(row).find("td");
+    const indirizzo = $(td[1]).text().trim();
+    const capMatch = regexCap.exec(indirizzo);
 
     farmacie.push({
       nome: $(td[0]).text().trim(),
-      indirizzo: "<a href='https://www.google.com/maps/search/?api=1&query="+$(td[1]).text().trim()+"+235%2C+ROMA+%28RM%29'>"+ $(td[1]).text().trim()+"</a>",
+      indirizzo: "<a href='https://www.google.com/maps/search/?api=1&query=" + indirizzo + "+235%2C+ROMA+%28RM%29'>" + indirizzo + "</a>",
       telefono: $(td[2]).text().trim(),
       orario: $(td[3]).text().trim(),
       municipio: $(td[4]).text().trim(),
+      cap: capMatch?.[0] ?? "",
     });
   });
 

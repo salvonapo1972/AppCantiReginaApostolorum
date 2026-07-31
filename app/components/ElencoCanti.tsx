@@ -25,8 +25,8 @@ export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> 
         const { slug, title, date } = itemFiltered.fields;
 
         return (
-          <div key={index}>
-            <div className="max-w-sm rounded overflow-hidden shadow-lg p-2 text-white">
+          <div className="song p-2"  key={index}>
+            <div className="max-w-sm rounded overflow-hidden shadow-lg p-1 text-white">
               <img className="w-full" src="canti.png" alt="Sunset in the mountains"/>
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">
