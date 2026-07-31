@@ -42,19 +42,20 @@ function convertTime(date: string | Date, timeZone: string): string {
         timeStyle: "medium"
     });
 }
-
+const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
-  const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
+ 
  //const fileContent = RemoteFile();
 // console.log("fileContent",fileContent)
   const today = new Date();
  
   const result = streamText({
-    model: openai('gpt-4o-mini'),
+   // model: openai('gpt-4o-mini'),
+    model: openai('gpt-5-mini'),
     messages: await convertToModelMessages(messages),
     system: `Oggi è ${today}. Tu sei un assistente virtuale.Usa questo contesto per rispondere: ${fileContent}`,
-    stopWhen: isStepCount(5),
+    stopWhen: isStepCount(10),
     tools: {
       searchWeb: tool({
         description: 'Cerca sul web informazioni in tempo reale, notizie recenti o dati aggiornati.',
@@ -160,27 +161,26 @@ export async function POST(req: Request) {
           location: z.string().describe('The location to get the weather for'),
         }),
         execute: async ({ location }) => {
-      
+          console.log("calcolo temperatura");
           const locationCity = await getCoordinates(location);
           const weather = await getWeather(locationCity.latitude, locationCity.longitude);
-         const temperature = weather.current.temperature_2m;
+          const temperature = weather.current.temperature_2m;
+          const apparent_temperature = weather.current.apparent_temperature;
+          const timeZone = await getTimezone(locationCity.latitude,locationCity.longitude);
+          console.log("weather.current.time",weather.current.time);
+          const time = new Intl.DateTimeFormat("it-IT", {
+            timeZone: timeZone.timezone,
+            dateStyle: "full",
+            timeStyle: "medium",
+          }).format(new Date());
+         
+            console.log("time",time);
+         // console.log("apparent_temperature",apparent_temperature);
           return {
             locationCity,
             temperature,
-          };
-        },
-      }),
-      convertFahrenheitToCelsius: tool({
-        description: 'Convert a temperature in fahrenheit to celsius',
-        inputSchema: z.object({
-          temperature: z
-            .number()
-            .describe('The temperature in fahrenheit to convert'),
-        }),
-        execute: async ({ temperature }) => {
-          const celsius = Math.round((temperature - 32) * (5 / 9));
-          return {
-            celsius,
+            apparent_temperature,
+            time,
           };
         },
       }),

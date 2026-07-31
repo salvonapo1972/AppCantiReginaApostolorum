@@ -11,7 +11,7 @@ import { useState } from "react";
 
 export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> }) {
 
-  console.log("items", items)
+  //console.log("items", items)
   const [searchValue, setSearchValue] = useState("");
   const filterNames = (title: string) => {
     return title.toLowerCase().indexOf(searchValue.toLowerCase()) !== -1;
@@ -21,7 +21,7 @@ export default function ElencoCanti({ items }: { items: ReadonlyArray<SongItem> 
        <SearchBar onSearch={setSearchValue} search={searchValue} />
         <div id="searchid" className="grid-cols-1 sm:grid md:grid-cols-3 max-w-7xl mx-auto px-3">
       {items.filter((singlePost) => filterNames(singlePost.fields.title)).map((itemFiltered,index) => {
-        console.log("singlePost.fields",itemFiltered.fields);
+       // console.log("singlePost.fields",itemFiltered.fields);
         const { slug, title, date } = itemFiltered.fields;
 
         return (

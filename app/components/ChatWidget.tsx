@@ -27,8 +27,8 @@ export default function ChatWidget() {
     }
   });
 
-  const botAvatar = "avatar.svg";
-  const userAvatar = "avatar_human.svg";
+  const botAvatar = "/avatar.svg";
+  const userAvatar = "/avatar_human.svg";
 
   // Animazione stabile dei puntini
   useEffect(() => {

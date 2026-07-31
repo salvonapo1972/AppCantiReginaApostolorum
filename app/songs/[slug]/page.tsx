@@ -30,7 +30,7 @@ const fetchSong = async (slug: string): Promise<SongItem> => {
   };
 
   const queryResult = await client.getEntries(queryOptions);
-  console.log("song",queryResult);
+ // console.log("song",queryResult);
 
   return queryResult.items[0] as unknown as SongItem;
 };
@@ -50,8 +50,8 @@ export default async function SongPage({ params }: SongPageProps) {
   };
 
   const song = await fetchSong(slug);
-  //console.log("songs.fields", song.fields);
-  const { title, date, testoCanzone, urlVideo } = song.fields;
+ // console.log("songs.fields", song.fields);
+  const { title, date, testoCanzone, urlVideo } = song?.fields || 'null';
 
   return (
     <main className="bckelenco text-white min-h-screen p-5  text-center">
