@@ -21,7 +21,7 @@ const getSongEntries = async ():Promise<SongQueryResult> => {
 
 export default async function Home() {
   const songEntries = await getSongEntries();
-  console.log("Home -> blogEntries", songEntries);
+  //console.log("Home -> blogEntries", songEntries);
   return (
     <main className="flex min-h-screen flex-col  gap-y-8 bg-gradient-to-b from-blue-100 to-pink-100">
       <Hero />
