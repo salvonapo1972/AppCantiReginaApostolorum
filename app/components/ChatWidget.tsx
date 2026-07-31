@@ -19,18 +19,11 @@ export default function ChatWidget() {
     }
   };
 
-  // Inizializzazione useChat con trigger di scroll attivi SOLO in generazione
+  // Inizializzazione useChat
   const { messages, sendMessage } = useChat({
-    onResponse: () => {
-      setIsLoading(true);
-      setTimeout(scrollToBottom, 10);
-    },
     onFinish: () => {
-      setIsLoading(false); // 1. Spegne subito lo stato di caricamento
-      setTimeout(scrollToBottom, 30); // Ultimo scroll di assestamento
-    },
-    onChunkReceived: () => {
-      scrollToBottom(); // Segue il testo parola per parola
+      setIsLoading(false);
+      setTimeout(scrollToBottom, 30);
     }
   });
 
