@@ -3,6 +3,7 @@
 import { useChat } from '@ai-sdk/react';
 import { useState, useRef, useEffect } from 'react';
 import { Streamdown } from 'streamdown';
+import dynamic from 'next/dynamic';
 
 export default function ChatWidget() {
   const [dots, setDots] = useState('');
@@ -11,6 +12,11 @@ export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   
   const chatContainerRef = useRef<HTMLDivElement>(null);
+
+ const ParkingMap = dynamic(() => import('./parking-map'), {
+    ssr: false,
+    loading: () => <p className="h-80 flex items-center justify-center bg-gray-100 rounded-lg">Caricamento mappa...</p>
+  });
 
   // Funzione per forzare lo scroll in fondo
   const scrollToBottom = () => {
@@ -134,6 +140,7 @@ export default function ChatWidget() {
                   }`}
                 >
                   {message.parts.map((part, i) => {
+                   // console.log("parttype",part.type);
                     switch (part.type) {
                       case 'text':
                         return message.role === 'assistant' ? (
@@ -143,10 +150,30 @@ export default function ChatWidget() {
                         ) : (
                           <div className="font-semibold inline text-sm" key={`${message.id}-${i}`}>{part.text}</div>
                         );
-                      default:
+                      case 'tool-cercaParcheggi': {
+                        console.log("part",part.type);
+                        console.log("part.metadata",part.output);
+                        const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
+                        const center = toolOutput?.center;
+                        const locations = toolOutput?.locations;
+                        console.log("center",center);
+                        console.log("locations",locations);
+                        if (!center || !locations) {
+                          return null;
+                        }
+
+                        return (
+                          <div key={`${message.id}-${i}`} className="w-full mt-2">
+                            <p className="text-xs text-gray-500 mb-1">Mappa dei parcheggi trovati:</p>
+                            <ParkingMap center={center as never} locations={locations as never} />
+                          </div>
+                        );
+                  };
+                  default:
                         return null;
                     }
-                  })}
+                  })
+                  }
                 </div>
               </div>
             );

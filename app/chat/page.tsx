@@ -3,6 +3,7 @@
 import { useChat } from '@ai-sdk/react';
 import { useState, useRef, useEffect } from 'react';
 import { Streamdown } from 'streamdown';
+import dynamic from 'next/dynamic';
 
 export default function Chat() {
   const [dots, setDots] = useState('');
@@ -13,6 +14,14 @@ export default function Chat() {
 
   
   const chatContainerRef = useRef<HTMLDivElement>(null);
+
+  const ParkingMap = dynamic(() => import('../components/parking-map'), {
+    ssr: false,
+    loading: () => <p className="h-80 flex items-center justify-center bg-gray-100 rounded-lg">Caricamento mappa...</p>
+  });
+
+
+ 
 
   // 1. Animazione stabile dei puntini
   useEffect(() => {
@@ -38,11 +47,15 @@ export default function Chat() {
     if (isAtBottom) {
       container.scrollTop = container.scrollHeight;
     }
+    if (messages.length > 0) {
+    console.log("--- CRONOLOGIA MESSAGGI AGGIORNATA ---");
+    console.log(JSON.stringify(messages, null, 2)); // Stringify mostra la struttura completa senza nodi nascosti
+  }
   }, [messages, dots]);
 
   // 3. LOGICA DI CONTROLLO: Controlliamo se l'IA sta pensando ma non ha ancora scritto nulla
   const lastMessage = messages.at(-1);
-  //console.log("lastMessage",lastMessage);
+  console.log("lastMessage",lastMessage);
   // Verifica se l'ultimo messaggio è dell'assistente e se contiene del testo reale
   const hasStartedTyping =  lastMessage?.role === 'assistant' && 
     lastMessage.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
@@ -62,6 +75,7 @@ export default function Chat() {
       >
         {/* Render della cronologia dei messaggi filtrando i messaggi dell'IA ancora vuoti */}
         {messages.map(message => {
+          console.log("message",message.parts);
           // Evita di renderizzare un blocco vuoto per l'IA se non ha ancora testo pronto
           const isAiEmpty = message.role === 'assistant' && 
             !message.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
@@ -74,7 +88,9 @@ export default function Chat() {
                 {message.role === 'user' ? 'User: ' : 'AI: ' }
               </span>
               {message.parts.map((part, i) => {
+                 
                 switch (part.type) {
+                 
                   case 'text':
                     return message.role === 'assistant' ? (
                       <div key={`${message.id}-${i}`} className="prose dark:prose-invert max-w-none">
@@ -84,6 +100,22 @@ export default function Chat() {
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
+                  case 'tool-call': {
+                    const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
+                    const center = toolOutput?.center;
+                    const locations = toolOutput?.locations;
+
+                    if (!center || !locations) {
+                      return null;
+                    }
+
+                    return (
+                      <div key={`${message.id}-${i}`} className="w-full mt-2">
+                        <p className="text-xs text-gray-500 mb-1">Mappa dei parcheggi trovati:</p>
+                        <ParkingMap center={center as never} locations={locations as never} />
+                      </div>
+                    );
+                  }
                   case 'tool-weather':
                   case 'tool-convertFahrenheitToCelsius':
                     return (

@@ -84,6 +84,99 @@ export async function POST(req: Request) {
           
         },
       }),
+      ottieniCoordinate: tool({
+        description: 'Converte un indirizzo, monumento o città in coordinate geografiche (latitudine e longitudine).',
+        inputSchema: z.object({
+          luogo: z.string().describe('Il nome del luogo o indirizzo fornito dall\'utente (es. "Colosseo, Roma" o "Piazza Duomo, Milano")'),
+        }),
+        execute: async ({ luogo }) => {
+          console.log("ottieniCoordinate");
+          const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=${encodeURIComponent(luogo)}`;
+
+          const response = await fetch(url, {
+            headers: {
+              'User-Agent': 'MioChatbotParcheggiNextJS/1.0',
+              'Accept-Language': 'it',
+            },
+          });
+          const data = (await response.json()) as Array<{
+            lat: string;
+            lon: string;
+            display_name: string;
+          }>;
+
+          if (!Array.isArray(data) || data.length === 0) {
+            return { error: 'Luogo non trovato' };
+          }
+
+          return {
+            latitude: Number.parseFloat(data[0].lat),
+            longitude: Number.parseFloat(data[0].lon),
+            displayName: data[0].display_name,
+          };
+        },
+      }),
+      cercaParcheggi: tool({
+        description: 'Cerca i parcheggi in una determinata area geografica usando le coordinate lat/lon.',
+        inputSchema: z.object({
+          latitude: z.number().describe('La latitudine del centro di ricerca'),
+          longitude: z.number().describe('La longitudine del centro di ricerca'),
+          radius: z.number().optional().describe('Il raggio di ricerca in metri (es. 1000)'),
+        }),
+        execute: async ({
+          latitude,
+          longitude,
+          radius = 1000,
+        }) => {
+          // Query Overpass QL per estrarre nodi e macro-aree parcheggio (amenity=parking)
+          console.log("Parcheggi")
+          const overpassQuery = `
+            [out:json][timeout:25];
+            (
+              node["amenity"="parking"](around:${radius},${latitude},${longitude});
+              way["amenity"="parking"](around:${radius},${latitude},${longitude});
+            );
+            out center;
+          `;
+
+          const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(overpassQuery)}`;
+        //  console.log("url",url);
+          const response = await fetch("https://overpass-api.de/api/interpreter", {
+            method: "POST",
+            headers: {
+              // IMPORTANTE: Dice al server che stai inviando i parametri corretti
+              "Content-Type": "application/x-www-form-urlencoded",
+              
+              // OBBLIGATORIO: Identifica il tuo bot. Sostituisci con informazioni reali per evitare ban permanenti
+              "User-Agent": "MioChatbotNextJS/1.0",
+              
+              // Opzionale ma consigliato per i server Overpass
+              "Accept": "application/json"
+            },
+            // La query va formattata come parametro 'data=' dentro il corpo della POST
+            body: `data=${encodeURIComponent(overpassQuery)}`
+          });
+          if (!response.ok) {
+  const errorText = await response.text();
+  console.error(`Errore Overpass (${response.status}):`, errorText);
+  throw new Error(`Il server Overpass ha risposto con codice ${response.status}`);
+}
+          const data = await response.json();
+
+          // Mappiamo i risultati in un formato pulito per la mappa
+          const locations = (data.elements || [])
+            .map((el: any) => ({
+              id: el.id,
+              lat: el.lat ?? el.center?.lat,
+              lon: el.lon ?? el.center?.lon,
+              name: el.tags?.name || 'Parcheggio Generico',
+              type: el.tags?.parking || 'In strada / Struttura',
+            }))
+            .filter((el: any) => el.lat && el.lon);
+          console.log("locations",locations);
+          return { locations, center: [latitude, longitude] };
+        },
+      }),
       farmacie: tool({
         description: 'Get farmacie di turno di Roma ',
         inputSchema: z.object({
@@ -188,6 +281,6 @@ export async function POST(req: Request) {
   });
 
   return createUIMessageStreamResponse({
-    stream: toUIMessageStream({ stream: result.stream }),
-  });
+  stream: toUIMessageStream(result),
+});
 }
