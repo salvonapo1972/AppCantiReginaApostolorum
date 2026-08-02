@@ -33,7 +33,10 @@ async function getEarthquakes(urlEartquakes: string): Promise<INGVResponse> {
   const url = urlEartquakes;
   // Eseguiamo la fetch con un revalidate di 60 secondi per non sovraccaricare l'INGV
   // ma mantenere i dati freschi
-  const res = await fetch(url, { next: { revalidate: 0 } });
+  const res = await fetch(url, { 
+    signal: AbortSignal.timeout(10000),
+    next: { revalidate: 60 } 
+  });
 
   if (!res.ok) {
     throw new Error('Impossibile recuperare i dati dall\'INGV');

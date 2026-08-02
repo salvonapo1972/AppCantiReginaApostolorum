@@ -142,13 +142,15 @@ export async function POST(req: Request) {
           const url = `https://overpass-api.de/api/interpreter?data=${encodeURIComponent(overpassQuery)}`;
         //  console.log("url",url);
           const response = await fetch("https://overpass-api.de/api/interpreter", {
+            signal: AbortSignal.timeout(20000),
+            next: { revalidate: 60 },
             method: "POST",
             headers: {
               // IMPORTANTE: Dice al server che stai inviando i parametri corretti
               "Content-Type": "application/x-www-form-urlencoded",
               
               // OBBLIGATORIO: Identifica il tuo bot. Sostituisci con informazioni reali per evitare ban permanenti
-              "User-Agent": "MioChatbotNextJS/1.0",
+              "User-Agent": "cantireapam.netlify.com/1.0",
               
               // Opzionale ma consigliato per i server Overpass
               "Accept": "application/json"
