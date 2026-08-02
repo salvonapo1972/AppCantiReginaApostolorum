@@ -65,7 +65,7 @@ export async function POST(req: Request) {
     messages: await convertToModelMessages(messages),
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
    //  system: `Oggi è ${today}. Tu sei un assistente virtuale.Usa questo contesto per rispondere: `,
-    stopWhen: isStepCount(10),
+    stopWhen: isStepCount(20),
     tools: {
       searchWeb: tool({
         description: 'Cerca sul web informazioni in tempo reale, notizie recenti o dati aggiornati.',
