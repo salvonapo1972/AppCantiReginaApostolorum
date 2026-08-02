@@ -10,6 +10,7 @@ export async function getFarmacieTurno(date: string) {
     console.log("url",url)
 
   const response = await fetch(url, {
+    next: { revalidate: 60 },
     headers: {
       "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/138 Safari/537.36",
