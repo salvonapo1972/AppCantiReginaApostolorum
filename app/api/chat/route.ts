@@ -8,6 +8,7 @@ import {
   isStepCount,
   createUIMessageStreamResponse,
   toUIMessageStream,
+  embed,
 } from 'ai';
 import fs from 'fs/promises';
 import { date, z } from 'zod';
@@ -16,6 +17,7 @@ import { createOpenRouter  } from '@openrouter/ai-sdk-provider';
 import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
 import { getTimezone } from '@/app/lib/timezones';
+import { db } from '@/app/lib/db';
 
 
 import { tavily } from '@tavily/core';
@@ -55,8 +57,7 @@ const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'u
 export async function POST(req: Request) {
   const { messages }: { messages: UIMessage[] } = await req.json();
  
- //const fileContent = RemoteFile();
-// console.log("fileContent",fileContent)
+
   const today = new Date();
  
   const result = streamText({
@@ -64,9 +65,34 @@ export async function POST(req: Request) {
     model: openai('gpt-5-mini'),
     messages: await convertToModelMessages(messages),
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
-   //  system: `Oggi è ${today}. Tu sei un assistente virtuale.Usa questo contesto per rispondere: `,
     stopWhen: isStepCount(20),
     tools: {
+      searchCompanyKnowledge: tool({
+      description: `
+      Usa SEMPRE questo strumento quando l'utente chiede:
+      - Regolamenti aziendali
+      - COme si compila il FORM della dichiarazione accessibilità AGID per i CMS
+      `,
+      inputSchema: z.object({
+        query: z.string().describe('La query di ricerca semantica.'),
+      }),
+      execute: async ({ query }) => {
+        console.log("queryinfo" + query);
+        // Genera embedding per la query dello strumento
+        const { embedding } = await embed({
+          model: openai.embedding('text-embedding-3-small'),
+          value: query,
+        });
+
+        // Interroga Postgres
+        const { rows } = await db.query(
+          `SELECT content FROM document_sections ORDER BY embedding <=> $1::vector LIMIT 3`,
+          [`[${embedding.join(',')}]`]
+        );
+
+        return rows.map(r => r.content);
+      },
+    }),
       searchWeb: tool({
         description: 'Cerca sul web informazioni in tempo reale, notizie recenti o dati aggiornati.',
         inputSchema: z.object({
@@ -132,7 +158,7 @@ export async function POST(req: Request) {
 
           const response = await fetch(url, {
             headers: {
-              'User-Agent': 'MioChatbotParcheggiNextJS/1.0',
+              'User-Agent': 'ParcheggiNextJS/1.0',
               'Accept-Language': 'it',
             },
           });
@@ -217,52 +243,52 @@ export async function POST(req: Request) {
         },
       }),
       farmacie: tool({
-  description: 'Ottiene l’elenco delle farmacie di turno di Roma in un intervallo di date. Se l’intervallo supera i 7 giorni, il tool elabora automaticamente solo i primi 7 giorni.',
-  inputSchema: z.object({
-    inizio: z.string().describe("Data di inizio dell'intervallo in formato YYYY-MM-DD"),
-    fine: z.string().describe("Data di fine dell'intervallo in formato YYYY-MM-DD"),
-  }),
-  execute: async ({ inizio, fine }) => {
-    const start = new Date(inizio);
-    let end = new Date(fine);
+      description: 'Ottiene l’elenco delle farmacie di turno di Roma in un intervallo di date. Se l’intervallo supera i 7 giorni, il tool elabora automaticamente solo i primi 7 giorni.',
+      inputSchema: z.object({
+        inizio: z.string().describe("Data di inizio dell'intervallo in formato YYYY-MM-DD"),
+        fine: z.string().describe("Data di fine dell'intervallo in formato YYYY-MM-DD"),
+      }),
+      execute: async ({ inizio, fine }) => {
+        const start = new Date(inizio);
+        let end = new Date(fine);
 
-    // Calcolo della differenza iniziale in giorni
-    const diffTime = Math.abs(end.getTime() - start.getTime());
-    let giorni = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+        // Calcolo della differenza iniziale in giorni
+        const diffTime = Math.abs(end.getTime() - start.getTime());
+        let giorni = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
 
-    const MAX_GIORNI = 7;
-    
-    // Gestione dello split automatico: se supera 7 giorni, tronca l'intervallo
-    if (giorni > MAX_GIORNI) {
-      end = new Date(start);
-      end.setDate(start.getDate() + (MAX_GIORNI - 1));
-    }
+        const MAX_GIORNI = 7;
+        
+        // Gestione dello split automatico: se supera 7 giorni, tronca l'intervallo
+        if (giorni > MAX_GIORNI) {
+          end = new Date(start);
+          end.setDate(start.getDate() + (MAX_GIORNI - 1));
+        }
 
-    const risultati = [];
-    let corrente = new Date(start);
+        const risultati = [];
+        let corrente = new Date(start);
 
-    // Esecuzione del ciclo fino alla data di fine (corretta o originale)
-    while (corrente <= end) {
-      const dataStringa = corrente.toISOString().slice(0, 10);
-      
-      try {
-        const datiFarmacia = await getFarmacieTurno(dataStringa);
-        risultati.push(datiFarmacia);
-      } catch (error) {
-        // Opzionale: evita che il blocco di un singolo giorno rompa l'intero intervallo
-        console.error(`Errore nel recupero dei dati per il giorno ${dataStringa}:`, error);
-      }
+        // Esecuzione del ciclo fino alla data di fine (corretta o originale)
+        while (corrente <= end) {
+          const dataStringa = corrente.toISOString().slice(0, 10);
+          
+          try {
+            const datiFarmacia = await getFarmacieTurno(dataStringa);
+            risultati.push(datiFarmacia);
+          } catch (error) {
+            // Opzionale: evita che il blocco di un singolo giorno rompa l'intero intervallo
+            console.error(`Errore nel recupero dei dati per il giorno ${dataStringa}:`, error);
+          }
 
-      corrente.setDate(corrente.getDate() + 1);
-    }
+          corrente.setDate(corrente.getDate() + 1);
+        }
 
-    // Formattazione pulita dei risultati per il modello
-    return risultati.map((r) => ({
-      data: r.data,
-      farmacie: r.farmacie.map((f: { nome: string; indirizzo: string }) => ({
-        nome: f.nome,
-        indirizzo: f.indirizzo
-      }))
+        // Formattazione pulita dei risultati per il modello
+        return risultati.map((r) => ({
+          data: r.data,
+          farmacie: r.farmacie.map((f: { nome: string; indirizzo: string }) => ({
+            nome: f.nome,
+            indirizzo: f.indirizzo
+          }))
     }));
   },
 }),
