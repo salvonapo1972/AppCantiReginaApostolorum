@@ -67,6 +67,20 @@ export async function POST(req: Request) {
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
     stopWhen: isStepCount(20),
     tools: {
+      get_user_gps_location: tool({
+      description: 'Richiede le coordinate GPS esatte (latitudine e longitudine) del dispositivo dell utente.',
+      parameters: z.object({
+        richiediAltaPrecisione: z.boolean().optional().default(true).describe('Se abilitato, richiede la massima precisione GPS possibile.'),
+      }),
+      // Questa funzione viene eseguita sul server se passi i dati dal client
+      execute: async ({ richiediAltaPrecisione }) => {
+        // Il server indica all'AI che serve l'intervento del client per leggere il GPS
+        return { 
+          richiestaInviata: true,
+          messaggio: "In attesa che il client fornisca le coordinate tramite le API del browser." 
+        };
+      },
+    }),
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
