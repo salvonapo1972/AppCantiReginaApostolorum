@@ -15,6 +15,8 @@ export default function Chat() {
   async onToolCall({ toolCall }) {
     if (toolCall.toolName === 'get_user_gps_location') {
       return new Promise<any>((resolve) => {
+        console.log("test")
+        alert('gps');
         if (!navigator.geolocation) {
           resolve({ error: 'Geolocalizzazione non supportata dal browser.' });
           return;
