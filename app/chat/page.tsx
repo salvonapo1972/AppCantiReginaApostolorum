@@ -101,7 +101,7 @@ export default function Chat() {
                  
                     );
                   case 'tool-get_user_gps_location':{
-                    return new Promise((resolve) => {
+                    return new Promise<any>((resolve) => {
                       if (!navigator.geolocation) {
                          resolve({ error: 'Geolocalizzazione non supportata dal browser.' });
                       return;
