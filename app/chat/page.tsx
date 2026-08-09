@@ -12,7 +12,9 @@ export default function Chat() {
   
   const { messages, sendMessage } = useChat({
   // Aggiungi la gestione dei tool qui dentro
+     
   async onToolCall({ toolCall }) {
+     console.log("test",toolCall.toolName)
     if (toolCall.toolName === 'tool-get_user_gps_location') {
       return new Promise<any>((resolve) => {
         console.log("test")
