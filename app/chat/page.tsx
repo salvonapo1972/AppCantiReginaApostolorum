@@ -10,7 +10,34 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const { messages, sendMessage } = useChat();
+  const { messages, sendMessage } = useChat({
+  // Aggiungi la gestione dei tool qui dentro
+  async onToolCall({ toolCall }) {
+    if (toolCall.toolName === 'get_user_gps_location') {
+      return new Promise<any>((resolve) => {
+        if (!navigator.geolocation) {
+          resolve({ error: 'Geolocalizzazione non supportata dal browser.' });
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            // Invia i dati GPS reali al server
+            resolve({
+              latitude: position.coords.latitude,
+              longitude: position.coords.longitude,
+              accuracy: position.coords.accuracy,
+            });
+          },
+          (error) => {
+            resolve({ error: `Permesso negato o errore GPS: ${error.message}` });
+          },
+          { enableHighAccuracy: true, timeout: 10000 }
+        );
+      });
+    }
+  }
+});
 
   
   const chatContainerRef = useRef<HTMLDivElement>(null);
@@ -100,30 +127,7 @@ export default function Chat() {
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
-                  case 'tool-get_user_gps_location':{
-                    return new Promise<any>((resolve) => {
-                      if (!navigator.geolocation) {
-                         resolve({ error: 'Geolocalizzazione non supportata dal browser.' });
-                      return;
-                    }
-
-                    navigator.geolocation.getCurrentPosition(
-                     (position) => {
-                     // Restituisce le coordinate reali all'SDK di Vercel
-                     resolve({
-                        latitude: position.coords.latitude,
-                        longitude: position.coords.longitude,
-                        accuracy: position.coords.accuracy,
-                      });
-                     },
-                      (error) => {
-                         resolve({ error: `Permesso negato o errore GPS: ${error.message}` });
-                      },
-                     { enableHighAccuracy: true, timeout: 10000 }
-                   );
-                   });
-     
-                  }
+                  
                   case 'tool-call': {
                     const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
                     const center = toolOutput?.center;
