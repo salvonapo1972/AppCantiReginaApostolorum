@@ -10,7 +10,7 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const { messages, sendMessage } = useChat({
+  const { messages, append } = useChat({
   // Aggiungi la gestione dei tool qui dentro
   async onToolCall({ toolCall }) {
     if (toolCall.toolName === 'tool-get_user_gps_location') {
@@ -174,7 +174,7 @@ export default function Chat() {
         <form
           onSubmit={e => {
             e.preventDefault();
-            sendMessage({ text: input });
+            append({ content: input });
             setInput('');
             
             setTimeout(() => {
