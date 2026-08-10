@@ -13,7 +13,7 @@ export default function Chat() {
 const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
-  console.log('passo1');
+  
   onToolCall({ toolCall }) {
     console.log('passo');
       // Check if it's a dynamic tool first for proper type narrowing
@@ -73,7 +73,7 @@ const [log, setLog] = useState('');
   useEffect(() => {
     const container = chatContainerRef.current;
     if (!container) return;
-
+console.log('passo1');
     const isAtBottom = (container.scrollHeight - container.clientHeight - container.scrollTop) <= 50;
 
     if (isAtBottom) {
