@@ -10,10 +10,10 @@ export default function Chat() {
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  
+  alert('ciao')
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
-  alert('ciao')
+  
   async onToolCall({ toolCall }) {
     console.log("📢 Tool intercettato:", toolCall.toolName);
     
