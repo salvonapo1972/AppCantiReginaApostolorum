@@ -142,6 +142,7 @@ const [log, setLog] = useState('');
                         
                       </div>
                     );
+                  }
                   case 'tool-call': {
                     const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
                     const center = toolOutput?.center;
