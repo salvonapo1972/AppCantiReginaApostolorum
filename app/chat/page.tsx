@@ -10,12 +10,12 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const { messages, sendMessage } = useChat({
+  const { messages, sendMessage,  addToolOutput } = useChat({
   // Aggiungi la gestione dei tool qui dentro
      
   async onToolCall({ toolCall }) {
      console.log("test",toolCall.toolName)
-    if (toolCall.toolName === 'tool-get_user_gps_location') {
+    if (toolCall.toolName === 'get_user_gps_location') {
       return new Promise<any>((resolve) => {
         console.log("test")
         alert('gps');
@@ -38,6 +38,10 @@ export default function Chat() {
           },
           { enableHighAccuracy: true, timeout: 10000 }
         );
+      });
+      addToolOutput({
+        toolCallId: toolCall.toolCallId,
+        output: { position },
       });
     }
   }
