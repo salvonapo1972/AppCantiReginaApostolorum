@@ -16,6 +16,7 @@ export default function Chat() {
   async onToolCall({ toolCall }) {
      console.log("test",toolCall.toolName)
     if (toolCall.toolName === 'get_user_gps_location') {
+      if (toolCall.dynamic) return;
       return new Promise<any>((resolve) => {
         console.log("test")
         alert('gps');
@@ -40,8 +41,9 @@ export default function Chat() {
         );
       });
       addToolOutput({
+        tool: 'get_user_gps_location,'
         toolCallId: toolCall.toolCallId,
-        output: { position },
+        output: null,
       });
     }
   }
