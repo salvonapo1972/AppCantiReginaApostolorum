@@ -67,16 +67,6 @@ export async function POST(req: Request) {
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
     stopWhen: isStepCount(20),
     tools: {
-      get_user_gps_location: tool({
-      description: 'Richiede le coordinate GPS esatte (latitudine e longitudine) del dispositivo dell utente.',
-      inputSchema: z.object({}),
-      execute: async () => {
-      // Lascialo vuoto o metti un fallback, il client lo sovrascriverà
-      return { location: "unknown" }; 
-    }
-      // Questa funzione viene eseguita sul server se passi i dati dal client
-      
-    }),
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
