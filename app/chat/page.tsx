@@ -10,7 +10,9 @@ export default function Chat() {
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  alert('ciao')
+if (typeof window !== 'undefined') {
+          alert("Il modello sta richiedendo il GPS!");
+        }
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
