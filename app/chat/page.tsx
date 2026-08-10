@@ -4,6 +4,7 @@ import { useChat } from '@ai-sdk/react';
 import { useState, useRef, useEffect } from 'react';
 import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
+import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
 export default function Chat() {
   const [dots, setDots] = useState('');
