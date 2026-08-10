@@ -13,7 +13,7 @@ export default function Chat() {
   
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
-   
+   maxSteps: 5,
   async onToolCall({ toolCall }) {
     console.log("📢 Tool intercettato:", toolCall.toolName);
     
