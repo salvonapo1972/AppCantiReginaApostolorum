@@ -131,7 +131,17 @@ const [log, setLog] = useState('');
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
+                  case 'tool-getUserLocation': {
+                    
+                    
                   
+
+                    return (
+                      <div key={`${message.id}-${i}`} className="w-full mt-2">
+                        <p className="text-xs text-gray-500 mb-1">gps</p>
+                        
+                      </div>
+                    );
                   case 'tool-call': {
                     const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
                     const center = toolOutput?.center;
