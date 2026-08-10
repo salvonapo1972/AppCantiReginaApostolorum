@@ -73,14 +73,7 @@ export async function POST(req: Request) {
         richiediAltaPrecisione: z.boolean().optional().default(true).describe('Se abilitato, richiede la massima precisione GPS possibile.'),
       }),
       // Questa funzione viene eseguita sul server se passi i dati dal client
-      execute: async ({ richiediAltaPrecisione }) => {
-        console.log('passo per gps');
-        // Il server indica all'AI che serve l'intervento del client per leggere il GPS
-        return { 
-          richiestaInviata: true,
-          messaggio: "In attesa che il client fornisca le coordinate tramite le API del browser." 
-        };
-      },
+      
     }),
       searchCompanyKnowledge: tool({
       description: `
