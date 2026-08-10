@@ -69,9 +69,8 @@ export async function POST(req: Request) {
     tools: {
       get_user_gps_location: tool({
       description: 'Richiede le coordinate GPS esatte (latitudine e longitudine) del dispositivo dell utente.',
-      inputSchema: z.object({
-        richiediAltaPrecisione: z.boolean().optional().default(true).describe('Se abilitato, richiede la massima precisione GPS possibile.'),
-      }),
+      inputSchema: z.object({}),
+      
       // Questa funzione viene eseguita sul server se passi i dati dal client
       
     }),
