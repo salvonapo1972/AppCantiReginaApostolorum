@@ -15,6 +15,7 @@ const [log, setLog] = useState('');
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
   onToolCall({ toolCall }) {
+    console.log('passo');
       // Check if it's a dynamic tool first for proper type narrowing
       if (toolCall.dynamic) {
         return;
