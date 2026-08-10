@@ -15,6 +15,8 @@ export default function Chat() {
      
   async onToolCall({ toolCall }) {
      console.log("test",toolCall.toolName)
+    sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls, 
+  
     if (toolCall.toolName === 'getUserLocation') {
       if (toolCall.dynamic) return;
       return new Promise<any>((resolve) => {
