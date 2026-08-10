@@ -70,7 +70,10 @@ export async function POST(req: Request) {
       get_user_gps_location: tool({
       description: 'Richiede le coordinate GPS esatte (latitudine e longitudine) del dispositivo dell utente.',
       inputSchema: z.object({}),
-      
+      execute: async () => {
+      // Lascialo vuoto o metti un fallback, il client lo sovrascriverà
+      return { location: "unknown" }; 
+    }
       // Questa funzione viene eseguita sul server se passi i dati dal client
       
     }),
