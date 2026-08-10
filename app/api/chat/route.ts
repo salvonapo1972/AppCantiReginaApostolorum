@@ -66,7 +66,7 @@ export async function POST(req: Request) {
     messages: await convertToModelMessages(messages),
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
     stopWhen: isStepCount(20),
-    toolChoice: 'required',
+    
     tools: {
       getUserLocation: {
         description: 'Recupera le coordinate GPS dell’utente.',
