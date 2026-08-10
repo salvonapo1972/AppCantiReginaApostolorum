@@ -69,7 +69,7 @@ export async function POST(req: Request) {
     tools: {
       getUserLocation: {
         description: 'Recupera le coordinate GPS dell’utente.',
-        parameters: z.object({}), 
+        inputSchema: z.object({}), 
       },
       searchCompanyKnowledge: tool({
       description: `
