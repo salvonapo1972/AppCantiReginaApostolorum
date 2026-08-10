@@ -10,9 +10,7 @@ export default function Chat() {
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-if (typeof window !== 'undefined') {
-          alert("Il modello sta richiedendo il GPS!");
-        }
+const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
@@ -20,7 +18,7 @@ if (typeof window !== 'undefined') {
     console.log("📢 Tool intercettato:", toolCall.toolName);
     
     if (toolCall.toolName === 'getUserLocation') {
-      
+      setLog(toolCall.toolName)
 
       // 1. Mostriamo l'alert per capire se siamo entrati nell'if (comodo su smartphone)
       alert('Richiesta GPS in corso...');
@@ -80,6 +78,7 @@ if (typeof window !== 'undefined') {
 
   // 1. Animazione stabile dei puntini
   useEffect(() => {
+    alert(log)
     if (!isLoading) {
       setDots('');
       return;
