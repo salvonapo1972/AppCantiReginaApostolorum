@@ -25,7 +25,7 @@ const [log, setLog] = useState('');
 
         // No await - avoids potential deadlocks
         addToolOutput({
-          tool: 'getLocation',
+          tool: 'getUserLocation',
           toolCallId: toolCall.toolCallId,
           output: cities[Math.floor(Math.random() * cities.length)],
         });
