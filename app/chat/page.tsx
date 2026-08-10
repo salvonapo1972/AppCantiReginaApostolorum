@@ -18,7 +18,7 @@ export default function Chat() {
     console.log("📢 Tool intercettato:", toolCall.toolName);
     
     if (toolCall.toolName === 'getUserLocation') {
-      if (toolCall.dynamic) return;
+      
 
       // 1. Mostriamo l'alert per capire se siamo entrati nell'if (comodo su smartphone)
       alert('Richiesta GPS in corso...');
