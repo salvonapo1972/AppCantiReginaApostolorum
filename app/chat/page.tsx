@@ -14,7 +14,7 @@ const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
-  async onToolCall({ toolCall }) {
+  onToolCall({ toolCall }) {
       // Check if it's a dynamic tool first for proper type narrowing
       if (toolCall.dynamic) {
         return;
