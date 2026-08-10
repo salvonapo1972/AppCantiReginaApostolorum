@@ -14,7 +14,7 @@ const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
-   onToolCall({ toolCall }) {
+  await  onToolCall({ toolCall }) {
     console.log("📢 Tool intercettato:", toolCall.toolName);
     
     if (toolCall.toolName === 'getUserLocation') {
