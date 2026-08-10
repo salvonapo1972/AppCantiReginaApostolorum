@@ -22,13 +22,21 @@ const [log, setLog] = useState('');
 
       if (toolCall.toolName === 'getUserLocation') {
         const cities = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
-
+         try {
         // No await - avoids potential deadlocks
         addToolOutput({
           tool: 'getUserLocation',
           toolCallId: toolCall.toolCallId,
           output: cities[Math.floor(Math.random() * cities.length)],
         });
+        } catch (err) {
+          addToolOutput({
+            tool: 'getUserLocation',
+            toolCallId: toolCall.toolCallId,
+            state: 'output-error',
+            errorText: 'Unable to get user location information',
+          });
+        }
       }
     },
 }); // Chiusura corretta di useChat
