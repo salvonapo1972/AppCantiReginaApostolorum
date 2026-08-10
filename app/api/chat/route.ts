@@ -67,6 +67,10 @@ export async function POST(req: Request) {
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
     stopWhen: isStepCount(20),
     tools: {
+      getUserLocation: {
+        description: 'Recupera le coordinate GPS dell’utente.',
+        parameters: z.object({}), 
+      },
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
