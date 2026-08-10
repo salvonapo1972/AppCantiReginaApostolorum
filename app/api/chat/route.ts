@@ -66,6 +66,7 @@ export async function POST(req: Request) {
     messages: await convertToModelMessages(messages),
     system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
     stopWhen: isStepCount(20),
+    maxSteps:5,
     tools: {
       get_user_gps_location: tool({
       description: 'Richiede le coordinate GPS esatte (latitudine e longitudine) del dispositivo dell utente.',
