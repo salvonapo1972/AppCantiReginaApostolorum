@@ -41,7 +41,7 @@ export default function Chat() {
         );
       });
       addToolOutput({
-        tool: 'get_user_gps_location,'
+        tool: 'get_user_gps_location',
         toolCallId: toolCall.toolCallId,
         output: null,
       });
