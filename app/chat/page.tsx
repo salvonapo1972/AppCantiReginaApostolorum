@@ -11,46 +11,58 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const { messages, sendMessage,  addToolOutput } = useChat({
-  // Aggiungi la gestione dei tool qui dentro
-    sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
+  const { messages, sendMessage, addToolOutput } = useChat({
+  sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
    
   async onToolCall({ toolCall }) {
-     console.log("test",toolCall.toolName)
+    console.log("📢 Tool intercettato:", toolCall.toolName);
     
     if (toolCall.toolName === 'getUserLocation') {
       if (toolCall.dynamic) return;
-      return new Promise<any>((resolve) => {
-        console.log("test")
-        alert('gps');
-        if (!navigator.geolocation) {
-          resolve({ error: 'Geolocalizzazione non supportata dal browser.' });
-          return;
-        }
 
-        navigator.geolocation.getCurrentPosition(
-          (position) => {
-            // Invia i dati GPS reali al server
-            resolve({
-              latitude: position.coords.latitude,
-              longitude: position.coords.longitude,
-              accuracy: position.coords.accuracy,
-            });
-          },
-          (error) => {
-            resolve({ error: `Permesso negato o errore GPS: ${error.message}` });
-          },
-          { enableHighAccuracy: true, timeout: 10000 }
-        );
-      });
+      // 1. Mostriamo l'alert per capire se siamo entrati nell'if (comodo su smartphone)
+      alert('Richiesta GPS in corso...');
+
+      let gpsResult;
+
+      // 2. Controlliamo se il browser del telefono supporta il GPS
+      if (!navigator.geolocation) {
+        gpsResult = { error: 'Geolocalizzazione non supportata dal browser.' };
+      } else {
+        try {
+          // 3. Avviamo la richiesta GPS asincrona avvolta in una Promise
+          gpsResult = await new Promise((resolve) => {
+            navigator.geolocation.getCurrentPosition(
+              (position) => {
+                resolve({
+                  latitude: position.coords.latitude,
+                  longitude: position.coords.longitude,
+                  accuracy: position.coords.accuracy,
+                });
+              },
+              (error) => {
+                resolve({ error: `Permesso negato o errore GPS: ${error.message}` });
+              },
+              { enableHighAccuracy: true, timeout: 10000 }
+            );
+          });
+        } catch (e) {
+          gpsResult = { error: 'Errore generico durante il recupero delle coordinate.' };
+        }
+      }
+
+      console.log("✅ Risultato GPS ottenuto:", gpsResult);
+      alert('GPS ottenuto: ' + JSON.stringify(gpsResult)); // Debug visibile su smartphone
+
+      // 4. Inviamo REALMENTE il risultato all'SDK (Ora viene eseguito correttamente!)
       addToolOutput({
-        tool: 'getUserLocation',
         toolCallId: toolCall.toolCallId,
-        output: null,
+        output: gpsResult, // Passiamo l'oggetto con le coordinate o l'errore
       });
     }
-  }
-});
+  } // Chiusura corretta di onToolCall
+}); // Chiusura corretta di useChat
+
 
   
   const chatContainerRef = useRef<HTMLDivElement>(null);
