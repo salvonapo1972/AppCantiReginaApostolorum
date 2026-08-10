@@ -56,6 +56,7 @@ export default function Chat() {
 
       // 4. Inviamo REALMENTE il risultato all'SDK (Ora viene eseguito correttamente!)
       addToolOutput({
+        tool: toolCall.toolName,
         toolCallId: toolCall.toolCallId,
         output: gpsResult, // Passiamo l'oggetto con le coordinate o l'errore
       });
@@ -70,7 +71,7 @@ export default function Chat() {
   const ParkingMap = dynamic(() => import('../components/parking-map'), {
     ssr: false,
     loading: () => <p className="h-80 flex items-center justify-center bg-gray-100 rounded-lg">Caricamento mappa...</p>
-  });
+ });
 
 
  
