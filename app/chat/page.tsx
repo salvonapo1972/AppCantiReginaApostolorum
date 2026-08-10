@@ -78,7 +78,7 @@ const [log, setLog] = useState('');
 
   // 1. Animazione stabile dei puntini
   useEffect(() => {
-    alert(log)
+    
     if (!isLoading) {
       setDots('');
       return;
