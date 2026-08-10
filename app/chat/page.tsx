@@ -21,7 +21,7 @@ const [log, setLog] = useState('');
         return;
       }
 
-      if (toolCall.toolName === 'getUserLocation') {
+      if (toolCall.toolName === 'tool-calls') {
         const cities = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
          try {
         // No await - avoids potential deadlocks
