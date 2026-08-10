@@ -14,54 +14,23 @@ const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
   
-  await  onToolCall({ toolCall }) {
-    console.log("📢 Tool intercettato:", toolCall.toolName);
-    
-    if (toolCall.toolName === 'getUserLocation') {
-      setLog(toolCall.toolName)
-
-      // 1. Mostriamo l'alert per capire se siamo entrati nell'if (comodo su smartphone)
-      alert('Richiesta GPS in corso...');
-
-      let gpsResult;
-
-      // 2. Controlliamo se il browser del telefono supporta il GPS
-      if (!navigator.geolocation) {
-        gpsResult = { error: 'Geolocalizzazione non supportata dal browser.' };
-      } else {
-        try {
-          // 3. Avviamo la richiesta GPS asincrona avvolta in una Promise
-          gpsResult = await new Promise((resolve) => {
-            navigator.geolocation.getCurrentPosition(
-              (position) => {
-                resolve({
-                  latitude: position.coords.latitude,
-                  longitude: position.coords.longitude,
-                  accuracy: position.coords.accuracy,
-                });
-              },
-              (error) => {
-                resolve({ error: `Permesso negato o errore GPS: ${error.message}` });
-              },
-              { enableHighAccuracy: true, timeout: 10000 }
-            );
-          });
-        } catch (e) {
-          gpsResult = { error: 'Errore generico durante il recupero delle coordinate.' };
-        }
+  async onToolCall({ toolCall }) {
+      // Check if it's a dynamic tool first for proper type narrowing
+      if (toolCall.dynamic) {
+        return;
       }
 
-      console.log("✅ Risultato GPS ottenuto:", gpsResult);
-      alert('GPS ottenuto: ' + JSON.stringify(gpsResult)); // Debug visibile su smartphone
+      if (toolCall.toolName === 'getUserLocation') {
+        const cities = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
 
-      // 4. Inviamo REALMENTE il risultato all'SDK (Ora viene eseguito correttamente!)
-      addToolOutput({
-        tool: toolCall.toolName,
-        toolCallId: toolCall.toolCallId,
-        output: gpsResult, // Passiamo l'oggetto con le coordinate o l'errore
-      });
-    }
-  } // Chiusura corretta di onToolCall
+        // No await - avoids potential deadlocks
+        addToolOutput({
+          tool: 'getLocation',
+          toolCallId: toolCall.toolCallId,
+          output: cities[Math.floor(Math.random() * cities.length)],
+        });
+      }
+    },
 }); // Chiusura corretta di useChat
 
 
