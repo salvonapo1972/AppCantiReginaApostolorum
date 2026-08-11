@@ -12,7 +12,7 @@ export default function Chat() {
   const [isLoading, setIsLoading] = useState(false);
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
 
-  const { messages, sendMessage, addToolOutput } = useChat({
+  const { messages, sendMessage,handleSubmit, addToolOutput } = useChat({
     
     // Invia le coordinate nel body della richiesta
     body: {
@@ -183,7 +183,9 @@ export default function Chat() {
             e.preventDefault();
             sendMessage({ text: input });
             setInput('');
-            
+            handleSubmit(e, {
+              body: { coordinates: coords },
+            });
             setTimeout(() => {
               if (chatContainerRef.current) {
                 chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
