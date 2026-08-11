@@ -382,5 +382,8 @@ export async function POST(req: Request) {
     },
   });
 
-  return result.toDataStreamResponse();
+  return createUIMessageStreamResponse({
+  // ⚠️ Assicurati di passare un oggetto con la proprietà 'stream' estratta dal result
+  stream: toUIMessageStream({ stream: result.stream }), 
+});
 }
