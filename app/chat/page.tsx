@@ -138,7 +138,7 @@ const [log, setLog] = useState('');
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
-                  case 'tool-input-available': {
+                  case 'tool-getUserLocation': {
                     
                     
                   
