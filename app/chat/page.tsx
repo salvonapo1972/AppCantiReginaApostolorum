@@ -20,7 +20,7 @@ const [log, setLog] = useState('');
     addToolOutput({
           tool: 'getUserLocation',
           toolCallId: toolCall.toolCallId,
-          output: cities1[Math.floor(Math.random() * cities.length)],
+          output: cities1[Math.floor(Math.random() * cities1.length)],
         });
       // Check if it's a dynamic tool first for proper type narrowing
       if (toolCall.dynamic) {
