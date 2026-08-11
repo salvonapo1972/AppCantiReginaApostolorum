@@ -57,13 +57,14 @@ const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'u
 export async function POST(req: Request) {
   const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
   } = await req.json();
- 
+  
+ const today = new Date()
 const hasCoordinates = coordinates !== null && coordinates !== undefined;
   const systemPrompt = hasCoordinates
     ? `Oggi è ${today} e l'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
     : `Oggi è ${today} e la  posizione non disponibile.`;
 
-  const today = new Date();
+  ;
  
   const result = streamText({
    // model: openai('gpt-4o-mini'),
