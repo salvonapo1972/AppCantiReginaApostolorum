@@ -382,7 +382,5 @@ export async function POST(req: Request) {
     },
   });
 
-  return createUIMessageStreamResponse({
-    stream: toUIMessageStream({ stream: result.stream }),
-  });
+  return result.toUIMessageStreamResponse();
 }
