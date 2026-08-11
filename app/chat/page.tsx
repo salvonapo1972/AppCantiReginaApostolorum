@@ -44,7 +44,7 @@ export default function Chat() {
         { enableHighAccuracy: true }
       );
     
-  }, [coords]);
+  }, []);
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
@@ -179,6 +179,7 @@ export default function Chat() {
         <form
           onSubmit={e => {
             e.preventDefault();
+            console.log("Inviando coordinate al server:", coords);
             sendMessage({ text: input },  {             
                 body: { coordinates: coords },
                 } );
