@@ -60,8 +60,8 @@ export async function POST(req: Request) {
  
 const hasCoordinates = coordinates !== null && coordinates !== undefined;
   const systemPrompt = hasCoordinates
-    ? `Sei un assistente locale. L'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
-    : `Sei un assistente di viaggio. Posizione non disponibile.`;
+    ? `Oggi è ${today} e l'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
+    : `Oggi è ${today} e la  posizione non disponibile.`;
 
   const today = new Date();
  
@@ -69,7 +69,7 @@ const hasCoordinates = coordinates !== null && coordinates !== undefined;
    // model: openai('gpt-4o-mini'),
     model: openai('gpt-5-mini'),
     messages: await convertToModelMessages(messages),
-    system: `Oggi è ${today} e ti trovi a Lat ${coordinates.lat}, Lng ${coordinates.lng}.`,
+    system: systemPrompt,
     stopWhen: isStepCount(20),
     
     tools: {
