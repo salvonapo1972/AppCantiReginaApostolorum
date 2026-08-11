@@ -151,7 +151,20 @@ console.log('passo1');
                     );
                   }
                   case 'tool-call': {
-                    return(<p>prova</p>);
+                    const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
+                    const center = toolOutput?.center;
+                    const locations = toolOutput?.locations;
+
+                    if (!center || !locations) {
+                      return null;
+                    }
+
+                    return (
+                      <div key={`${message.id}-${i}`} className="w-full mt-2">
+                        <p className="text-xs text-gray-500 mb-1">Mappa dei parcheggi trovati:</p>
+                        <ParkingMap center={center as never} locations={locations as never} />
+                      </div>
+                    );
                   }
                   case 'tool-weather':
                   case 'tool-convertFahrenheitToCelsius':
