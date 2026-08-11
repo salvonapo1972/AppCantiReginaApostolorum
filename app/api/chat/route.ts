@@ -58,6 +58,10 @@ export async function POST(req: Request) {
   const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
   } = await req.json();
  
+const hasCoordinates = coordinates !== null && coordinates !== undefined;
+  const systemPrompt = hasCoordinates
+    ? `Sei un assistente locale. L'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
+    : `Sei un assistente di viaggio. Posizione non disponibile.`;
 
   const today = new Date();
  
