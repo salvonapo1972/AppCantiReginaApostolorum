@@ -12,7 +12,7 @@ export default function Chat() {
   const [isLoading, setIsLoading] = useState(false);
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
 
-  const { messages, sendMessage,handleSubmit, addToolOutput } = useChat({
+  const { messages, sendMessage, addToolOutput } = useChat({
     
     // Invia le coordinate nel body della richiesta
     body: {
@@ -181,11 +181,10 @@ export default function Chat() {
         <form
           onSubmit={e => {
             e.preventDefault();
-            sendMessage({ text: input });
+            sendMessage({ text: input },  {             
+                body: { coordinates: coords },
+                } );
             setInput('');
-            handleSubmit(e, {
-              body: { coordinates: coords },
-            });
             setTimeout(() => {
               if (chatContainerRef.current) {
                 chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
