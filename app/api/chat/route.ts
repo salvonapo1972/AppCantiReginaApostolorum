@@ -59,6 +59,7 @@ export async function POST(req: Request) {
   } = await req.json();
   
  const today = new Date()
+ console.log('pos',coordinates.lng);
 const hasCoordinates = coordinates !== null && coordinates !== undefined;
   const systemPrompt = hasCoordinates
     ? `Oggi è ${today} e l'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
