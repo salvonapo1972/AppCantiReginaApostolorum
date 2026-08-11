@@ -55,7 +55,8 @@ function convertTime(date: string | Date, timeZone: string): string {
 }
 const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
 export async function POST(req: Request) {
-  const { messages }: { messages: UIMessage[] } = await req.json();
+  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
+  } = await req.json();
  
 
   const today = new Date();
@@ -64,7 +65,7 @@ export async function POST(req: Request) {
    // model: openai('gpt-4o-mini'),
     model: openai('gpt-5-mini'),
     messages: await convertToModelMessages(messages),
-    system: `Oggi è ${today}. Tu sei un assistente virtuale.`,
+    system: `Oggi è ${today} e ti trovi a Lat ${coordinates.lat}, Lng ${coordinates.lng}.`,
     stopWhen: isStepCount(20),
     
     tools: {
@@ -72,7 +73,7 @@ export async function POST(req: Request) {
         description: 'Recupera le coordinate GPS dell’utente.',
         inputSchema: z.object({}), 
       }),
-      searchCompanyKnowledge: tool({
+      searchCompany:Knowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
       - Regolamenti aziendali
