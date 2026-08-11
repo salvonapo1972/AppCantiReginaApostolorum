@@ -79,7 +79,7 @@ const [log, setLog] = useState('');
   useEffect(() => {
     const container = chatContainerRef.current;
     if (!container) return;
-console.log('passo1');
+
     const isAtBottom = (container.scrollHeight - container.clientHeight - container.scrollTop) <= 50;
 
     if (isAtBottom) {
@@ -138,7 +138,7 @@ console.log('passo1');
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
-                  case 'tool-result': {
+                  case 'tool-input-available': {
                     
                     
                   
