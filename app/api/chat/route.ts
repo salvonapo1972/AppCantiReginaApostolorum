@@ -74,10 +74,6 @@ const hasCoordinates = coordinates !== null && coordinates !== undefined;
     stopWhen: isStepCount(20),
     
     tools: {
-      getUserLocation: tool({
-        description: 'Recupera le coordinate GPS dell’utente.',
-        inputSchema: z.object({}), 
-      }),
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
