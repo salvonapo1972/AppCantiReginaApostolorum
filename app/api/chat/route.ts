@@ -18,6 +18,7 @@ import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
 import { getTimezone } from '@/app/lib/timezones';
 import { db } from '@/app/lib/db';
+import { geolocation } from '@vercel/functions';
 
 
 import { tavily } from '@tavily/core';
@@ -59,17 +60,11 @@ export async function POST(req: Request) {
   } = await req.json();
   
  const today = new Date()
- 
-const hasCoordinates = coordinates !== null && coordinates !== undefined;
-  console.log('pos', hasCoordinates?coordinates.lng:'');
-  const systemPrompt = hasCoordinates
-    ? `Oggi è ${today} e l'utente si trova a: Lat ${coordinates.lat}, Lng ${coordinates.lng}.`
-    : `Oggi è ${today} e la  posizione non disponibile.`;
+const { city } = geolocation(req);
 
-  ;
+  const systemPrompt = `Oggi è ${today} e l'utente si trova a: Lat ${city}`;
  
   const result = streamText({
-   // model: openai('gpt-4o-mini'),
     model: openai('gpt-5-mini'),
     messages: await convertToModelMessages(messages),
     system: systemPrompt,
