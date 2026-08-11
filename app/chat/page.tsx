@@ -14,10 +14,7 @@ export default function Chat() {
 
   const { messages, sendMessage, addToolOutput } = useChat({
     
-    // Invia le coordinate nel body della richiesta
-    body: {
-      coordinates: coords,
-    },
+    
   
 }); // Chiusura corretta di useChat
 
