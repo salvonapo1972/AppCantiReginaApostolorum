@@ -31,6 +31,7 @@ export default function Chat() {
  
 // Cattura la posizione del browser all'avvio
   useEffect(() => {
+    console.log('passo');
     if ('geolocation' in navigator) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
@@ -43,7 +44,7 @@ export default function Chat() {
         { enableHighAccuracy: true }
       );
     }
-  }, []);
+  }, [coords]);
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
