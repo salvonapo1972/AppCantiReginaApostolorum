@@ -138,7 +138,7 @@ console.log('passo1');
                        <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
                  
                     );
-                  case 'tool-getUserLocation': {
+                  case 'tool-result': {
                     
                     
                   
