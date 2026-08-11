@@ -16,10 +16,11 @@ const [log, setLog] = useState('');
   onError: console.error,
   onToolCall: async ({toolCall}) => {
     console.log('passo');
+    const cities1 = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
     addToolOutput({
           tool: 'getUserLocation',
           toolCallId: toolCall.toolCallId,
-          output: cities[Math.floor(Math.random() * cities.length)],
+          output: cities1[Math.floor(Math.random() * cities.length)],
         });
       // Check if it's a dynamic tool first for proper type narrowing
       if (toolCall.dynamic) {
