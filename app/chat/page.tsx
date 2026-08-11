@@ -13,7 +13,7 @@ export default function Chat() {
 const [log, setLog] = useState('');
   const { messages, sendMessage, addToolOutput } = useChat({
   sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
-  
+  onError: console.error,
   onToolCall({ toolCall }) {
     console.log('passo');
       // Check if it's a dynamic tool first for proper type narrowing
