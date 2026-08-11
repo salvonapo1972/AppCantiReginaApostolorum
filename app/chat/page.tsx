@@ -128,7 +128,7 @@ console.log('passo1');
               {message.parts.map((part, i) => {
                  
                 switch (part.type) {
-                 
+                 console.log('parttype',part.type);
                   case 'text':
                     return message.role === 'assistant' ? (
                       <div key={`${message.id}-${i}`} className="prose dark:prose-invert max-w-none">
