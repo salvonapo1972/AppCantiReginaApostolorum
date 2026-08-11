@@ -73,7 +73,7 @@ export async function POST(req: Request) {
         description: 'Recupera le coordinate GPS dell’utente.',
         inputSchema: z.object({}), 
       }),
-      searchCompany:Knowledge: tool({
+      searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
       - Regolamenti aziendali
