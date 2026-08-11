@@ -10,42 +10,15 @@ export default function Chat() {
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-const [log, setLog] = useState('');
-  const { messages, sendMessage, addToolOutput } = useChat({
-  sendAutomaticallyWhen: lastAssistantMessageIsCompleteWithToolCalls,
-  onError: console.error,
-  onToolCall: async ({toolCall}) => {
-    console.log('passo');
-    const cities1 = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
-    addToolOutput({
-          tool: 'getUserLocation',
-          toolCallId: toolCall.toolCallId,
-          output: cities1[Math.floor(Math.random() * cities1.length)],
-        });
-      // Check if it's a dynamic tool first for proper type narrowing
-      if (toolCall.dynamic) {
-        return;
-      }
+  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
 
-      if (toolCall.toolName === 'tool-calls') {
-        const cities = ['New York', 'Los Angeles', 'Chicago', 'San Francisco'];
-         try {
-        // No await - avoids potential deadlocks
-        addToolOutput({
-          tool: 'getUserLocation',
-          toolCallId: toolCall.toolCallId,
-          output: cities[Math.floor(Math.random() * cities.length)],
-        });
-        } catch (err) {
-          addToolOutput({
-            tool: 'getUserLocation',
-            toolCallId: toolCall.toolCallId,
-            state: 'output-error',
-            errorText: 'Unable to get user location information',
-          });
-        }
-      }
+  const { messages, sendMessage, addToolOutput } = useChat({
+    
+    // Invia le coordinate nel body della richiesta
+    body: {
+      coordinates: coords,
     },
+  
 }); // Chiusura corretta di useChat
 
 
@@ -59,7 +32,21 @@ const [log, setLog] = useState('');
 
 
  
-
+// Cattura la posizione del browser all'avvio
+  useEffect(() => {
+    if ('geolocation' in navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setCoords({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => console.error("Errore geolocalizzazione:", error),
+        { enableHighAccuracy: true }
+      );
+    }
+  }, []);
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
