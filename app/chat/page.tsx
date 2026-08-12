@@ -44,7 +44,7 @@ export default function Chat() {
         { enableHighAccuracy: true }
       );
     
-  }, []);
+  });
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
