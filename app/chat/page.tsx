@@ -33,7 +33,7 @@ export default function Chat() {
   useEffect(() => {
     if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
-  }
+  
     
       navigator.geolocation.getCurrentPosition(
         (position) => {
@@ -45,8 +45,8 @@ export default function Chat() {
         (error) => console.error("Errore geolocalizzazione:", error),
         { enableHighAccuracy: true }
       );
-    
-  });
+    }
+  },[]);
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
