@@ -12,6 +12,7 @@
   "dependencies": {
     "@ai-sdk/openai": "^4.0.25",
     "@ai-sdk/react": "^4.0.47",
+    "@vercel/functions": "^1.6.0",
     "@contentful/rich-text-react-renderer": "^16.2.1",
     "@neondatabase/serverless": "^1.1.0",
     "@openrouter/ai-sdk-provider": "^3.0.0",
