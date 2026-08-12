@@ -31,7 +31,9 @@ export default function Chat() {
  
 // Cattura la posizione del browser all'avvio
   useEffect(() => {
-    console.log('passo');
+    if (typeof window !== "undefined") {
+    console.log("This also safely runs only in the browser environment");
+  }
     
       navigator.geolocation.getCurrentPosition(
         (position) => {
