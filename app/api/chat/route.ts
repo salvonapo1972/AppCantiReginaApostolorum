@@ -60,8 +60,9 @@ export async function POST(req: Request) {
   } = await req.json();
   
  const today = new Date()
-const { city } = geolocation(req);
-
+ const { city } = geolocation(req);
+  const realIp = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip');
+console.log('real ip', realIp);
   const systemPrompt = `Oggi è ${today} e l'utente si trova a: Lat ${city}`;
  
   const result = streamText({
