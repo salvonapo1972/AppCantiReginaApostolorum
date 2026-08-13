@@ -42,7 +42,6 @@ export default function Chat() {
           body: {
             id,
             messages,
-            trigger,
             // Inietta i dati passati da sendMessage (es: coordinates) nel body finale
             ...(requestMetadata as Record<string, any>), 
           },
