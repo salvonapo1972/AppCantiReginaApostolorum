@@ -169,7 +169,7 @@ export default function Chat() {
       { text: input }, 
       { 
         headers: {
-          coordinates: 'testttt',
+          'x-coordinates': 'testttt',
         }
       }
     );
