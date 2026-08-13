@@ -48,7 +48,7 @@ export default function Chat() {
       },
     }),
   });
-
+ const isLoading = status === 'streaming' || status === 'submitted';
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
   // 4. ANIMAZIONE DEI PUNTINI
