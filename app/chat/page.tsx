@@ -34,13 +34,7 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  
-
-  const { messages, sendMessage, addToolOutput } = useChat({
-    
-   // const [coords, setCoords] = useState({ lat: 0, lng: 0 });
-  
-      navigator.geolocation.getCurrentPosition(
+  navigator.geolocation.getCurrentPosition(
         (position) => {
           setCoords({
             lat: position.coords.latitude,
@@ -50,6 +44,12 @@ export default function Chat() {
         (error) => console.error("Errore geolocalizzazione:", error),
         { enableHighAccuracy: true }
       );
+
+  const { messages, sendMessage, addToolOutput } = useChat({
+    
+   // const [coords, setCoords] = useState({ lat: 0, lng: 0 });
+  
+      
 }); // Chiusura corretta di useChat
 
 
