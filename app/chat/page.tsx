@@ -10,7 +10,7 @@ import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
 
 function getCoords(){
-if (typeof window !== "undefined") {
+/*if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
   
     
@@ -24,7 +24,7 @@ if (typeof window !== "undefined") {
         (error) => console.error("Errore geolocalizzazione:", error),
         { enableHighAccuracy: true }
       );
-    }
+    }*/
 }
 export default function Chat() {
   console.log("This also1 safely runs only in the browser environment");
@@ -40,6 +40,16 @@ export default function Chat() {
     
    // const [coords, setCoords] = useState({ lat: 0, lng: 0 });
   
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setCoords({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => console.error("Errore geolocalizzazione:", error),
+        { enableHighAccuracy: true }
+      );
 }); // Chiusura corretta di useChat
 
 
