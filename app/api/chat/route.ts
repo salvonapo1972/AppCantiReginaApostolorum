@@ -59,7 +59,7 @@ export async function POST(req: Request) {
 //  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
 //  } = await req.json();
 
-  console.log(await req.json());
+  
   
 const { messages, coordinates} = await req.json();
 const today = new Date()
