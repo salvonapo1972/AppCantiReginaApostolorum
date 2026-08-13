@@ -7,6 +7,8 @@ import dynamic from 'next/dynamic';
 import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
 export default function Chat() {
+  console.log("This also1 safely runs only in the browser environment");
+  
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
