@@ -37,14 +37,14 @@ export default function Chat() {
   const { messages, sendMessage, status,addToolOutput } = useChat({
     transport: new DefaultChatTransport({
       api: '/api/chat', 
-      prepareSendMessagesRequest: ({ id, messages, trigger, requestBody }) => {
+      prepareSendMessagesRequest: ({ id, messages, trigger, requestMetadata }) => {
         return {
           body: {
             id,
             messages,
             trigger,
-            // Prende i dati dinamici inviati da sendMessage (es: { coordinates: coords })
-            ...(requestBody || {}), 
+            // Inietta i dati passati da sendMessage (es: coordinates) nel body finale
+            ...(requestMetadata as Record<string, any>), 
           },
         };
       },
