@@ -166,12 +166,11 @@ export default function Chat() {
             console.log("Inviando coordinate al server:", coords);
             
             sendMessage(
-              { text: input }, 
-              { 
+              { text: input,
                   
-                coordinates: coords 
+                coordinates: coords, 
                   
-               } 
+               
             );
             
             setInput('');
