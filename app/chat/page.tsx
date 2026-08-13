@@ -37,13 +37,15 @@ export default function Chat() {
   const { messages, sendMessage, status,addToolOutput } = useChat({
     transport: new DefaultChatTransport({
       api: '/api/chat', 
-      prepareSendMessagesRequest: ({ id, messages, trigger, body }) => {
+      prepareSendMessagesRequest: ({ id, messages, trigger, requestMetadata }) => {
         return {
           body: {
             id,
             messages,
             trigger,
-            ...(body || {}), 
+            // Nell'SDK 5 l'argomento si chiama 'requestMetadata'
+            // Facciamo il cast ad 'any' per evitare che TypeScript blocchi lo spread
+            ...(requestMetadata as any || {}), 
           },
         };
       },
