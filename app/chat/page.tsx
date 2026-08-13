@@ -11,7 +11,21 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
-
+  if (typeof window !== "undefined") {
+    console.log("This also safely runs only in the browser environment");
+  
+    
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setCoords({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => console.error("Errore geolocalizzazione:", error),
+        { enableHighAccuracy: true }
+      );
+    }
   const { messages, sendMessage, addToolOutput } = useChat({
     
     
@@ -28,25 +42,6 @@ export default function Chat() {
  });
 
 
- 
-// Cattura la posizione del browser all'avvio
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-    console.log("This also safely runs only in the browser environment");
-  
-    
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setCoords({
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-          });
-        },
-        (error) => console.error("Errore geolocalizzazione:", error),
-        { enableHighAccuracy: true }
-      );
-    }
-  },[]);
   // 1. Animazione stabile dei puntini
   useEffect(() => {
     
