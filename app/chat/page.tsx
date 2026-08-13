@@ -43,7 +43,7 @@ export default function Chat() {
             id,
             messages,
             trigger,
-            ...(requestMetadata as any || {}),
+            metadata:{coordinates:coords},
           },
         };
       },
