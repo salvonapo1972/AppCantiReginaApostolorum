@@ -40,10 +40,11 @@ export default function Chat() {
       prepareSendMessagesRequest: ({ id, messages, body }) => {
         return {
           body: {
-            id,
-            messages,
-            // Inietta i dati passati da sendMessage (es: coordinates) nel body finale
-            ...(requestMetadata as Record<string, any>), 
+            id: options.id,
+            messages: options.messages,
+            trigger: options.trigger,
+            // Inietta in modo sicuro i dati dinamici di sendMessage (es. coordinates)
+            ...(options.body || {}), 
           },
         };
       },
