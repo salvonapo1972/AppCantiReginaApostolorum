@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowDown, BookOpen } from "lucide-react";
 import Link from 'next/link';
-
+import { useState} from 'react';
 export default function Hero() {
   console.log('herooo');
   return (
