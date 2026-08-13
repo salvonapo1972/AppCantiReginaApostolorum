@@ -43,10 +43,7 @@ export default function Chat() {
             id,
             messages,
             trigger,
-            // Nell'SDK 5 l'argomento si chiama 'requestMetadata'
-            // Facciamo il cast ad 'any' per evitare che TypeScript blocchi lo spread
-            coordinates:'ciao', 
-          
+            ...(requestMetadata as any || {}),
           },
         };
       },
@@ -170,6 +167,11 @@ export default function Chat() {
             
             sendMessage(
               { text: input }, 
+              { 
+      metadata: { 
+        coordinates: coords 
+      } 
+    } 
             );
             
             setInput('');
