@@ -166,7 +166,7 @@ export default function Chat() {
             
             sendMessage(
               { text: input },  
-              { body: { coordinates: coords } } 
+              { body: { coordinates: 'testcoord'} } 
             );
             
             setInput('');
