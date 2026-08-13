@@ -41,6 +41,9 @@ export default function Chat() {
     // Nella v5, la funzione riceve un oggetto contenente il body pre-generato
     prepareSendMessagesRequest({ body }) {
       return {
+        headers: {
+          'x-coordinates': 'testttt',
+        },
         body: {
           ...body,             // Questo preserva l'array 'messages' e gli ID generati dalla v5
           coordinates: coords  // <--- Inietta in modo sicuro la tua variabile di stato
