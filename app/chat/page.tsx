@@ -37,7 +37,7 @@ export default function Chat() {
   const { messages, sendMessage, status,addToolOutput } = useChat({
     transport: new DefaultChatTransport({
       api: '/api/chat', 
-      prepareSendMessagesRequest: ({ id, messages, body }) => {
+      prepareSendMessagesRequest: (options) => {
         return {
           body: {
             id: options.id,
