@@ -45,7 +45,7 @@ export default function Chat() {
             trigger,
             // Nell'SDK 5 l'argomento si chiama 'requestMetadata'
             // Facciamo il cast ad 'any' per evitare che TypeScript blocchi lo spread
-            coordinates:coords,
+            coordinates:'ciao',
           
           },
         };
