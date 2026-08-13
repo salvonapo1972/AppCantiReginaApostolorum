@@ -6,7 +6,7 @@ import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
 import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
-const [coords, setCoords] = useState('');
+const [coords, setCoords] = useState<{lat: number; lng: number} | null>(null);
 function getCoords(){
 if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
