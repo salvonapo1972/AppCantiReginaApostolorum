@@ -56,9 +56,10 @@ function convertTime(date: string | Date, timeZone: string): string {
 }
 const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
 export async function POST(req: Request) {
-  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
-  } = await req.json();
+//  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
+//  } = await req.json();
   
+const { messages, coordinates} = await req.json();
  const today = new Date()
  const { city } = geolocation(req);
   const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
