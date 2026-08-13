@@ -6,14 +6,10 @@ import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
 import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
-export default function Chat() {
-  console.log("This also1 safely runs only in the browser environment");
-  
-  const [dots, setDots] = useState('');
-  const [input, setInput] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+
   const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
-  if (typeof window !== "undefined") {
+function getCoords(){
+if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
   
     
@@ -28,6 +24,14 @@ export default function Chat() {
         { enableHighAccuracy: true }
       );
     }
+}
+export default function Chat() {
+  console.log("This also1 safely runs only in the browser environment");
+  
+  const [dots, setDots] = useState('');
+  const [input, setInput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  
   const { messages, sendMessage, addToolOutput } = useChat({
     
     
