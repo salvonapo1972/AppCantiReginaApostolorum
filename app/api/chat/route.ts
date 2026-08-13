@@ -68,6 +68,8 @@ const lastMessage = messages.messages?.[messages.messages.length - 1];
   console.log("Coordinate da metadati:", messages);
 const today = new Date()
 const { city } = geolocation(req);
+const rtest = req.headers.get('x-coordinates');
+ console.log(rtest)
 const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
 console.log('real ip', realIp);
   console.log('coord',coordinates);
