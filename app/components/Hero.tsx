@@ -6,7 +6,8 @@ import { ArrowDown, BookOpen } from "lucide-react";
 import Link from 'next/link';
 import { useState} from 'react';
 export default function Hero() {
-  console.log('herooo');
+  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
+
   return (
     <section className="relative h-screen overflow-hidden">
 
