@@ -34,7 +34,7 @@ export default function Chat() {
   }, []);
 
   // 3. CONFIGURAZIONE USECHAT
-  const { messages, input, setInput, sendMessage } = useChat({
+  const { messages, sendMessage } = useChat({
   transport: new DefaultChatTransport({
     api: '/api/chat',
     
