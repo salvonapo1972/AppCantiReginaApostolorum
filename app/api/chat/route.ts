@@ -61,7 +61,7 @@ export async function POST(req: Request) {
 
   
   
-const { messages, coordinates} = await req.json;
+const { messages, coordinates} = await req.json();
 const today = new Date()
 const { city } = geolocation(req);
 const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
