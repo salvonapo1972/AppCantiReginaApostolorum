@@ -47,7 +47,7 @@ export default function Chat() {
             // Facciamo il cast ad 'any' per evitare che TypeScript blocchi lo spread
             body:{
             coordinates:coords,
-            }
+            },
           },
         };
       },
