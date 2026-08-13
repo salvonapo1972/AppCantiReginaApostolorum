@@ -167,10 +167,7 @@ export default function Chat() {
             
             sendMessage(
               { text: input,          
-                parts: {
-                     // Tutto ciò che metti qui dentro arriverà direttamente nel corpo della richiesta HTTP
-                      coordinates: coords 
-                 }
+                metadata: { coordinates: coords }
               }
                
             );
