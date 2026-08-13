@@ -45,9 +45,8 @@ export default function Chat() {
             trigger,
             // Nell'SDK 5 l'argomento si chiama 'requestMetadata'
             // Facciamo il cast ad 'any' per evitare che TypeScript blocchi lo spread
-            body:{
             coordinates:coords,
-            },
+          
           },
         };
       },
@@ -170,8 +169,7 @@ export default function Chat() {
             console.log("Inviando coordinate al server:", coords);
             
             sendMessage(
-              { text: input },  
-              { body: { coordinates: 'testcoord'} } 
+              { text: input }, 
             );
             
             setInput('');
