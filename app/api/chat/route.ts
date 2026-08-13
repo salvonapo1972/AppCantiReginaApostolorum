@@ -58,10 +58,10 @@ const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'u
 export async function POST(req: Request) {
 //  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
 //  } = await req.json();
-
-  console.log(await req.json());
+const data = await req.json;
+  console.log(data);
   
-const { messages, coordinates} = await req.json();
+const { messages, coordinates} = data;
 const today = new Date()
 const { city } = geolocation(req);
 const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
