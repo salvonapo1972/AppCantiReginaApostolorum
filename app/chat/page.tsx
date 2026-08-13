@@ -168,10 +168,10 @@ export default function Chat() {
             sendMessage(
               { text: input }, 
               { 
-      metadata: { 
-        coordinates: coords 
-      } 
-    } 
+                  
+                coordinates: coords 
+                  
+               } 
             );
             
             setInput('');
