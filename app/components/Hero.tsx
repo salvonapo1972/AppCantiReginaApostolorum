@@ -6,7 +6,7 @@ import { ArrowDown, BookOpen } from "lucide-react";
 import Link from 'next/link';
 import { useState} from 'react';
 export default function Hero() {
-  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
+/*  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
 if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
   
@@ -21,7 +21,7 @@ if (typeof window !== "undefined") {
         (error) => console.error("Errore geolocalizzazione:", error),
         { enableHighAccuracy: true }
       );
-    }
+    }*/
   return (
     <section className="relative h-screen overflow-hidden">
 
