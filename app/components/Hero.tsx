@@ -6,6 +6,7 @@ import { ArrowDown, BookOpen } from "lucide-react";
 import Link from 'next/link';
 
 export default function Hero() {
+  console.log('herooo');
   return (
     <section className="relative h-screen overflow-hidden">
 
