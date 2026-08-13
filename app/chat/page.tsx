@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic';
 import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
 // TypeScript capisce automaticamente che lat e lng sono generici 'number'
-const [coords, setCoords] = useState({ lat: 0, lng: 0 });
+
 
 function getCoords(){
 if (typeof window !== "undefined") {
@@ -28,7 +28,8 @@ if (typeof window !== "undefined") {
 }
 export default function Chat() {
   console.log("This also1 safely runs only in the browser environment");
-  
+  const [coords, setCoords] = useState({ lat: 0, lng: 0 });
+    
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -37,7 +38,7 @@ export default function Chat() {
 
   const { messages, sendMessage, addToolOutput } = useChat({
     
-    
+   // const [coords, setCoords] = useState({ lat: 0, lng: 0 });
   
 }); // Chiusura corretta di useChat
 
