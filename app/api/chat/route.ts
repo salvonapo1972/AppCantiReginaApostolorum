@@ -65,7 +65,7 @@ const { messages} = await req.json();
 const lastMessage = messages.messages?.[messages.messages.length - 1];
   const coordinates = lastMessage?.metadata?.coordinates || lastMessage?.annotations?.coordinates;
 
-  console.log("Coordinate da metadati:", coordinates);
+  console.log("Coordinate da metadati:", messages);
 const today = new Date()
 const { city } = geolocation(req);
 const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
