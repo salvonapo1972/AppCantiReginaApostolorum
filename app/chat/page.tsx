@@ -6,7 +6,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
 
-// 1. SPOSTATO FUORI dal componente per evitare re-import continui a ogni render
+// 1. SPOSTATO FUORI per evitare re-import continui
 const ParkingMap = dynamic(() => import('../components/parking-map'), {
   ssr: false,
   loading: () => <p className="h-80 flex items-center justify-center bg-gray-100 rounded-lg">Caricamento mappa...</p>
@@ -17,7 +17,7 @@ export default function Chat() {
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
 
-  // 2. RECUPERO DELLE COORDINATE: inserito in un useEffect per evitare loop infiniti
+  // 2. RECUPERO DELLE COORDINATE (Eseguito in sicurezza lato Client)
   useEffect(() => {
     if (typeof window !== "undefined" && navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
@@ -31,19 +31,18 @@ export default function Chat() {
         { enableHighAccuracy: true }
       );
     }
-  }, []); // Esegue solo una volta all'avvio del componente
+  }, []);
 
-  // 3. CONFIGURAZIONE USECHAT: Rimosso lo useState locale di isLoading. 
-  // Viene estratto direttamente da useChat insieme al transport per abilitare le opzioni del body.
-  const { messages, sendMessage, isLoading } = useChat({
+  // 3. CONFIGURAZIONE USECHAT
+  const { messages, sendMessage, isLoading, addToolOutput } = useChat({
     transport: new DefaultChatTransport({
-      api: '/api/chat', // Modifica con la tua route reale se diversa
+      api: '/api/chat', 
       prepareSendMessagesRequest: ({ id, messages, body }) => {
         return {
           body: {
             id,
             messages,
-            ...body, // Permette il passaggio di { coordinates: coords } al server
+            ...body, 
           },
         };
       },
@@ -52,7 +51,7 @@ export default function Chat() {
 
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
-  // 4. ANIMAZIONE DEI PUNTINI: Ora usa la variabile isLoading nativa dell'SDK
+  // 4. ANIMAZIONE DEI PUNTINI
   useEffect(() => {
     if (!isLoading) {
       setDots('');
@@ -183,7 +182,6 @@ export default function Chat() {
             className="text-black font-semibold bg-white fixed dark:bg-zinc-900 bottom-0 w-full max-w-md p-2 mb-8 border border-zinc-300 dark:border-zinc-800 rounded shadow-xl"
             value={input}
             placeholder="Chiedimi qualcosa..."
-            // RIMOSSO: lo stato isLoading non viene più forzato manualmente qui
             onChange={e => setInput(e.currentTarget.value)}
           />
         </form>
@@ -192,169 +190,3 @@ export default function Chat() {
   );
 }
 
-  
-  const chatContainerRef = useRef<HTMLDivElement>(null);
-
-  const ParkingMap = dynamic(() => import('../components/parking-map'), {
-    ssr: false,
-    loading: () => <p className="h-80 flex items-center justify-center bg-gray-100 rounded-lg">Caricamento mappa...</p>
- });
-
-
-  // 1. Animazione stabile dei puntini
-  useEffect(() => {
-    
-    if (!isLoading) {
-      setDots('');
-      return;
-    }
-
-    const interval = setInterval(() => {
-      setDots((prev) => (prev === '...' ? '' : prev + '.'));
-    }, 400);
-
-    return () => clearInterval(interval);
-  }, [isLoading]);
-
-  // 2. Controllo dello scorrimento automatico
-  useEffect(() => {
-    const container = chatContainerRef.current;
-    if (!container) return;
-
-    const isAtBottom = (container.scrollHeight - container.clientHeight - container.scrollTop) <= 50;
-
-    if (isAtBottom) {
-      container.scrollTop = container.scrollHeight;
-    }
-    if (messages.length > 0) {
-    console.log("--- CRONOLOGIA MESSAGGI AGGIORNATA ---");
-    console.log(JSON.stringify(messages, null, 2)); // Stringify mostra la struttura completa senza nodi nascosti
-  }
-  }, [messages, dots]);
-
-  // 3. LOGICA DI CONTROLLO: Controlliamo se l'IA sta pensando ma non ha ancora scritto nulla
-  const lastMessage = messages.at(-1);
-  console.log("lastMessage",lastMessage);
-  // Verifica se l'ultimo messaggio è dell'assistente e se contiene del testo reale
-  const hasStartedTyping =  lastMessage?.role === 'assistant' && 
-    lastMessage.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
-
-  //console.log("hasStartedTyping",hasStartedTyping)
-  //console.log("isLoading",isLoading)
-
-  // Mostriamo i puntini se l'SDK sta caricando, ma l'IA non ha ancora iniziato a inviare testo
-  const isAiThinking = isLoading && !hasStartedTyping && typeof lastMessage!=="undefined";
-  //console.log("isAiThinking",isAiThinking)
-
-  return (
-    <>
-      <div 
-        ref={chatContainerRef}
-        className="chat-container flex flex-col w-full max-w-md mx-auto stretch overflow-y-auto max-h-[70vh] pr-2 mt-12 scroll-smooth"
-      >
-        {/* Render della cronologia dei messaggi filtrando i messaggi dell'IA ancora vuoti */}
-        {messages.map(message => {
-          console.log("message",message.parts);
-          // Evita di renderizzare un blocco vuoto per l'IA se non ha ancora testo pronto
-          const isAiEmpty = message.role === 'assistant' && 
-            !message.parts.some(part => part.type === 'text' && part.text.trim().length > 0);
-            
-          if (isAiEmpty) return null;
-
-          return (
-            <div key={message.id} className="whitespace-pre-wrap mb-4">
-              <span className="font-bold">
-                {message.role === 'user' ? 'User: ' : 'AI: ' }
-              </span>
-              {message.parts.map((part, i) => {
-                 
-                switch (part.type) {
-                 
-                  case 'text':
-                    return message.role === 'assistant' ? (
-                      <div key={`${message.id}-${i}`} className="prose dark:prose-invert max-w-none">
-                        <Streamdown>{part.text}</Streamdown>
-                      </div>
-                    ) : (
-                       <div className="font-semibold inline" key={`${message.id}-${i}`}>{part.text}</div>
-                 
-                    );
-                  case 'tool-getUserLocation': {
-                    
-                    
-                  
-
-                    return (
-                      <div key={`${message.id}-${i}`} className="w-full mt-2">
-                        <p className="text-xs text-gray-500 mb-1">gps</p>
-                        
-                      </div>
-                    );
-                  }
-                  case 'tool-call': {
-                    const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
-                    const center = toolOutput?.center;
-                    const locations = toolOutput?.locations;
-
-                    if (!center || !locations) {
-                      return null;
-                    }
-
-                    return (
-                      <div key={`${message.id}-${i}`} className="w-full mt-2">
-                        <p className="text-xs text-gray-500 mb-1">Mappa dei parcheggi trovati:</p>
-                        <ParkingMap center={center as never} locations={locations as never} />
-                      </div>
-                    );
-                  }
-                  case 'tool-weather':
-                  case 'tool-convertFahrenheitToCelsius':
-                    return (
-                      <pre key={`${message.id}-${i}`}>
-                       {/* Strumenti */}
-                      </pre>
-                    );
-                  default:
-                    return null;
-                }
-              })}
-            </div>
-          );
-        })}
-
-        {/* COMPONENTE PUNTINI: Compare ora in modo stabile finché l'IA non genera la prima parola */}
-        {isAiThinking && (
-          <div className="whitespace-pre-wrap mb-4 italic text-zinc-500">
-            <span className="font-bold not-italic text-black dark:text-white">AI: </span>
-            Sto pensando{dots}
-          </div>
-        )}
-      </div>
-    
-      <div className="flex flex-col w-full max-w-md py-12 mx-auto stretch">
-        <form
-          onSubmit={e => {
-            e.preventDefault();
-            console.log("Inviando coordinate al server:", coords);
-            sendMessage({ text: input },  {             
-                body: { coordinates: coords },
-                } );
-            setInput('');
-            setTimeout(() => {
-              if (chatContainerRef.current) {
-                chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
-              }
-            }, 50);
-          }}
-        >
-          <input
-            className="text-black font-semibold bg-white fixed dark:bg-zinc-900 bottom-0 w-full max-w-md p-2 mb-8 border border-zinc-300 dark:border-zinc-800 rounded shadow-xl"
-            value={input}
-            placeholder="Chiedimi qualcosa..."
-            onChange={e =>{ setInput(e.currentTarget.value);setIsLoading(true)}}
-          />
-        </form>
-      </div>
-    </>
-  );
-}
