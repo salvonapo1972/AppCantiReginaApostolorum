@@ -168,7 +168,7 @@ export default function Chat() {
             sendMessage(
       { text: input }, 
       { 
-        data: {
+        header: {
           coordinates: coords 
         }
       }
