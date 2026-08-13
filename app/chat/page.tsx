@@ -6,7 +6,7 @@ import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
 import { lastAssistantMessageIsCompleteWithToolCalls } from 'ai';
 
-
+const [coords, setCoords] = useState('');
 function getCoords(){
 if (typeof window !== "undefined") {
     console.log("This also safely runs only in the browser environment");
@@ -31,7 +31,7 @@ export default function Chat() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   
-  const [coords, setCoords] = useState<{ lat: number; lng: number } | null>(null);
+  
 
   const { messages, sendMessage, addToolOutput } = useChat({
     
