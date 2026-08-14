@@ -36,6 +36,22 @@ export default function ChatWidget() {
   const botAvatar = "/avatar.svg";
   const userAvatar = "/avatar_human.svg";
 
+
+  // 2. RECUPERO DELLE COORDINATE (Eseguito in sicurezza lato Client)
+  useEffect(() => {
+    if (typeof window !== "undefined" && navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setCoords({
+            lat: position.coords.latitude,
+            lng: position.coords.longitude,
+          });
+        },
+        (error) => console.error("Errore geolocalizzazione:", error),
+        { enableHighAccuracy: true }
+      );
+    }
+  }, []);
   // Animazione stabile dei puntini
   useEffect(() => {
     console.log('passo');
