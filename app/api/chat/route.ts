@@ -106,7 +106,8 @@ const today = new Date()
 
     return { city, country };
   },
-});
+      }),
+
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
