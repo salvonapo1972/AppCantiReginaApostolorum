@@ -6,6 +6,7 @@ import { Streamdown } from 'streamdown';
 import dynamic from 'next/dynamic';
 
 export default function ChatWidget() {
+  const [coords, setCoords] = useState({ lat: 0, lng: 0 });
   const [dots, setDots] = useState('');
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
