@@ -84,13 +84,13 @@ const today = new Date()
       getCityFromCoordinates: tool({
   description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale.',
   parameters: z.object({
-    latitude: z.number().describe('La latitudine del punto geografico'),
-    longitude: z.number().describe('La longitudine del punto geografico'),
+    latitudecity: z.number().describe('La latitudine del punto geografico'),
+    longitudecity: z.number().describe('La longitudine del punto geografico'),
   }),
   execute: async ({ latitude, longitude }) => {
     // 1. Gestione corretta dei fallback numerici (non stringhe)
-    const lat = latitude ?? coordinates.lat;
-    const lng = longitude ?? coordinates.lng;
+    const lat = latitudecity ?? coordinates.lat;
+    const lng = longitudecity ?? coordinates.lng;
 
     // 2. Corretto URL di OpenStreetMap (Nominatim API)
     const response = await fetch(
