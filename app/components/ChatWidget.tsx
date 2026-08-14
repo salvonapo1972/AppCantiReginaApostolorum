@@ -38,6 +38,7 @@ export default function ChatWidget() {
 
   // Animazione stabile dei puntini
   useEffect(() => {
+    console.log('passo');
     if (!isLoading) {
       setDots('');
       return;
