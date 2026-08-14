@@ -67,13 +67,13 @@ const { messages,coordinates} = await req.json();
 
   console.log("Coordinate da metadati:", messages);
 const today = new Date()
-const { city } = geolocation(req);
+//const { city } = geolocation(req);
 //const rtest = req.headers.get('x-coordinates');
 // console.log(rtest)
-const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
-console.log('real ip', realIp);
+//const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
+//console.log('real ip', realIp);
   console.log('coord',coordinates);
-  const systemPrompt = `Oggi è ${today} e l'utente si trova a: Lat ${city}`;
+  const systemPrompt = `Oggi è ${today} e l'utente si trova a: {coordinates.lat} e {coordinates.lng}`;
  
   const result = streamText({
     model: openai('gpt-5-mini'),
@@ -89,6 +89,10 @@ console.log('real ip', realIp);
       }),
       execute: async ({ latitude, longitude }) => {
         // Chiamata a un servizio di reverse geocoding esterno
+        if(latitude==='undefined' && longitude==='undefined'){
+            latitude=coordinates.lat;
+            longitude = coordinates.lat;
+        }
         const response = await fetch(
           `https://openstreetmap.org{latitude}&lon=${longitude}&format=json`,
           { headers: { 'User-Agent': 'Vercel-AI-SDK-App' } }
