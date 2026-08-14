@@ -214,8 +214,8 @@ export default function ChatWidget() {
             e.preventDefault();
             if (!input.trim()) return;
             sendMessage({ text: input },
-                        {  metadata: {
-                           coordinates: 'test'
+                        {  body: {
+                           coordinates: coords
                          }});
             setInput('');
             setIsLoading(true); // Attiva lo sblocco dello scroll per la nuova risposta
