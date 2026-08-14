@@ -81,6 +81,25 @@ console.log('real ip', realIp);
     system: systemPrompt,
     stopWhen: isStepCount(20),  
     tools: {
+      getCityFromCoordinates: tool({
+      description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale.',
+      parameters: z.object({
+        latitude: z.number().describe('La latitudine del punto geografico'),
+        longitude: z.number().describe('La longitudine del punto geografico'),
+      }),
+      execute: async ({ latitude, longitude }) => {
+        // Chiamata a un servizio di reverse geocoding esterno
+        const response = await fetch(
+          `https://openstreetmap.org{latitude}&lon=${longitude}&format=json`,
+          { headers: { 'User-Agent': 'Vercel-AI-SDK-App' } }
+        );
+        const data = await response.json();
+        
+        // Estrae la città (o il comune/villaggio) dalla risposta
+        const city = data.address.city || data.address.town || data.address.village || 'Sconosciuta';
+        return { city, country: data.address.country };
+      },
+    }),
       searchCompanyKnowledge: tool({
       description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
