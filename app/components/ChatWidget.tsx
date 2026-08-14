@@ -195,7 +195,10 @@ export default function ChatWidget() {
           onSubmit={e => {
             e.preventDefault();
             if (!input.trim()) return;
-            sendMessage({ text: input });
+            sendMessage({ text: input },
+                        {  metadata: {
+                           coordinates: 'test'
+                         }});
             setInput('');
             setIsLoading(true); // Attiva lo sblocco dello scroll per la nuova risposta
             setTimeout(scrollToBottom, 30);
