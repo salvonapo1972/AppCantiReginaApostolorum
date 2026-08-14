@@ -73,7 +73,7 @@ const today = new Date()
 //const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
 //console.log('real ip', realIp);
   console.log('coord',coordinates);
-  const systemPrompt = `Oggi è ${today} e l'utente si trova a: {coordinates.lat} e {coordinates.lng}`;
+  const systemPrompt = `Oggi è ${today} e l'utente si trova a: latitudine {coordinates.lat} e longitudine {coordinates.lng}`;
  
   const result = streamText({
     model: openai('gpt-5-mini'),
@@ -82,7 +82,7 @@ const today = new Date()
     stopWhen: isStepCount(20),  
     tools: {
       getCityFromCoordinates: tool({
-  description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale.',
+  description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale. se nin valorizzate trova la città in cui ci si trova.',
   inputSchema: z.object({
     latitudecity: z.number().describe('La latitudine del punto geografico'),
     longitudecity: z.number().describe('La longitudine del punto geografico'),
