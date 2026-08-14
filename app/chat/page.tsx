@@ -168,12 +168,14 @@ export default function Chat() {
 
             console.log("Inviando coordinate al server:", coords);
             
-            sendMessage(
-      { text: input }, 
-      
-        { body: { coordinates: coords } },
-      
-    );
+            sendMessage({
+  role: 'user',
+  content: input,
+  // Proprietà nativa per aggiungere metadati strutturati al messaggio
+  metadata: {
+    coordinates: coords
+  }
+} as any);
             
             setInput('');
             
