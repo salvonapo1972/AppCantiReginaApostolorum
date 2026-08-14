@@ -34,24 +34,24 @@ export default function Chat() {
   }, []);
 
   // 3. CONFIGURAZIONE USECHAT
-  const { messages,status, sendMessage } = useChat({
-  transport: new DefaultChatTransport({
-    api: '/api/chat',
-    
-    // Nella v5, la funzione riceve un oggetto contenente il body pre-generato
-    prepareSendMessagesRequest({ body }) {
-      return {
-        headers: {
-          'x-coordinates': 'testttt',
-        },
-        body: {
-          ...body,             // Questo preserva l'array 'messages' e gli ID generati dalla v5
-          coordinates: coords  // <--- Inietta in modo sicuro la tua variabile di stato
-        }
-      };
-    }
-  })
-});
+  const { messages, sendMessage, status, addToolOutput } = useChat({
+    transport: new DefaultChatTransport({
+      api: '/api/chat', 
+      prepareSendMessagesRequest: (options: any) => {
+        return {
+          body: {
+            id: options.id,
+            messages: options.messages,
+            trigger: options.trigger,
+            // Estrae in sicurezza i parametri custom passati da sendMessage
+            ...(options.body || {}), 
+            // Supporto fallback nel caso la tua build v7 usi internamente i metadati di sistema
+            ...(options.requestMetadata || {}), 
+          },
+        };
+      },
+    }),
+  });
  const isLoading = status === 'streaming' || status === 'submitted';
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
@@ -170,11 +170,9 @@ export default function Chat() {
             
             sendMessage(
       { text: input }, 
-      { 
-        headers: {
-          'x-coordinates': 'testttt',
-        }
-      }
+      
+        { body: { coordinates: coords } },
+      
     );
             
             setInput('');
