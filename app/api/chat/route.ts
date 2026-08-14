@@ -83,7 +83,7 @@ const today = new Date()
     tools: {
       getCityFromCoordinates: tool({
   description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale.',
-  parameters: z.object({
+  inputSchema: z.object({
     latitudecity: z.number().describe('La latitudine del punto geografico'),
     longitudecity: z.number().describe('La longitudine del punto geografico'),
   }),
