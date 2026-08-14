@@ -87,7 +87,7 @@ const today = new Date()
     latitudecity: z.number().describe('La latitudine del punto geografico'),
     longitudecity: z.number().describe('La longitudine del punto geografico'),
   }),
-  execute: async ({ latitude, longitude }) => {
+  execute: async ({ latitudecity, longitudecity }) => {
     // 1. Gestione corretta dei fallback numerici (non stringhe)
     const lat = latitudecity ?? coordinates.lat;
     const lng = longitudecity ?? coordinates.lng;
