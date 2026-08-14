@@ -89,7 +89,7 @@ const today = new Date()
   }),
   execute: async ({ latitudecity, longitudecity }) => {
     // 1. Gestione corretta dei fallback numerici (non stringhe)
-    xonsole.log('getCityFromCoordinates');
+    console.log('getCityFromCoordinates');
     const lat = latitudecity ?? coordinates.lat;
     const lng = longitudecity ?? coordinates.lng;
 
