@@ -37,7 +37,7 @@ export default function Chat() {
   const { messages, sendMessage, status, addToolOutput } = useChat({
     transport: new DefaultChatTransport({
       api: '/api/chat', 
-      prepareSendMessagesRequest: (options: any) => {
+   /*    prepareSendMessagesRequest: (options: any) => {
         return {
           body: {
             id: options.id,
@@ -49,7 +49,7 @@ export default function Chat() {
             ...(options.requestMetadata || {}), 
           },
         };
-      },
+      },*/
     }),
   });
  const isLoading = status === 'streaming' || status === 'submitted';
