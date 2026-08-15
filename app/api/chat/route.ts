@@ -76,7 +76,8 @@ const today = new Date()
   const systemPrompt = `Oggi è ${today} e l'utente si trova a: latitudine ${coordinates.lat} e longitudine ${coordinates.lng}`;
  
   const result = streamText({
-    model: openai('gpt-5-mini'),
+  //  model: openai('gpt-5-mini'),
+    model: openai('gpt-5.6-luna'),
     messages: await convertToModelMessages(messages),
     system: systemPrompt,
     stopWhen: isStepCount(20),  
