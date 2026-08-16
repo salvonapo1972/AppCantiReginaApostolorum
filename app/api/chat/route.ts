@@ -91,7 +91,7 @@ const today = new Date()
     );
     
     const data = await response.json();
-    
+    console.log('data',data);
     // . Estrazione sicura con optional chaining
     const city = data.address?.city || data.address?.town || data.address?.village || 'Sconosciuta';
     const country = data.address?.country || 'Sconosciuto';
