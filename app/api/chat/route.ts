@@ -56,22 +56,12 @@ function convertTime(date: string | Date, timeZone: string): string {
 }
 const fileContent = await fs.readFile(process.cwd() + '/app/elenco_canti.md', 'utf8');
 export async function POST(req: Request) {
-//  const { messages, coordinates}: { messages: UIMessage[],coordinates: { lat: number; lng: number } | null | undefined;
-//  } = await req.json();
 
-  
-  
 const { messages,coordinates} = await req.json();
-//const lastMessage = messages.messages?.[messages.messages.length - 1];
-//  const coordinates = lastMessage?.metadata?.coordinates || lastMessage?.annotations?.coordinates;
 
-  console.log("Coordinate da metadati:", messages);
+//console.log("Coordinate da metadati:", messages);
 const today = new Date()
-//const { city } = geolocation(req);
-//const rtest = req.headers.get('x-coordinates');
-// console.log(rtest)
-//const realIp = req.headers.get('x-forwarded-for') || req.headers.get('x-real-ip');
-//console.log('real ip', realIp);
+
   console.log('coord',coordinates);
   const systemPrompt = `Oggi è ${today} e l'utente si trova a: latitudine ${coordinates.lat} e longitudine ${coordinates.lng}`;
  
@@ -102,11 +92,17 @@ const today = new Date()
     
     const data = await response.json();
     
-    // 3. Estrazione sicura con optional chaining
+    // . Estrazione sicura con optional chaining
     const city = data.address?.city || data.address?.town || data.address?.village || 'Sconosciuta';
     const country = data.address?.country || 'Sconosciuto';
-
-    return { city, country };
+    
+    // 1. Gestione stringa principale: se l'intero oggetto o display_name manca
+    const formattedAddress = data?.display_name ?? 'Indirizzo non disponibile per queste coordinate';
+  
+    // 2. Isoliamo l'oggetto address o un oggetto vuoto per evitare crash
+    const addressDetails = data?.address ?? {};
+    
+    return { city, country, formattedAddress, addressDetails};
   },
       }),
 
