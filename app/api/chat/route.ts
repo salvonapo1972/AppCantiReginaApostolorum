@@ -98,7 +98,7 @@ const today = new Date()
     
     // 1. Gestione stringa principale: se l'intero oggetto o display_name manca
     const formattedAddress = data?.display_name ?? 'Indirizzo non disponibile per queste coordinate';
-  
+  console.log('address',formattedAddress);
     // 2. Isoliamo l'oggetto address o un oggetto vuoto per evitare crash
     const addressDetails = data?.address ?? {};
     
