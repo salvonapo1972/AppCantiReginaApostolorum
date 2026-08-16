@@ -80,16 +80,16 @@ const today = new Date()
   }),
   execute: async ({ latitudecity, longitudecity }) => {
     // 1. Gestione corretta dei fallback numerici (non stringhe)
-    console.log('getCityFromCoordinates');
+    console.log('getCityFromCoordinates1');
     const lat = latitudecity ?? coordinates.lat;
     const lng = longitudecity ?? coordinates.lng;
-
+console.log('lng',lng);
     // 2. Corretto URL di OpenStreetMap (Nominatim API)
     const response = await fetch(
       `https://openstreetmap.org{lat}&lon=${lng}&format=json`,
       { headers: { 'User-Agent': 'Vercel-AI-SDK-App' } }
     );
-    
+    console.log('response',response);
     const data = await response.json();
     console.log('data',data);
     // . Estrazione sicura con optional chaining
