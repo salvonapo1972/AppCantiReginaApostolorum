@@ -18,7 +18,7 @@ import { getWeather } from "../../lib/weather";
 import { getCoordinates } from "../../lib/cities";
 import { getTimezone } from '@/app/lib/timezones';
 import { db } from '@/app/lib/db';
-import { geolocation } from '@vercel/functions';
+import { getGplStations} from '@/app/lib/gplstations';
 
 
 import { tavily } from '@tavily/core';
@@ -83,7 +83,7 @@ export async function POST(req: Request) {
           console.log('getCityFromCoordinates1');
           const lat = latitudecity ?? coordinates.lat;
           const lng = longitudecity ?? coordinates.lng;
-          console.log('lng', lng);
+         // console.log('lng', lng);
           // 2. Corretto URL di OpenStreetMap (Nominatim API)
           const response = await fetch(
             `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`,
@@ -93,16 +93,16 @@ export async function POST(req: Request) {
             console.log("err:",response.status);
             throw new Error(`Errore API Nominatim: HTTP ${response.status}`);
           }
-          console.log('response', response);
+        //  console.log('response', response);
           const data = await response.json();
-          console.log('data', data);
+          //console.log('data', data);
           // . Estrazione sicura con optional chaining
           const city = data.address?.city || data.address?.town || data.address?.village || 'Sconosciuta';
           const country = data.address?.country || 'Sconosciuto';
 
           // 1. Gestione stringa principale: se l'intero oggetto o display_name manca
           const formattedAddress = data?.display_name ?? 'Indirizzo non disponibile per queste coordinate';
-          console.log('address', formattedAddress);
+         // console.log('address', formattedAddress);
           // 2. Isoliamo l'oggetto address o un oggetto vuoto per evitare crash
           const addressDetails = data?.address ?? {};
 
@@ -114,7 +114,7 @@ export async function POST(req: Request) {
         description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
       - Regolamenti aziendali
-      - COme si compila il FORM della dichiarazione accessibilità AGID per i CMS
+      - Come si compila il FORM della dichiarazione accessibilità AGID per i CMS
       `,
         inputSchema: z.object({
           query: z.string().describe('La query di ricerca semantica.'),
@@ -385,6 +385,28 @@ export async function POST(req: Request) {
           //console.log("simplifiedEarthquakes",simplifiedEarthquakes)
           return {
             earthquakes: simplifiedEarthquakes,
+          };
+        },
+      }),
+      getLpgStationsTool: tool({
+        description: 'Cerca e ottiene l’elenco delle stazioni GPL in Italia con relativi prezzi e indirizzi aggiornati.',
+        inputSchema: z.object({
+          searchQuery: z.string().optional().describe('Un termine di ricerca facoltativo per filtrare le stazioni (es. "Roma", "Agip").'),
+        }),
+        execute: async ({ searchQuery }) => {
+          const response = await getGplStations();
+          const payload = typeof response?.json === 'function' ? await response.json() : response;
+          const stazioni = Array.isArray(payload?.data) ? payload.data : [];
+          const filtered = searchQuery
+            ? stazioni.filter((stazione: any) =>
+                `${stazione?.nome ?? ''} ${stazione?.indirizzo ?? ''} ${stazione?.comune ?? ''}`
+                  .toLowerCase()
+                  .includes(searchQuery.toLowerCase())
+              )
+            : stazioni;
+
+          return {
+            stazioni: filtered.slice(0, 10),
           };
         },
       }),
