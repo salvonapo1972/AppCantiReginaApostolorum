@@ -47,6 +47,7 @@ export async function getGplStations() {
       const link = container.find('a').attr('href');
 
       if (nome || prezzo) {
+        console.log('nomegpl',nome);
         stazioni.push({
           id: index,
           nome: nome || 'Insegna non specificata',
