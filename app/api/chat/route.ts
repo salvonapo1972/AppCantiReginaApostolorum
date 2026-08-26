@@ -405,7 +405,7 @@ export async function POST(req: Request) {
                   .includes(searchQuery.toLowerCase())
               )
             : stazioni;
-
+          console.log('stazione',stazioni);
           return {
             stazioni: filtered.slice(0, 10),
           };
