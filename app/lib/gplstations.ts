@@ -28,7 +28,7 @@ export async function getGplStations() {
 
     // 3. Seleziona i blocchi delle stazioni (adatta il selettore se la struttura classi del sito cambia)
     // Basato sulla struttura standard del testo estratto:
-    $('.wrap #container, [class*="station"]').each((index, element) => {
+    $('.station-confirmed, [class*="station-confirmed"]').each((index, element) => {
       const container = $(element).closest('div'); // Trova il contenitore principale della stazione
       
       // Estrazione del nome e dell'indirizzo
