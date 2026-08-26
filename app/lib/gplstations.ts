@@ -30,7 +30,7 @@ export async function getGplStations() {
     // Basato sulla struttura standard del testo estratto:
     $('.wrap #container .station').each((index, element) => {
       const container = $(element).closest('div'); // Trova il contenitore principale della stazione
-      console.log('cont',container.html());
+      //console.log('cont',container.html());
       // Estrazione del nome e dell'indirizzo
       const nome = container.find('span, .station-name').text().trim() || container.prev('h3').text().trim();
       const infoTesto = container.text();
