@@ -33,6 +33,7 @@ export async function getGplStations() {
       //console.log('cont',container.html());
       // Estrazione del nome e dell'indirizzo
       const nome = container.find('span, .station-name').text().trim() || container.prev('h3').text().trim();
+      console.log('nome',nome);
       const infoTesto = container.text();
 
       // Regex per estrarre il prezzo (es. 0.699 EUR/L)
