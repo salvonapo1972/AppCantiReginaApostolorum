@@ -395,6 +395,7 @@ export async function POST(req: Request) {
         }),
         execute: async ({ searchQuery }) => {
           const response = await getGplStations();
+          console.log('lpg',response);
           const payload = typeof response?.json === 'function' ? await response.json() : response;
           const stazioni = Array.isArray(payload?.data) ? payload.data : [];
           const filtered = searchQuery
