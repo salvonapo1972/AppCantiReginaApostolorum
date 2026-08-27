@@ -13,7 +13,6 @@ export async function getGplStations() {
         'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8',
         'Accept-Encoding': 'gzip, deflate, br',
       },
-      next: { revalidate: 0 } // Mantiene in cache i dati per 1 ora per evitare blocchi o rallentamenti
     });
 
     if (!response.ok) {
