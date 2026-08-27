@@ -20,7 +20,7 @@ export async function getGplStations() {
     }
 
     const html = await response.text();
-    
+    console.log('html',html);
     // 2. Carica l'HTML in Cheerio
     const $ = cheerio.load(html);
     const stazioni: any[] = [];
@@ -32,7 +32,7 @@ export async function getGplStations() {
       //console.log('cont',container.html());
       // Estrazione del nome e dell'indirizzo
       const nome = container.find('span, .station-name').text().trim() || container.prev('h3').text().trim();
-     console.log('nome',nome);
+   //  console.log('nome',nome);
       const infoTesto = container.text();
 
       // Regex per estrarre il prezzo (es. 0.699 EUR/L)
