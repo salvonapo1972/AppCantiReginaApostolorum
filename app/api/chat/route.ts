@@ -119,6 +119,7 @@ export async function POST(req: Request) {
         description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
       - stazioni gpl o di gas
+      - visualizza partendo dalla stazione più vicina.
       `,
         inputSchema: z.object({
           query: z.string().describe('stazioni gpl o gas.'),
@@ -133,7 +134,7 @@ export async function POST(req: Request) {
 
           // Interroga Postgres
           const { rows } = await db.query(
-            `SELECT content FROM document_sections ORDER BY embedding <=> $1::vector LIMIT 3 and knowledge_id=5`,
+            `SELECT content FROM document_sections WHERE knowledge_id=5 ORDER BY embedding <=> $1::vector LIMIT 3`,
             [`[${embedding.join(',')}]`]
           );
 
