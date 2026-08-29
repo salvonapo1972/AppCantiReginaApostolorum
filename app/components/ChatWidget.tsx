@@ -55,7 +55,7 @@ export default function ChatWidget() {
   }, []);
   // Animazione stabile dei puntini
   useEffect(() => {
-    console.log('passo');
+   // console.log('passo');
     if (!isLoading) {
       setDots('');
       return;
@@ -169,13 +169,13 @@ export default function ChatWidget() {
                           <div className="font-semibold inline text-sm" key={`${message.id}-${i}`}>{part.text}</div>
                         );
                       case 'tool-cercaParcheggi': {
-                        console.log("part",part.type);
-                        console.log("part.metadata",part.output);
+                       // console.log("part",part.type);
+                      //  console.log("part.metadata",part.output);
                         const toolOutput = (part as { output?: { center?: unknown; locations?: unknown } }).output;
                         const center = toolOutput?.center;
                         const locations = toolOutput?.locations;
-                        console.log("center",center);
-                        console.log("locations",locations);
+                     //   console.log("center",center);
+                     //   console.log("locations",locations);
                         if (!center || !locations) {
                           return null;
                         }

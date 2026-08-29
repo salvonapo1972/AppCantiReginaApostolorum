@@ -62,7 +62,7 @@ export async function POST(req: Request) {
   //console.log("Coordinate da metadati:", messages);
   const today = new Date()
 
-  console.log('coord', coordinates);
+//  console.log('coord', coordinates);
   const systemPrompt = `Oggi è ${today} e l'utente si trova a: latitudine ${coordinates.lat} e longitudine ${coordinates.lng}`;
 
   const result = streamText({
@@ -71,6 +71,11 @@ export async function POST(req: Request) {
     messages: await convertToModelMessages(messages),
     system: systemPrompt,
     stopWhen: isStepCount(20),
+    experimental_telemetry: {
+      isEnabled: false,
+      recordInputs: false,
+      recordOutputs: false
+    },
     tools: {
       getCityFromCoordinates: tool({
         description: 'Converte le coordinate di latitudine e longitudine nel nome di una città reale. se non valorizzate trova la città in cui ci si trova e indirizzo esatto',
@@ -113,11 +118,10 @@ export async function POST(req: Request) {
       searchCompanyKnowledge: tool({
         description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
-      - Regolamenti aziendali
-      - Come si compila il FORM della dichiarazione accessibilità AGID per i CMS
+      - stazioni gpl o di gas
       `,
         inputSchema: z.object({
-          query: z.string().describe('La query di ricerca semantica.'),
+          query: z.string().describe('stazioni gpl o gas.'),
         }),
         execute: async ({ query }) => {
           console.log("queryinfo" + query);
@@ -129,7 +133,7 @@ export async function POST(req: Request) {
 
           // Interroga Postgres
           const { rows } = await db.query(
-            `SELECT content FROM document_sections ORDER BY embedding <=> $1::vector LIMIT 3`,
+            `SELECT content FROM document_sections ORDER BY embedding <=> $1::vector LIMIT 3 and knowledge_id=5`,
             [`[${embedding.join(',')}]`]
           );
 

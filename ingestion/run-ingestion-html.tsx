@@ -1,6 +1,4 @@
-import fs from 'fs';
-import path from 'path';
-import { extractText } from 'unpdf';
+
 import { ingestDocuments } from '../app/lib/ingestDocuments'; // Assicurati che il percorso sia corretto
 
 // 1. Funzione di Utility per dividere il testo estratto in blocchi (Chunking)
@@ -27,23 +25,25 @@ function splitTextIntoChunks(text: string, chunkSize = 1000): string[] {
 }
 
 // 2. Funzione Principale
-async function main(knowledgeid: string,nomefile: string) {
-  const pdfPath = path.join('D:/Progetti/NextJs/' + nomefile); 
-  // Inserisci qui il percorso assoluto o relativo del tuo file PDF
-//  const pdfPath = path.join('D:/Progetti/NextJs/Guida-alla-compilazione-delle-Dichiarazioni-di-accessibilita.pdf'); 
-
-  if (!fs.existsSync(pdfPath)) {
-    console.error(`Errore: Il file PDF non esiste al percorso: ${pdfPath}`);
-    process.exit(1);
-  }
-
-  console.log("Lettura del file PDF con unpdf...");
-  const dataBuffer = fs.readFileSync(pdfPath);
-
+async function main(knowledgeid: string,url: string) {
+  
   try {
-    // unpdf estrae il testo direttamente dal buffer del file
-    const uint8Array = new Uint8Array(dataBuffer);
-    const { text } = await extractText(uint8Array);
+    // 1. Scarica il codice HTML della pagina di myLPG
+    const response = await fetch(url, {
+      cache: 'no-store',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`Errore nella richiesta: ${response.status}`);
+    }
+
+    const text = await response.text();
+  // Inserisci qui il percorso assoluto o relativo del tuo file PDF
     
     const testoCompleto = Array.isArray(text) 
     ? text.join('\n') 
@@ -63,7 +63,7 @@ async function main(knowledgeid: string,nomefile: string) {
     await ingestDocuments(frammenti,knowledgeid);
 
   } catch (error) {
-    console.error("Errore durante l'estrazione con unpdf:", error);
+    console.error("Errore durante l'estrazione html:", error);
   }
 }
 
