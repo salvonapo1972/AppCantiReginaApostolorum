@@ -126,7 +126,7 @@ export async function POST(req: Request) {
           query: z.string().describe('stazioni gpl o gas.'),
         }),
         execute: async ({ query }) => {
-          console.log("queryinfo" + query);
+          console.log("queryinfogpl" + query);
           // Genera embedding per la query dello strumento
           const { embedding } = await embed({
             model: openai.embedding('text-embedding-3-small'),
