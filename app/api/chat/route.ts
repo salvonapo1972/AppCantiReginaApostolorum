@@ -135,7 +135,7 @@ export async function POST(req: Request) {
 
           // Interroga Postgres
           const { rows } = await db.query(
-            `SELECT content FROM document_sections WHERE knowledge_id=5 ORDER BY embedding <=> $1::vector LIMIT 3`,
+            `SELECT content FROM document_sections WHERE knowledge_id=5 ORDER BY embedding <=> $1::vector LIMIT 15`,
             [`[${embedding.join(',')}]`]
           );
 
