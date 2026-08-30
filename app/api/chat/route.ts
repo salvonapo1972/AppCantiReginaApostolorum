@@ -393,29 +393,6 @@ export async function POST(req: Request) {
           };
         },
       }),
-      getLpgStationsTool: tool({
-        description: 'Cerca e ottiene l’elenco delle stazioni GPL in Italia con relativi prezzi e indirizzi aggiornati.',
-        inputSchema: z.object({
-          searchQuery: z.string().optional().describe('Un termine di ricerca facoltativo per filtrare le stazioni (es. "Roma", "Agip").'),
-        }),
-        execute: async ({ searchQuery }) => {
-          const response = await getGplStations();
-         // console.log('lpg',response);
-          const payload = typeof response?.json === 'function' ? await response.json() : response;
-          const stazioni = Array.isArray(payload?.data) ? payload.data : [];
-          const filtered = searchQuery
-            ? stazioni.filter((stazione: any) =>
-                `${stazione?.nome ?? ''} ${stazione?.indirizzo ?? ''} ${stazione?.comune ?? ''}`
-                  .toLowerCase()
-                  .includes(searchQuery.toLowerCase())
-              )
-            : stazioni;
-         // console.log('stazione',stazioni);
-          return {
-            stazioni: filtered.slice(0, 10),
-          };
-        },
-      }),
       weather: tool({
         description: 'Get the weather in a location (fahrenheit)',
         inputSchema: z.object({
