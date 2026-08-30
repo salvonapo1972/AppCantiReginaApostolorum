@@ -119,8 +119,9 @@ export async function POST(req: Request) {
         description: `
       Usa SEMPRE questo strumento quando l'utente chiede:
       - stazioni gpl o di gas
-      - visualizza l'elenco partendo dalla stazione più vicina.
+      - fornisci l'elenco completo
       - visualizza il link Google map
+      - utilizza solo il DB come fonte dati
       `,
         inputSchema: z.object({
           query: z.string().describe('stazioni gpl o gas.'),

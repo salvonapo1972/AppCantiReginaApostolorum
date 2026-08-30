@@ -24,6 +24,15 @@ export async function ingestDocuments(chunks: string[],knowledgeid:string) {
   
   try {
     // Elaboriamo un blocco alla volta
+
+     //cancello i record prima di reinserirli
+        console.log("Cancellazione record con knowledgeid",knowledgeid);
+        await client.query('BEGIN');
+         await client.query(
+          `DELETE FROM document_sections where knowledge_id=$1`,
+          [knowledgeid]
+        );
+         await client.query('COMMIT');
     for (let b = 0; b < chunksBatches.length; b++) {
       const currentBatch = chunksBatches[b];
       console.log(`Elaborazione blocco ${b + 1}/${chunksBatches.length} (${currentBatch.length} frammenti)...`);
@@ -38,7 +47,7 @@ export async function ingestDocuments(chunks: string[],knowledgeid:string) {
       await client.query('BEGIN');
       for (let i = 0; i < currentBatch.length; i++) {
         const vectorString = JSON.stringify(embeddings[i]);
-
+        
          await client.query(
           `INSERT INTO document_sections (content, embedding,knowledge_id) VALUES ($1, $2::vector,$3)`,
           [currentBatch[i], vectorString,knowledgeid]
