@@ -20,7 +20,7 @@ export async function getGplStations() {
     }
 
     const html = await response.text();
-    console.log('html',html);
+    //console.log('html',html);
     // 2. Carica l'HTML in Cheerio
     const $ = cheerio.load(html);
     const stazioni: any[] = [];
